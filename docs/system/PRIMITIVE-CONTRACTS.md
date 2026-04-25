@@ -8,7 +8,7 @@ Primitive contracts define the expected API and behavior of the smallest reusabl
 
 These contracts guide primitive implementation.
 
-Text, Button, Image, Tag, Input, and Icon implementation have started the primitive sequence.
+All planned Phase 1 primitive contracts are implemented.
 
 ## Build Order
 
@@ -66,6 +66,6 @@ See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 
 ### Status Label
 
-Status: Not started
+Status: Implemented
 
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.

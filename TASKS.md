@@ -43,10 +43,14 @@ Active phase: Phase 1 — Elements + Foundations
 - [x] Implement Tag primitive
 - [x] Implement Input primitive
 - [x] Implement Icon primitive
+- [x] Implement Status Label primitive
 
 ## Next
 
-- [ ] Implement Status Label primitive
+- [ ] Review Phase 1 implementation completeness
+- [ ] Confirm Storybook coverage for all primitives
+- [ ] Confirm planning docs agree
+- [ ] Perform Phase 1 formal closeout
 
 ## Later
 

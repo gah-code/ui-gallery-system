@@ -8,17 +8,13 @@ Phase 1 — Elements + Foundations
 
 ## Current Focus
 
-Phase 1 primitive implementation:
+Phase 1 primitive implementation is complete.
 
-- Text primitive complete
-- Button primitive complete
-- Image primitive complete
-- Tag primitive complete
-- Input primitive complete
-- Icon primitive complete
-- Status Label primitive next
+Next focus:
 
-Primitive components are next.
+- review Phase 1 completeness
+- verify Storybook primitive coverage
+- prepare Phase 1 formal closeout
 
 ## Phase 0 Status
 

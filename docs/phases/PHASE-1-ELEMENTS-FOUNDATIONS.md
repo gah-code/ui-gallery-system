@@ -96,7 +96,11 @@ Input primitive implementation is complete.
 
 Icon primitive implementation is complete.
 
-Status Label primitive has not started yet.
+Status Label primitive implementation is complete.
+
+All planned Phase 1 primitives are now implemented.
+
+Phase 1 is ready for review before formal closeout.
 
 ## Text Primitive Implementation Note
 
@@ -110,7 +114,7 @@ It uses:
 - alignment variants
 - colocated Storybook coverage
 
-Button, Image, Tag, Input, and Icon are now implemented. Status Label has not started.
+Button, Image, Tag, Input, Icon, and Status Label are now implemented.
 
 ## Button Primitive Implementation Note
 
@@ -127,7 +131,7 @@ It supports:
 - native button rendering
 - link rendering through `href`
 
-Image, Tag, Input, and Icon are now implemented. Status Label has not started.
+Image, Tag, Input, Icon, and Status Label are now implemented.
 
 ## Image Primitive Implementation Note
 
@@ -142,7 +146,7 @@ It supports:
 - missing-image fallback
 - decorative image usage
 
-Tag, Input, and Icon are now implemented. Status Label has not started.
+Tag, Input, Icon, and Status Label are now implemented.
 
 ## Tag Primitive Implementation Note
 
@@ -157,7 +161,7 @@ It supports:
 - long-label handling
 - status/category/metadata usage
 
-Input and Icon are now implemented. Status Label has not started.
+Input, Icon, and Status Label are now implemented.
 
 ## Input Primitive Implementation Note
 
@@ -174,7 +178,7 @@ It supports:
 - textarea/multiline mode
 - accessible descriptions
 
-Icon is now implemented. Status Label has not started.
+Icon and Status Label are now implemented.
 
 ## Icon Primitive Implementation Note
 
@@ -189,6 +193,23 @@ It supports:
 - inline SVG/content wrapping
 
 Status Label remains the final Phase 1 primitive.
+
+## Status Label Primitive Implementation Note
+
+The Status Label primitive has been implemented as the seventh and final primitive element.
+
+It supports:
+
+- status variants
+- size variants
+- optional icons
+- compact status communication
+- long-message handling
+- visible text labels for status meaning
+
+All planned Phase 1 primitives are now implemented.
+
+Phase 1 is not closed until planning docs, Storybook coverage, and verification are reviewed together.
 
 ## Token Categories
 
@@ -633,7 +654,7 @@ Storybook coverage:
 
 ### Status Label
 
-Status: Not started
+Status: Implemented
 
 Purpose:
 
@@ -642,8 +663,10 @@ Communicate status using text, icon, and tone.
 Expected props:
 
 - `status`
+- `size`
 - `children`
 - `icon`
+- `as`
 - `className`
 
 Expected statuses:
@@ -654,17 +677,25 @@ Expected statuses:
 - `info`
 - `neutral`
 
+Expected sizes:
+
+- `sm`
+- `md`
+
 Accessibility notes:
 
 - Do not rely on color alone.
 - Use clear text labels.
+- Do not use alert/banner semantics by default.
 
 Storybook coverage:
 
 - all statuses
+- sizes
 - with icon
 - long message
 - compact usage
+- semantic/status guidance
 
 ## Storybook Foundation Plan
 
@@ -705,6 +736,7 @@ Phase 1 planning is complete when:
 - [x] Tag primitive is implemented
 - [x] Input primitive is implemented
 - [x] Icon primitive is implemented
+- [x] Status Label primitive is implemented
 - [x] Verification commands pass
 
 ## Verification Commands
