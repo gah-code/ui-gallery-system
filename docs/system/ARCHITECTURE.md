@@ -14,13 +14,15 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 1 — Elements + Foundations is the active project phase.
 
-The current Phase 1 pass implements the Button primitive on top of the foundation layer.
+The current Phase 1 pass implements the Image primitive on top of the foundation layer.
 
 Text primitive implementation is complete.
 
 Button primitive implementation is complete.
 
-Image and the remaining primitives have not started.
+Image primitive implementation is complete.
+
+Tag and the remaining primitives have not started.
 
 Architecture boundaries remain:
 

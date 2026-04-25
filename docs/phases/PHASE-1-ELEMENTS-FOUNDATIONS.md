@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Foundation implementation started
+Active — Primitive implementation in progress
 
 ## Goal
 
@@ -39,8 +39,8 @@ Phase 1 creates the visual and interaction grammar of the system:
 - Text
 - Button
 - Image
-- Input
 - Tag
+- Input
 - Icon
 - Status label
 
@@ -88,7 +88,9 @@ Text primitive implementation has started the primitive component sequence.
 
 Button primitive implementation is complete.
 
-Image and the remaining primitives have not started yet.
+Image primitive implementation is complete.
+
+Tag and the remaining primitives have not started yet.
 
 ## Text Primitive Implementation Note
 
@@ -102,7 +104,7 @@ It uses:
 - alignment variants
 - colocated Storybook coverage
 
-Remaining primitives have not started.
+Button and Image are now implemented. Tag and the remaining primitives have not started.
 
 ## Button Primitive Implementation Note
 
@@ -119,7 +121,22 @@ It supports:
 - native button rendering
 - link rendering through `href`
 
-Remaining primitives have not started.
+Image is now implemented. Tag and the remaining primitives have not started.
+
+## Image Primitive Implementation Note
+
+The Image primitive has been implemented as the third primitive element.
+
+It supports:
+
+- responsive image rendering
+- aspect-ratio variants
+- object-fit variants
+- radius variants
+- missing-image fallback
+- decorative image usage
+
+Tag and the remaining primitives have not started.
 
 ## Token Categories
 
@@ -338,7 +355,7 @@ Storybook coverage:
 
 ### Image
 
-Status: Not started
+Status: Implemented
 
 Purpose:
 
@@ -350,16 +367,37 @@ Expected props:
 - `alt`
 - `aspectRatio`
 - `fit`
+- `radius`
 - `loading`
+- `decorative`
+- `fallback`
 - `className`
+- `imageClassName`
 
 Expected variants:
 
 - default
+- auto
 - square
 - wide
 - portrait
+- video
 - logo-safe
+
+Expected fit options:
+
+- `cover`
+- `contain`
+- `fill`
+
+Expected radius options:
+
+- `none`
+- `sm`
+- `md`
+- `lg`
+- `xl`
+- `full`
 
 Accessibility notes:
 
@@ -571,6 +609,7 @@ Phase 1 planning is complete when:
 - [x] Foundation Storybook docs are implemented
 - [x] Text primitive is implemented
 - [x] Button primitive is implemented
+- [x] Image primitive is implemented
 - [x] Verification commands pass
 
 ## Verification Commands
