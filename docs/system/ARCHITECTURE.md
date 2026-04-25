@@ -14,7 +14,7 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 1 — Elements + Foundations is the active project phase.
 
-The current Phase 1 pass implements the Input primitive on top of the foundation layer.
+The current Phase 1 pass implements the Icon primitive on top of the foundation layer.
 
 Text primitive implementation is complete.
 
@@ -26,7 +26,9 @@ Tag primitive implementation is complete.
 
 Input primitive implementation is complete.
 
-Icon and Status Label primitives have not started.
+Icon primitive implementation is complete.
+
+Status Label primitive has not started.
 
 Architecture boundaries remain:
 

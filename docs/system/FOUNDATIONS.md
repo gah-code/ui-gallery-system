@@ -48,6 +48,7 @@ They should be stable before layout patterns, reusable components, and sections 
 - `src/components/ui/Image`
 - `src/components/ui/Tag`
 - `src/components/ui/Input`
+- `src/components/ui/Icon`
 
 ## Base Style Expectations
 

@@ -94,7 +94,9 @@ Tag primitive implementation is complete.
 
 Input primitive implementation is complete.
 
-Icon and Status Label primitives have not started yet.
+Icon primitive implementation is complete.
+
+Status Label primitive has not started yet.
 
 ## Text Primitive Implementation Note
 
@@ -108,7 +110,7 @@ It uses:
 - alignment variants
 - colocated Storybook coverage
 
-Button, Image, Tag, and Input are now implemented. Icon and Status Label have not started.
+Button, Image, Tag, Input, and Icon are now implemented. Status Label has not started.
 
 ## Button Primitive Implementation Note
 
@@ -125,7 +127,7 @@ It supports:
 - native button rendering
 - link rendering through `href`
 
-Image, Tag, and Input are now implemented. Icon and Status Label have not started.
+Image, Tag, Input, and Icon are now implemented. Status Label has not started.
 
 ## Image Primitive Implementation Note
 
@@ -140,7 +142,7 @@ It supports:
 - missing-image fallback
 - decorative image usage
 
-Tag and Input are now implemented. Icon and Status Label have not started.
+Tag, Input, and Icon are now implemented. Status Label has not started.
 
 ## Tag Primitive Implementation Note
 
@@ -155,7 +157,7 @@ It supports:
 - long-label handling
 - status/category/metadata usage
 
-Input is now implemented. Icon and Status Label have not started.
+Input and Icon are now implemented. Status Label has not started.
 
 ## Input Primitive Implementation Note
 
@@ -172,7 +174,21 @@ It supports:
 - textarea/multiline mode
 - accessible descriptions
 
-Remaining primitives have not started.
+Icon is now implemented. Status Label has not started.
+
+## Icon Primitive Implementation Note
+
+The Icon primitive has been implemented as the sixth primitive element.
+
+It supports:
+
+- size variants
+- tone variants
+- decorative icon usage
+- functional icon usage with labels
+- inline SVG/content wrapping
+
+Status Label remains the final Phase 1 primitive.
 
 ## Token Categories
 
@@ -564,7 +580,7 @@ Storybook coverage:
 
 ### Icon
 
-Status: Not started
+Status: Implemented
 
 Purpose:
 
@@ -572,7 +588,7 @@ Provide a consistent wrapper contract for decorative or functional icons.
 
 Expected props:
 
-- `name` or `children`
+- `children`
 - `size`
 - `tone`
 - `decorative`
@@ -584,16 +600,32 @@ Expected sizes:
 - `sm`
 - `md`
 - `lg`
+- `xl`
+
+Expected tones:
+
+- `current`
+- `primary`
+- `secondary`
+- `muted`
+- `inverse`
+- `brand`
+- `success`
+- `warning`
+- `error`
+- `info`
 
 Accessibility notes:
 
 - Decorative icons should be hidden from assistive technology.
 - Functional icon-only usage needs a label.
+- Functional icons should use `decorative={false}` and provide `label`.
 
 Storybook coverage:
 
 - decorative
 - functional
+- tones
 - icon-only guidance
 - size examples
 
@@ -672,6 +704,7 @@ Phase 1 planning is complete when:
 - [x] Image primitive is implemented
 - [x] Tag primitive is implemented
 - [x] Input primitive is implemented
+- [x] Icon primitive is implemented
 - [x] Verification commands pass
 
 ## Verification Commands

@@ -15,7 +15,8 @@ Phase 1 primitive implementation:
 - Image primitive complete
 - Tag primitive complete
 - Input primitive complete
-- Icon primitive next
+- Icon primitive complete
+- Status Label primitive next
 
 Primitive components are next.
 
