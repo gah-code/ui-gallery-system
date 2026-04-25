@@ -31,7 +31,7 @@ Small horizontal or wrapping group layout.
 
 ### Grid
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 

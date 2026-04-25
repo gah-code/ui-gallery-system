@@ -16,7 +16,7 @@ Phase 2 — Layout Patterns is active.
 
 Phase 2 planning/contracts are complete.
 
-Layout implementation has started with `src/components/patterns/Row`.
+Layout implementation has started with `src/components/patterns/Row` and `src/components/patterns/Grid`.
 
 Phase 1 — Elements + Foundations is complete.
 

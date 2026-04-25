@@ -15,7 +15,7 @@ type Story = StoryObj<typeof meta>;
 
 const patterns = [
   { name: 'Row', status: 'Implemented' },
-  { name: 'Grid', status: 'Planned' },
+  { name: 'Grid', status: 'Implemented' },
   { name: 'SingleColumn', status: 'Planned' },
   { name: 'Sidebar', status: 'Planned' },
   { name: 'Magazine', status: 'Planned' },

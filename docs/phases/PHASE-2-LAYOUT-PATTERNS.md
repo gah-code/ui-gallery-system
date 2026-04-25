@@ -372,6 +372,23 @@ It supports:
 - configurable minimum item width
 - long-content safety
 
+Grid has since been implemented. Remaining layout patterns after Grid have not started.
+
+## Grid Pattern Implementation Note
+
+The Grid pattern has been implemented as the second Phase 2 layout pattern.
+
+It supports:
+
+- responsive auto-fit grid behavior
+- column mode presets
+- gap variants
+- configurable minimum item width
+- alignment options
+- sparse and dense collections
+- uneven content height support
+- long-copy safety
+
 Remaining layout patterns have not started.
 
 ## Acceptance Criteria
