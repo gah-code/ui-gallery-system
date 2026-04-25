@@ -1,10 +1,23 @@
 # Gallery Taxonomy
 
+## Related Documents
+
+- `docs/GALLERY-INVENTORY.md`
+- `docs/IMPLEMENTATION-ROADMAP.md`
+- `docs/phases/PHASE-0-BASELINE.md`
+- `docs/system/ARCHITECTURE.md`
+
 ## Purpose
 
 This taxonomy defines how the UI gallery system organizes design work before implementation begins.
 
 The build order is dependency-first, not visual-excitement-first.
+
+## Build Dependency Order
+
+```txt
+elements -> layout patterns -> components -> sections -> gallery/demo -> Storybook productization -> data-shape freeze -> Contentful readiness -> Contentful integration later
+```
 
 ## 1. Elements
 
@@ -73,7 +86,19 @@ Experience-level documentation and browsing surfaces.
 - Section comparison pages
 - Storybook documentation
 
-## 6. Future CMS Mapping
+## 6. Storybook Productization
+
+Storybook is the primary design-system workspace and should validate the system before it is treated as stable.
+
+- Foundation docs
+- Primitive stories
+- Pattern stories
+- Component stories
+- Section stories
+- Responsive contract stories
+- State coverage stories
+
+## 7. Future CMS Mapping
 
 Deferred until UI contracts stabilize.
 

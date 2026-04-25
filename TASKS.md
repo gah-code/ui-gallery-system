@@ -4,6 +4,8 @@
 
 Active phase: Phase 0 — Baseline + Gallery Inventory
 
+Phase 1 has not started.
+
 ## Now
 
 - [x] Confirm project scaffold: Vite + React + TypeScript
@@ -14,6 +16,11 @@ Active phase: Phase 0 — Baseline + Gallery Inventory
 - [x] Create implementation roadmap
 - [x] Define naming and ownership rules
 - [x] Define Storybook vs app-shell boundaries
+- [x] Create gallery inventory doc
+- [x] Classify gallery items by dependency order
+- [x] Assign inventory items to build phases
+- [x] Confirm Phase 1 entry point
+- [x] Align README, roadmap, taxonomy, architecture doc, and phase doc
 
 ## Next
 

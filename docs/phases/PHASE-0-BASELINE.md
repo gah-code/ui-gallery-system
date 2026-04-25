@@ -22,6 +22,7 @@ Before building components, the project needs a stable map: what belongs to prim
 - Define build inventory
 - Define what ships in Storybook vs app shell
 - Create initial roadmap and task tracker
+- Confirm Phase 1 entry point without starting Phase 1
 
 ## Not in Scope
 
@@ -30,6 +31,16 @@ Before building components, the project needs a stable map: what belongs to prim
 - Creating Contentful models
 - Fetching live CMS data
 - Over-polishing visuals before foundations exist
+- Starting Phase 1 implementation
+
+## Deliverables
+
+- `TASKS.md`
+- `README.md`
+- `docs/IMPLEMENTATION-ROADMAP.md`
+- `docs/GALLERY-TAXONOMY.md`
+- `docs/GALLERY-INVENTORY.md`
+- `docs/system/ARCHITECTURE.md`
 
 ## Baseline Snapshot
 
@@ -42,9 +53,19 @@ Before building components, the project needs a stable map: what belongs to prim
 - Styling: vanilla-extract
 - Storybook: React + Vite
 
+### Runtime Note
+
+Use `.nvmrc` and run `nvm use` before Vite or Storybook commands. The default shell Node may not be the verified runtime.
+
 ### Current Routes
 
 - `/` — initial app route
+
+### Build Dependency Order
+
+```txt
+elements -> layout patterns -> components -> sections -> gallery/demo -> Storybook productization -> data-shape freeze -> Contentful readiness -> Contentful integration later
+```
 
 ### Layout Ownership
 
@@ -70,10 +91,12 @@ Before building components, the project needs a stable map: what belongs to prim
 
 - `src/content/*` is reserved for future content integration.
 - No raw CMS assumptions should enter UI components.
+- Contentful is deferred until UI contracts are stable.
 
 ### Storybook State
 
 - Storybook is installed as the design-system workspace.
+- Storybook is the primary design-system workspace for foundations, primitives, patterns, components, sections, responsive contracts, and state coverage.
 - Foundation stories should live in `src/stories/foundations`.
 - Component-specific stories should be colocated later.
 
@@ -92,6 +115,12 @@ Before building components, the project needs a stable map: what belongs to prim
 - Section visuals should stay colocated with sections.
 
 ## Gallery Inventory
+
+The detailed inventory lives in `docs/GALLERY-INVENTORY.md`.
+
+### Inventory Status
+
+Provisional. No source-backed gallery/reference board was found in the repo during this pass.
 
 ### Elements
 
@@ -157,6 +186,12 @@ Before building components, the project needs a stable map: what belongs to prim
 - Contentful modeling later
 - CMS adapters last
 
+## Phase 1 Entry Point
+
+Phase 1 may begin only after Phase 0 is formally closed.
+
+The first Phase 1 workstream is Elements + Foundations: tokens, typography, text, buttons, images, inputs, tags, and Storybook foundation stories.
+
 ## Acceptance Criteria
 
 - [x] Project scaffold is created
@@ -168,6 +203,11 @@ Before building components, the project needs a stable map: what belongs to prim
 - [x] Roadmap is created
 - [x] Task tracker reflects Phase 0 as active
 - [x] Contentful is explicitly deferred
+- [x] Gallery inventory doc is created
+- [x] Inventory is grouped by dependency order
+- [x] Items are assigned to build phases
+- [x] Phase 1 entry point is confirmed
+- [x] README, TASKS, roadmap, taxonomy, and phase doc agree
 
 ## Verification Commands
 
@@ -176,10 +216,11 @@ npm run dev
 npm run build
 npm run storybook
 npm run build-storybook
+npm run lint
 ```
 
 ## Closeout / Reopen Notes
 
 Phase 0 is still active.
 
-Do not close this phase until TASKS.md, this phase document, and the roadmap all agree.
+Do not close this phase until TASKS.md, this phase document, README, the roadmap, and the paste-back review summary all agree.

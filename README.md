@@ -1,73 +1,63 @@
-# React + TypeScript + Vite
+# UI Gallery System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
-Currently, two official plugins are available:
+## Current Phase
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Phase 0 — Baseline + Gallery Inventory
 
-## React Compiler
+Phase 0 is active. Phase 1 has not started.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Direction
 
-## Expanding the ESLint configuration
+Build the UI system first.  
+Defer Contentful until UI contracts are stable.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## Build Order
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```txt
+elements -> layout patterns -> components -> sections -> gallery/demo -> Storybook productization -> data-shape freeze -> Contentful readiness -> Contentful integration later
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Key Documents
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `TASKS.md`
+- `docs/IMPLEMENTATION-ROADMAP.md`
+- `docs/GALLERY-TAXONOMY.md`
+- `docs/GALLERY-INVENTORY.md`
+- `docs/phases/PHASE-0-BASELINE.md`
+- `docs/system/ARCHITECTURE.md`
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Runtime
+
+Use Node v22.12.0 for this project.
+
+```bash
+nvm use
+npm install
 ```
+
+The default shell Node may not be the correct runtime. Use `.nvmrc` before running Vite or Storybook commands.
+
+## Development
+
+```bash
+npm run dev
+npm run storybook
+```
+
+Storybook is the primary design-system workspace.
+
+## Verification
+
+```bash
+npm run build
+npm run build-storybook
+npm run lint
+```
+
+## Contentful Status
+
+Deferred.
+
+Contentful should be introduced later through adapters and normalized UI data contracts.

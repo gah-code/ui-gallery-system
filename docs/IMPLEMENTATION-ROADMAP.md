@@ -4,11 +4,35 @@
 
 UI-first now. Contentful later.
 
+## Build Dependency Order
+
+```txt
+elements -> layout patterns -> components -> sections -> gallery/demo -> Storybook productization -> data-shape freeze -> Contentful readiness -> Contentful integration later
+```
+
 ## Phase 0 — Baseline + Gallery Inventory
 
 Status: Active
 
 Goal: Establish project structure, ownership boundaries, and build inventory.
+
+### Deliverables
+
+- `TASKS.md`
+- `docs/GALLERY-TAXONOMY.md`
+- `docs/GALLERY-INVENTORY.md`
+- `docs/phases/PHASE-0-BASELINE.md`
+- `docs/system/ARCHITECTURE.md`
+
+### Phase 1 Entry Gate
+
+Phase 1 starts only after:
+
+- baseline architecture is documented
+- gallery inventory is accounted for
+- Storybook remains confirmed as the design-system workspace
+- planning docs agree
+- Phase 0 is formally closed
 
 ## Phase 1 — Elements + Foundations
 
