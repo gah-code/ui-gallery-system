@@ -38,6 +38,19 @@ Status: Active
 
 Goal: Build tokens, typography, text, buttons, images, inputs, and tags.
 
+### Current Focus
+
+Planning token scope, foundation docs, and primitive API contracts before implementation.
+
+### Deliverables
+
+- `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`
+- `docs/system/FOUNDATIONS.md`
+- `docs/system/PRIMITIVE-CONTRACTS.md`
+- token files later
+- primitive components later
+- foundation Storybook docs later
+
 ## Phase 2 — Layout Patterns
 
 Goal: Build reusable layout systems before richer components.

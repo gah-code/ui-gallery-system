@@ -6,6 +6,14 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 Phase 1 — Elements + Foundations
 
+## Current Focus
+
+Planning the foundation layer:
+
+- token scope
+- primitive API contracts
+- Storybook foundation documentation
+
 ## Phase 0 Status
 
 Phase 0 — Baseline + Gallery Inventory is complete.

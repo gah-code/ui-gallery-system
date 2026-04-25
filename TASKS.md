@@ -26,24 +26,24 @@ Active phase: Phase 1 — Elements + Foundations
 
 ### Phase 1 — Elements + Foundations
 
-- [ ] Define token foundation scope
-- [ ] Create color tokens
-- [ ] Create typography tokens
-- [ ] Create spacing tokens
-- [ ] Create radius tokens
-- [ ] Create shadow tokens
-- [ ] Create motion/focus tokens
-- [ ] Create base/global style entry points
-- [ ] Create foundation Storybook docs
-- [ ] Plan primitive element APIs before implementation
+- [x] Define token foundation scope
+- [x] Define primitive API contracts
+- [x] Define Storybook foundation plan
+- [x] Create Phase 1 planning doc
+- [x] Create foundations system doc
+- [x] Create primitive contracts doc
+- [x] Confirm Phase 1 implementation order
 
 ## Next
 
-- [ ] Build text primitive
-- [ ] Build button primitive
-- [ ] Build image primitive
-- [ ] Build tag primitive
-- [ ] Build input primitive
+- [ ] Implement token files
+- [ ] Implement base/global styles
+- [ ] Implement typography roles
+- [ ] Implement Text primitive
+- [ ] Implement Button primitive
+- [ ] Implement Image primitive
+- [ ] Implement Tag primitive
+- [ ] Implement Input primitive
 
 ## Later
 

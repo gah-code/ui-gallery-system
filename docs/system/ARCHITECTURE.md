@@ -12,7 +12,11 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 1 — Elements + Foundations is the active implementation phase.
+Phase 1 — Elements + Foundations is the active project phase.
+
+The current Phase 1 pass is planning and contracts only.
+
+Token implementation and primitive implementation have not started.
 
 Architecture boundaries remain:
 
