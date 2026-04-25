@@ -39,7 +39,7 @@ Responsive repeatable item layout.
 
 ### SingleColumn
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 

@@ -389,6 +389,22 @@ It supports:
 - uneven content height support
 - long-copy safety
 
+SingleColumn has since been implemented. Remaining layout patterns after SingleColumn have not started.
+
+## SingleColumn Pattern Implementation Note
+
+The SingleColumn pattern has been implemented as the third Phase 2 layout pattern.
+
+It supports:
+
+- readable max-width variants
+- vertical rhythm
+- gap variants
+- alignment variants
+- positioning options
+- long-content safety
+- mixed primitive content composition
+
 Remaining layout patterns have not started.
 
 ## Acceptance Criteria
