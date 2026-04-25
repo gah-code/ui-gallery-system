@@ -62,7 +62,7 @@ Active phase: Phase 2 — Layout Patterns
 
 ## Next
 
-- [ ] Implement Row pattern
+- [x] Implement Row pattern
 - [ ] Implement Grid pattern
 - [ ] Implement SingleColumn pattern
 - [ ] Implement Sidebar pattern

@@ -43,6 +43,10 @@ row -> grid -> single-column -> sidebar -> multi-column/magazine -> Z-pattern ->
 - FPattern
 - Asymmetric
 
+## Implemented Patterns
+
+- `src/components/patterns/Row`
+
 ## Not in Scope Yet
 
 - Card components

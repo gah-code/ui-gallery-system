@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Planning
+Active — Layout implementation started
 
 ## Goal
 
@@ -358,6 +358,22 @@ Planned pattern Storybook surfaces:
 - `src/stories/patterns/LayoutPatternsOverview.stories.tsx`
 - colocated pattern stories once implementation begins
 
+## Row Pattern Implementation Note
+
+The Row pattern has been implemented as the first Phase 2 layout pattern.
+
+It supports:
+
+- stacked small-screen behavior
+- wrapping row behavior when space allows
+- gap variants
+- alignment variants
+- justification variants
+- configurable minimum item width
+- long-content safety
+
+Remaining layout patterns have not started.
+
 ## Acceptance Criteria
 
 Phase 2 planning is complete when:
@@ -384,6 +400,6 @@ npm run lint
 
 Phase 2 is active.
 
-This document currently defines planning and contracts only.
+This document defines planning, contracts, and current implementation notes.
 
 Do not close Phase 2 until layout patterns are implemented, documented, validated in Storybook, and planning state agrees.

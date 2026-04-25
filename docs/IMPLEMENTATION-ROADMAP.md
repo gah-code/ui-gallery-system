@@ -85,13 +85,14 @@ Goal: Build reusable layout systems before richer components.
 
 ### Current Focus
 
-Planning reusable layout pattern contracts and responsive behavior before implementation.
+Row pattern implemented. Grid pattern is next.
 
 ### Deliverables
 
 - `docs/phases/PHASE-2-LAYOUT-PATTERNS.md`
 - `docs/system/LAYOUT-PATTERNS.md`
 - `docs/system/PATTERN-CONTRACTS.md`
+- `src/components/patterns/Row`
 - layout pattern components later
 - layout pattern Storybook docs later
 

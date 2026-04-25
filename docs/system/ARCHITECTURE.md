@@ -14,7 +14,9 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 2 — Layout Patterns is active.
 
-Phase 2 starts with planning/contracts before implementation.
+Phase 2 planning/contracts are complete.
+
+Layout implementation has started with `src/components/patterns/Row`.
 
 Phase 1 — Elements + Foundations is complete.
 

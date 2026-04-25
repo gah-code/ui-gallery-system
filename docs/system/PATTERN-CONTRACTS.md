@@ -23,7 +23,7 @@ Row -> Grid -> SingleColumn -> Sidebar -> Magazine -> ZPattern -> FPattern -> As
 
 ### Row
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 
