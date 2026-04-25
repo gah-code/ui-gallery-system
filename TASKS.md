@@ -33,17 +33,20 @@ Active phase: Phase 1 — Elements + Foundations
 - [x] Create foundations system doc
 - [x] Create primitive contracts doc
 - [x] Confirm Phase 1 implementation order
+- [x] Implement token files
+- [x] Implement base/global styles
+- [x] Implement typography roles
+- [x] Create foundation Storybook docs
 
 ## Next
 
-- [ ] Implement token files
-- [ ] Implement base/global styles
-- [ ] Implement typography roles
 - [ ] Implement Text primitive
 - [ ] Implement Button primitive
 - [ ] Implement Image primitive
 - [ ] Implement Tag primitive
 - [ ] Implement Input primitive
+- [ ] Implement Icon primitive
+- [ ] Implement Status Label primitive
 
 ## Later
 

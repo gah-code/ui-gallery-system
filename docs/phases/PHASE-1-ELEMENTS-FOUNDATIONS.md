@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Planning
+Active — Foundation implementation started
 
 ## Goal
 
@@ -79,6 +79,12 @@ Phase 1 creates the visual and interaction grammar of the system:
 ```txt
 foundation tokens -> base styles -> typography roles -> primitive API contracts -> primitive implementation -> foundation Storybook docs -> primitive Storybook docs
 ```
+
+## Implementation Note
+
+Foundation implementation started with token files, base/global styles, typography roles, and Storybook foundation docs.
+
+Primitive components have not started yet.
 
 ## Token Categories
 
@@ -510,6 +516,10 @@ Phase 1 planning is complete when:
 - [x] Architecture boundaries remain intact
 - [x] Contentful remains deferred
 - [x] TASKS.md reflects the next implementation step
+- [x] Foundation token files are implemented
+- [x] Base/global styles are implemented
+- [x] Typography role styles are implemented
+- [x] Foundation Storybook docs are implemented
 - [x] Verification commands pass
 
 ## Verification Commands
@@ -525,6 +535,6 @@ npm run lint
 
 Phase 1 is active.
 
-This document currently defines planning and contracts only.
+This document now tracks foundation implementation progress.
 
 Do not close Phase 1 until foundations and primitive elements are implemented, documented, and verified.

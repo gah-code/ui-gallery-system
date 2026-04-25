@@ -14,9 +14,9 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 1 — Elements + Foundations is the active project phase.
 
-The current Phase 1 pass is planning and contracts only.
+The current Phase 1 pass implements token foundations, base/global styles, typography roles, and foundation Storybook docs.
 
-Token implementation and primitive implementation have not started.
+Primitive implementation has not started.
 
 Architecture boundaries remain:
 
@@ -60,6 +60,13 @@ docs                     -> roadmap, phase records, taxonomy, architecture notes
 | `src/styles` | tokens/base/global rhythm | component-specific visuals |
 | `src/stories` | Storybook foundations and cross-cutting docs | app routes |
 | `docs` | roadmap, phase records, architecture notes | implementation code |
+
+## Current Foundation Ownership
+
+- `src/styles/*` owns foundation tokens, base/global styles, and typography role styles.
+- `src/stories/foundations/*` owns cross-cutting Storybook foundation docs.
+- `src/components/ui/*` remains reserved for primitive components.
+- `src/content/*` remains a future content boundary only.
 
 ## Naming Rules
 

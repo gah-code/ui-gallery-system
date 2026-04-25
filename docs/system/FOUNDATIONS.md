@@ -26,6 +26,21 @@ They should be stable before layout patterns, reusable components, and sections 
 - Motion
 - Focus
 
+## Implemented Foundation Files
+
+- `src/styles/tokens.css.ts`
+- `src/styles/global.css.ts`
+- `src/styles/typography.css.ts`
+- `src/styles/index.ts`
+
+## Foundation Storybook Docs
+
+- `src/stories/foundations/Tokens.stories.tsx`
+- `src/stories/foundations/Typography.stories.tsx`
+- `src/stories/foundations/Spacing.stories.tsx`
+- `src/stories/foundations/Surfaces.stories.tsx`
+- `src/stories/foundations/FocusStates.stories.tsx`
+
 ## Base Style Expectations
 
 Base styles should define:

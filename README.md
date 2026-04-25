@@ -8,11 +8,14 @@ Phase 1 — Elements + Foundations
 
 ## Current Focus
 
-Planning the foundation layer:
+Phase 1 foundation implementation:
 
-- token scope
-- primitive API contracts
-- Storybook foundation documentation
+- token files
+- base/global styles
+- typography roles
+- foundation Storybook docs
+
+Primitive components are next.
 
 ## Phase 0 Status
 
@@ -38,7 +41,10 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/GALLERY-TAXONOMY.md`
 - `docs/GALLERY-INVENTORY.md`
 - `docs/phases/PHASE-0-BASELINE.md`
+- `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`
 - `docs/system/ARCHITECTURE.md`
+- `docs/system/FOUNDATIONS.md`
+- `docs/system/PRIMITIVE-CONTRACTS.md`
 
 ## Runtime
 
