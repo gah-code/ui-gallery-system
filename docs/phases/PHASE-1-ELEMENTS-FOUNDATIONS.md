@@ -90,7 +90,9 @@ Button primitive implementation is complete.
 
 Image primitive implementation is complete.
 
-Tag and the remaining primitives have not started yet.
+Tag primitive implementation is complete.
+
+Input, Icon, and Status Label primitives have not started yet.
 
 ## Text Primitive Implementation Note
 
@@ -104,7 +106,7 @@ It uses:
 - alignment variants
 - colocated Storybook coverage
 
-Button and Image are now implemented. Tag and the remaining primitives have not started.
+Button, Image, and Tag are now implemented. Input, Icon, and Status Label have not started.
 
 ## Button Primitive Implementation Note
 
@@ -121,7 +123,7 @@ It supports:
 - native button rendering
 - link rendering through `href`
 
-Image is now implemented. Tag and the remaining primitives have not started.
+Image and Tag are now implemented. Input, Icon, and Status Label have not started.
 
 ## Image Primitive Implementation Note
 
@@ -136,7 +138,22 @@ It supports:
 - missing-image fallback
 - decorative image usage
 
-Tag and the remaining primitives have not started.
+Tag is now implemented. Input, Icon, and Status Label have not started.
+
+## Tag Primitive Implementation Note
+
+The Tag primitive has been implemented as the fourth primitive element.
+
+It supports:
+
+- semantic variants
+- size variants
+- shape variants
+- optional icons
+- long-label handling
+- status/category/metadata usage
+
+Remaining primitives have not started.
 
 ## Token Categories
 
@@ -413,6 +430,60 @@ Storybook coverage:
 
 ---
 
+### Tag
+
+Status: Implemented
+
+Purpose:
+
+Render category, status, or metadata pills.
+
+Expected props:
+
+- `as`
+- `variant`
+- `size`
+- `shape`
+- `icon`
+- `children`
+- `className`
+
+Expected variants:
+
+- `neutral`
+- `brand`
+- `success`
+- `warning`
+- `error`
+- `info`
+
+Expected sizes:
+
+- `sm`
+- `md`
+
+Expected shapes:
+
+- `default`
+- `pill`
+
+Accessibility notes:
+
+- Status tags should not rely on color alone.
+- Use readable text labels.
+- Tags are not interactive in this phase.
+
+Storybook coverage:
+
+- all variants
+- sizes and shapes
+- long label
+- multiple tags
+- status examples
+- optional icon
+
+---
+
 ### Input
 
 Status: Not started
@@ -456,49 +527,6 @@ Storybook coverage:
 - error
 - disabled
 - required
-
----
-
-### Tag
-
-Status: Not started
-
-Purpose:
-
-Render category, status, or metadata pills.
-
-Expected props:
-
-- `variant`
-- `size`
-- `children`
-- `className`
-
-Expected variants:
-
-- `neutral`
-- `brand`
-- `success`
-- `warning`
-- `error`
-- `info`
-
-Expected sizes:
-
-- `sm`
-- `md`
-
-Accessibility notes:
-
-- Status tags should not rely on color alone.
-- Use readable text labels.
-
-Storybook coverage:
-
-- all variants
-- long label
-- multiple tags
-- status examples
 
 ---
 
@@ -610,6 +638,7 @@ Phase 1 planning is complete when:
 - [x] Text primitive is implemented
 - [x] Button primitive is implemented
 - [x] Image primitive is implemented
+- [x] Tag primitive is implemented
 - [x] Verification commands pass
 
 ## Verification Commands

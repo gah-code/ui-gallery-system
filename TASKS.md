@@ -40,10 +40,10 @@ Active phase: Phase 1 — Elements + Foundations
 - [x] Implement Text primitive
 - [x] Implement Button primitive
 - [x] Implement Image primitive
+- [x] Implement Tag primitive
 
 ## Next
 
-- [ ] Implement Tag primitive
 - [ ] Implement Input primitive
 - [ ] Implement Icon primitive
 - [ ] Implement Status Label primitive

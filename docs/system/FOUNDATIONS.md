@@ -46,6 +46,7 @@ They should be stable before layout patterns, reusable components, and sections 
 - `src/components/ui/Text`
 - `src/components/ui/Button`
 - `src/components/ui/Image`
+- `src/components/ui/Tag`
 
 ## Base Style Expectations
 
