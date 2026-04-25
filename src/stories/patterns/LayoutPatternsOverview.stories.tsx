@@ -17,7 +17,7 @@ const patterns = [
   { name: 'Row', status: 'Implemented' },
   { name: 'Grid', status: 'Implemented' },
   { name: 'SingleColumn', status: 'Implemented' },
-  { name: 'Sidebar', status: 'Planned' },
+  { name: 'Sidebar', status: 'Implemented' },
   { name: 'Magazine', status: 'Planned' },
   { name: 'ZPattern', status: 'Planned' },
   { name: 'FPattern', status: 'Planned' },

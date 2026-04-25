@@ -405,6 +405,23 @@ It supports:
 - long-content safety
 - mixed primitive content composition
 
+Sidebar has since been implemented. Remaining layout patterns after Sidebar have not started.
+
+## Sidebar Pattern Implementation Note
+
+The Sidebar pattern has been implemented as the fourth Phase 2 layout pattern.
+
+It supports:
+
+- stacked small-screen behavior
+- main + sidebar layout at larger widths
+- left and right sidebar placement
+- gap variants
+- sidebar width variants
+- alignment variants
+- main-content protection
+- dense sidebar content safety
+
 Remaining layout patterns have not started.
 
 ## Acceptance Criteria

@@ -47,7 +47,7 @@ Readable stacked content layout.
 
 ### Sidebar
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 

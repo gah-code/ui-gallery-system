@@ -13,7 +13,8 @@ Phase 2 layout pattern implementation:
 - Row pattern complete
 - Grid pattern complete
 - SingleColumn pattern complete
-- Sidebar pattern next
+- Sidebar pattern complete
+- Magazine pattern next
 
 ## Phase 1 Status
 
