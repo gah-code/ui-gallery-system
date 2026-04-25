@@ -41,6 +41,10 @@ They should be stable before layout patterns, reusable components, and sections 
 - `src/stories/foundations/Surfaces.stories.tsx`
 - `src/stories/foundations/FocusStates.stories.tsx`
 
+## Implemented Primitive Consumers
+
+- `src/components/ui/Text`
+
 ## Base Style Expectations
 
 Base styles should define:

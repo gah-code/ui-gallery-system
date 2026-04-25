@@ -6,9 +6,9 @@ Primitive contracts define the expected API and behavior of the smallest reusabl
 
 ## Planning Status
 
-These contracts are planning-only.
+These contracts guide primitive implementation.
 
-Primitive implementation has not started.
+Text implementation has started the primitive sequence.
 
 ## Build Order
 
@@ -30,28 +30,42 @@ Text -> Button -> Image -> Tag -> Input -> Icon -> Status Label
 
 ### Text
 
+Status: Implemented
+
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 
 ### Button
+
+Status: Not started
 
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 
 ### Image
 
+Status: Not started
+
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 
 ### Tag
+
+Status: Not started
 
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 
 ### Input
 
+Status: Not started
+
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 
 ### Icon
 
+Status: Not started
+
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 
 ### Status Label
+
+Status: Not started
 
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.

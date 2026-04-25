@@ -8,12 +8,10 @@ Phase 1 — Elements + Foundations
 
 ## Current Focus
 
-Phase 1 foundation implementation:
+Phase 1 primitive implementation:
 
-- token files
-- base/global styles
-- typography roles
-- foundation Storybook docs
+- Text primitive complete
+- Button primitive next
 
 Primitive components are next.
 

@@ -84,7 +84,23 @@ foundation tokens -> base styles -> typography roles -> primitive API contracts 
 
 Foundation implementation started with token files, base/global styles, typography roles, and Storybook foundation docs.
 
-Primitive components have not started yet.
+Text primitive implementation has started the primitive component sequence.
+
+Button and the remaining primitives have not started yet.
+
+## Text Primitive Implementation Note
+
+The Text primitive has been implemented as the first primitive element.
+
+It uses:
+
+- typography role classes
+- token-driven tones
+- semantic `as` rendering
+- alignment variants
+- colocated Storybook coverage
+
+Remaining primitives have not started.
 
 ## Token Categories
 
@@ -213,6 +229,8 @@ Initial token groups:
 
 ### Text
 
+Status: Implemented
+
 Purpose:
 
 Render semantic text with system typography roles.
@@ -251,6 +269,8 @@ Storybook coverage:
 ---
 
 ### Button
+
+Status: Not started
 
 Purpose:
 
@@ -299,6 +319,8 @@ Storybook coverage:
 
 ### Image
 
+Status: Not started
+
 Purpose:
 
 Render responsive images with consistent aspect-ratio and fallback behavior.
@@ -335,6 +357,8 @@ Storybook coverage:
 ---
 
 ### Input
+
+Status: Not started
 
 Purpose:
 
@@ -380,6 +404,8 @@ Storybook coverage:
 
 ### Tag
 
+Status: Not started
+
 Purpose:
 
 Render category, status, or metadata pills.
@@ -421,6 +447,8 @@ Storybook coverage:
 
 ### Icon
 
+Status: Not started
+
 Purpose:
 
 Provide a consistent wrapper contract for decorative or functional icons.
@@ -455,6 +483,8 @@ Storybook coverage:
 ---
 
 ### Status Label
+
+Status: Not started
 
 Purpose:
 
@@ -520,6 +550,7 @@ Phase 1 planning is complete when:
 - [x] Base/global styles are implemented
 - [x] Typography role styles are implemented
 - [x] Foundation Storybook docs are implemented
+- [x] Text primitive is implemented
 - [x] Verification commands pass
 
 ## Verification Commands

@@ -14,9 +14,11 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 1 — Elements + Foundations is the active project phase.
 
-The current Phase 1 pass implements token foundations, base/global styles, typography roles, and foundation Storybook docs.
+The current Phase 1 pass implements the Text primitive on top of the foundation layer.
 
-Primitive implementation has not started.
+Text primitive implementation is complete.
+
+Button and the remaining primitives have not started.
 
 Architecture boundaries remain:
 
