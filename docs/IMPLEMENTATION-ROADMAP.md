@@ -42,7 +42,7 @@ Goal: Build tokens, typography, text, buttons, images, inputs, and tags.
 
 Foundation implementation has started with token files, base/global styles, typography roles, and foundation Storybook docs.
 
-Text, Button, Image, and Tag primitives implemented. Remaining primitives are next.
+Text, Button, Image, Tag, and Input primitives implemented. Icon and Status Label remain.
 
 ### Deliverables
 
@@ -58,6 +58,7 @@ Text, Button, Image, and Tag primitives implemented. Remaining primitives are ne
 - `src/components/ui/Button`
 - `src/components/ui/Image`
 - `src/components/ui/Tag`
+- `src/components/ui/Input`
 - primitive components later
 
 ## Phase 2 — Layout Patterns

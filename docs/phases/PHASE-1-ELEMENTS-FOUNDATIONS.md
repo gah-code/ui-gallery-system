@@ -92,7 +92,9 @@ Image primitive implementation is complete.
 
 Tag primitive implementation is complete.
 
-Input, Icon, and Status Label primitives have not started yet.
+Input primitive implementation is complete.
+
+Icon and Status Label primitives have not started yet.
 
 ## Text Primitive Implementation Note
 
@@ -106,7 +108,7 @@ It uses:
 - alignment variants
 - colocated Storybook coverage
 
-Button, Image, and Tag are now implemented. Input, Icon, and Status Label have not started.
+Button, Image, Tag, and Input are now implemented. Icon and Status Label have not started.
 
 ## Button Primitive Implementation Note
 
@@ -123,7 +125,7 @@ It supports:
 - native button rendering
 - link rendering through `href`
 
-Image and Tag are now implemented. Input, Icon, and Status Label have not started.
+Image, Tag, and Input are now implemented. Icon and Status Label have not started.
 
 ## Image Primitive Implementation Note
 
@@ -138,7 +140,7 @@ It supports:
 - missing-image fallback
 - decorative image usage
 
-Tag is now implemented. Input, Icon, and Status Label have not started.
+Tag and Input are now implemented. Icon and Status Label have not started.
 
 ## Tag Primitive Implementation Note
 
@@ -152,6 +154,23 @@ It supports:
 - optional icons
 - long-label handling
 - status/category/metadata usage
+
+Input is now implemented. Icon and Status Label have not started.
+
+## Input Primitive Implementation Note
+
+The Input primitive has been implemented as the fifth primitive element.
+
+It supports:
+
+- labels
+- helper text
+- error text
+- disabled state
+- required state
+- size variants
+- textarea/multiline mode
+- accessible descriptions
 
 Remaining primitives have not started.
 
@@ -486,7 +505,7 @@ Storybook coverage:
 
 ### Input
 
-Status: Not started
+Status: Implemented
 
 Purpose:
 
@@ -503,7 +522,17 @@ Expected props:
 - `error`
 - `disabled`
 - `required`
+- `size`
+- `multiline`
+- `rows`
 - `className`
+- `controlClassName`
+
+Expected sizes:
+
+- `sm`
+- `md`
+- `lg`
 
 Expected states:
 
@@ -523,10 +552,13 @@ Accessibility notes:
 Storybook coverage:
 
 - default
+- sizes
 - helper text
 - error
 - disabled
 - required
+- multiline
+- no-label guidance
 
 ---
 
@@ -639,6 +671,7 @@ Phase 1 planning is complete when:
 - [x] Button primitive is implemented
 - [x] Image primitive is implemented
 - [x] Tag primitive is implemented
+- [x] Input primitive is implemented
 - [x] Verification commands pass
 
 ## Verification Commands

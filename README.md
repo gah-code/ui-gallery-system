@@ -14,7 +14,8 @@ Phase 1 primitive implementation:
 - Button primitive complete
 - Image primitive complete
 - Tag primitive complete
-- Input primitive next
+- Input primitive complete
+- Icon primitive next
 
 Primitive components are next.
 
