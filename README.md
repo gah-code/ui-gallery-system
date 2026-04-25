@@ -4,17 +4,23 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 1 — Elements + Foundations
+Phase 2 — Layout Patterns
 
 ## Current Focus
 
-Phase 1 primitive implementation is complete.
+Planning Phase 2 layout pattern contracts before implementation.
 
-Next focus:
+## Phase 1 Status
 
-- review Phase 1 completeness
-- verify Storybook primitive coverage
-- prepare Phase 1 formal closeout
+Phase 1 — Elements + Foundations is complete.
+
+The project now has:
+
+- token foundations
+- base/global styles
+- typography roles
+- foundation Storybook docs
+- primitive UI elements for Text, Button, Image, Tag, Input, Icon, and Status Label
 
 ## Phase 0 Status
 

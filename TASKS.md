@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Active phase: Phase 1 — Elements + Foundations
+Active phase: Phase 2 — Layout Patterns
 
 ## Completed
 
@@ -21,8 +21,6 @@ Active phase: Phase 1 — Elements + Foundations
 - [x] Assign inventory items to build phases
 - [x] Confirm Phase 1 entry point
 - [x] Align README, roadmap, taxonomy, architecture doc, and phase doc
-
-## Now
 
 ### Phase 1 — Elements + Foundations
 
@@ -44,17 +42,34 @@ Active phase: Phase 1 — Elements + Foundations
 - [x] Implement Input primitive
 - [x] Implement Icon primitive
 - [x] Implement Status Label primitive
+- [x] Review Phase 1 implementation completeness
+- [x] Confirm Storybook coverage for all primitives
+- [x] Confirm planning docs agree
+- [x] Perform Phase 1 formal closeout
+
+## Now
+
+### Phase 2 — Layout Patterns
+
+- [ ] Plan layout pattern scope
+- [ ] Define layout pattern contracts
+- [ ] Define responsive behavior rules
+- [ ] Define Storybook validation requirements
+- [ ] Confirm implementation order for layout patterns
 
 ## Next
 
-- [ ] Review Phase 1 implementation completeness
-- [ ] Confirm Storybook coverage for all primitives
-- [ ] Confirm planning docs agree
-- [ ] Perform Phase 1 formal closeout
+- [ ] Implement row/card layout pattern
+- [ ] Implement grid/card layout pattern
+- [ ] Implement single-column layout pattern
+- [ ] Implement sidebar layout pattern
+- [ ] Implement multi-column/magazine layout pattern
+- [ ] Implement Z-pattern layout
+- [ ] Implement F-pattern layout
+- [ ] Implement asymmetry/experimental layout pattern
 
 ## Later
 
-- [ ] Phase 2 — Layout Patterns
 - [ ] Phase 3 — Component Library Batch 1
 - [ ] Phase 4 — Component Library Batch 2
 - [ ] Phase 5 — Section Components

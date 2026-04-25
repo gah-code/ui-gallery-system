@@ -12,36 +12,18 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 1 — Elements + Foundations is the active project phase.
+Phase 2 — Layout Patterns is active.
 
-The current Phase 1 pass implements the Status Label primitive on top of the foundation layer.
-
-Text primitive implementation is complete.
-
-Button primitive implementation is complete.
-
-Image primitive implementation is complete.
-
-Tag primitive implementation is complete.
-
-Input primitive implementation is complete.
-
-Icon primitive implementation is complete.
-
-Status Label primitive implementation is complete.
-
-All planned Phase 1 primitives are implemented.
-
-Phase 2 has not started.
+Phase 1 — Elements + Foundations is complete.
 
 Architecture boundaries remain:
 
-- elements first
-- layout patterns second
-- components third
-- sections after components
-- gallery/demo after sections
-- CMS only after UI contracts stabilize
+- `src/styles/*` owns foundations.
+- `src/components/ui/*` owns primitives.
+- `src/components/patterns/*` will own reusable layout pattern abstractions.
+- `src/components/sections/*` remains reserved for section-level compositions.
+- `src/content/*` remains future content boundary only.
+- Storybook remains the primary design-system workspace.
 
 ## Build Dependency Order
 

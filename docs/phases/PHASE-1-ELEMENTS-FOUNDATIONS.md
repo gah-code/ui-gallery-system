@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Primitive implementation in progress
+Complete
 
 ## Goal
 
@@ -84,7 +84,7 @@ foundation tokens -> base styles -> typography roles -> primitive API contracts 
 
 Foundation implementation started with token files, base/global styles, typography roles, and Storybook foundation docs.
 
-Text primitive implementation has started the primitive component sequence.
+Text primitive implementation started the primitive component sequence.
 
 Button primitive implementation is complete.
 
@@ -100,7 +100,7 @@ Status Label primitive implementation is complete.
 
 All planned Phase 1 primitives are now implemented.
 
-Phase 1 is ready for review before formal closeout.
+Phase 1 closeout review is complete.
 
 ## Text Primitive Implementation Note
 
@@ -192,7 +192,7 @@ It supports:
 - functional icon usage with labels
 - inline SVG/content wrapping
 
-Status Label remains the final Phase 1 primitive.
+Status Label completed the planned Phase 1 primitive sequence.
 
 ## Status Label Primitive Implementation Note
 
@@ -209,7 +209,7 @@ It supports:
 
 All planned Phase 1 primitives are now implemented.
 
-Phase 1 is not closed until planning docs, Storybook coverage, and verification are reviewed together.
+Phase 1 closeout review confirmed planning docs, Storybook coverage, and verification together.
 
 ## Token Categories
 
@@ -713,7 +713,7 @@ Planned foundation stories:
 - `Surfaces.stories.tsx`
 - `FocusStates.stories.tsx`
 
-Primitive stories should be colocated with primitive components later.
+Primitive stories are colocated with implemented primitive components.
 
 ## Acceptance Criteria
 
@@ -748,10 +748,33 @@ npm run build-storybook
 npm run lint
 ```
 
-## Closeout / Reopen Notes
+## Closeout Note
 
-Phase 1 is active.
+Phase 1 is complete.
 
-This document now tracks foundation implementation progress.
+Completed outcomes:
 
-Do not close Phase 1 until foundations and primitive elements are implemented, documented, and verified.
+- token foundation implemented
+- base/global styles implemented
+- typography role styles implemented
+- foundation Storybook docs implemented
+- Text primitive implemented
+- Button primitive implemented
+- Image primitive implemented
+- Tag primitive implemented
+- Input primitive implemented
+- Icon primitive implemented
+- Status Label primitive implemented
+
+Storybook coverage exists for foundations and all planned primitives.
+
+Verification:
+
+- `npm run build` passed
+- `npm run build-storybook` passed
+- `npm run lint` passed
+- `npm run test` is not configured
+
+Phase 1 closed with Phase 2 — Layout Patterns as the next active phase.
+
+Contentful remains deferred.

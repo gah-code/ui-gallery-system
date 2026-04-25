@@ -34,15 +34,29 @@ This does not block Phase 1. A future source-backed visual board can refine the 
 
 ## Phase 1 — Elements + Foundations
 
-Status: Active
+Status: Complete
 
 Goal: Build tokens, typography, text, buttons, images, inputs, and tags.
 
-### Current Focus
+### Closeout Summary
 
-Foundation implementation has started with token files, base/global styles, typography roles, and foundation Storybook docs.
+Phase 1 established the foundation layer and all planned primitive UI elements.
 
-All planned Phase 1 primitives are implemented. Phase 1 is ready for review before formal closeout.
+Completed:
+
+- token files
+- base/global styles
+- typography roles
+- foundation Storybook docs
+- Text
+- Button
+- Image
+- Tag
+- Input
+- Icon
+- Status Label
+
+Phase 2 — Layout Patterns is now the active phase.
 
 ### Deliverables
 
@@ -65,7 +79,13 @@ All planned Phase 1 primitives are implemented. Phase 1 is ready for review befo
 
 ## Phase 2 — Layout Patterns
 
+Status: Active
+
 Goal: Build reusable layout systems before richer components.
+
+### Current Focus
+
+Plan reusable layout pattern contracts and responsive behavior before implementation.
 
 ## Phase 3 — Component Library Batch 1
 
