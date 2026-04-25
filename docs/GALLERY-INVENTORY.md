@@ -4,6 +4,12 @@
 
 Provisional
 
+## Closeout Note
+
+This provisional inventory was accepted for Phase 0 closeout.
+
+A source-backed reference image or design board can be added later to refine this inventory, but Phase 1 may proceed using this dependency-ordered baseline.
+
 ## Source
 
 - Reference image / design board: Not found in the current repo.

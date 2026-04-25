@@ -10,6 +10,19 @@ nvm use
 
 The default shell Node may not be the correct runtime. Use `.nvmrc` before running Vite or Storybook commands.
 
+## Current Architecture Phase
+
+Phase 1 — Elements + Foundations is the active implementation phase.
+
+Architecture boundaries remain:
+
+- elements first
+- layout patterns second
+- components third
+- sections after components
+- gallery/demo after sections
+- CMS only after UI contracts stabilize
+
 ## Build Dependency Order
 
 ```txt

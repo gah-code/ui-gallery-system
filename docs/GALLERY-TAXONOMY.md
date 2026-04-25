@@ -7,6 +7,12 @@
 - `docs/phases/PHASE-0-BASELINE.md`
 - `docs/system/ARCHITECTURE.md`
 
+## Phase 0 Closeout Note
+
+The taxonomy is accepted as the organizing model for the provisional gallery inventory.
+
+Future source-backed visual references should map back into this taxonomy rather than replacing the dependency order.
+
 ## Purpose
 
 This taxonomy defines how the UI gallery system organizes design work before implementation begins.

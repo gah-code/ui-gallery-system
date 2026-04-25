@@ -2,11 +2,11 @@
 
 ## Current Status
 
-Active phase: Phase 0 — Baseline + Gallery Inventory
+Active phase: Phase 1 — Elements + Foundations
 
-Phase 1 has not started.
+## Completed
 
-## Now
+### Phase 0 — Baseline + Gallery Inventory
 
 - [x] Confirm project scaffold: Vite + React + TypeScript
 - [x] Confirm Storybook setup
@@ -22,28 +22,41 @@ Phase 1 has not started.
 - [x] Confirm Phase 1 entry point
 - [x] Align README, roadmap, taxonomy, architecture doc, and phase doc
 
+## Now
+
+### Phase 1 — Elements + Foundations
+
+- [ ] Define token foundation scope
+- [ ] Create color tokens
+- [ ] Create typography tokens
+- [ ] Create spacing tokens
+- [ ] Create radius tokens
+- [ ] Create shadow tokens
+- [ ] Create motion/focus tokens
+- [ ] Create base/global style entry points
+- [ ] Create foundation Storybook docs
+- [ ] Plan primitive element APIs before implementation
+
 ## Next
 
-- [ ] Phase 1 — Elements + Foundations
-- [ ] Build text primitives
+- [ ] Build text primitive
 - [ ] Build button primitive
 - [ ] Build image primitive
 - [ ] Build tag primitive
 - [ ] Build input primitive
-- [ ] Create initial token system
-- [ ] Create Storybook foundation stories
 
 ## Later
 
-- [ ] Layout patterns
-- [ ] Component library batch 1
-- [ ] Component library batch 2
-- [ ] Section components
-- [ ] Gallery index and demo pages
-- [ ] Storybook productization
-- [ ] Static data shape freeze
-- [ ] Contentful readiness
-- [ ] Contentful integration much later
+- [ ] Phase 2 — Layout Patterns
+- [ ] Phase 3 — Component Library Batch 1
+- [ ] Phase 4 — Component Library Batch 2
+- [ ] Phase 5 — Section Components
+- [ ] Phase 6 — Gallery Index + Demo Pages
+- [ ] Phase 7 — Storybook Productization
+- [ ] Phase 8 — Responsive Polish + Section Contract Refinement
+- [ ] Phase 9 — Static Data Shape Freeze
+- [ ] Phase 10 — Contentful Readiness
+- [ ] Phase 11 — Contentful Integration later
 
 ## Phase Closeout Rule
 

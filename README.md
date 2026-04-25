@@ -4,9 +4,13 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 0 — Baseline + Gallery Inventory
+Phase 1 — Elements + Foundations
 
-Phase 0 is active. Phase 1 has not started.
+## Phase 0 Status
+
+Phase 0 — Baseline + Gallery Inventory is complete.
+
+The gallery inventory is currently provisional because no source-backed visual reference was found in the repo. This can be refined later when a design board or reference image is added.
 
 ## Project Direction
 

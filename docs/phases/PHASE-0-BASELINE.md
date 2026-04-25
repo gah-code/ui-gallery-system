@@ -2,7 +2,7 @@
 
 ## Status
 
-Active
+Complete
 
 ## Goal
 
@@ -188,9 +188,9 @@ Provisional. No source-backed gallery/reference board was found in the repo duri
 
 ## Phase 1 Entry Point
 
-Phase 1 may begin only after Phase 0 is formally closed.
+Phase 1 — Elements + Foundations is the next active phase after Phase 0 closeout.
 
-The first Phase 1 workstream is Elements + Foundations: tokens, typography, text, buttons, images, inputs, tags, and Storybook foundation stories.
+The first Phase 1 workstream is Elements + Foundations: token foundation scope, color tokens, typography tokens, spacing tokens, radius tokens, shadow tokens, motion/focus tokens, base/global style entry points, foundation Storybook docs, and primitive API planning before implementation.
 
 ## Acceptance Criteria
 
@@ -201,7 +201,7 @@ The first Phase 1 workstream is Elements + Foundations: tokens, typography, text
 - [x] Baseline architecture is documented
 - [x] Gallery taxonomy is documented
 - [x] Roadmap is created
-- [x] Task tracker reflects Phase 0 as active
+- [x] Task tracker reflects Phase 0 completion and Phase 1 activation
 - [x] Contentful is explicitly deferred
 - [x] Gallery inventory doc is created
 - [x] Inventory is grouped by dependency order
@@ -219,8 +219,34 @@ npm run build-storybook
 npm run lint
 ```
 
-## Closeout / Reopen Notes
+## Closeout Note
 
-Phase 0 is still active.
+Phase 0 is complete as a docs-first baseline and provisional gallery inventory pass.
 
-Do not close this phase until TASKS.md, this phase document, README, the roadmap, and the paste-back review summary all agree.
+Completed outcomes:
+
+- Project scaffold verified.
+- Storybook verified as the primary design-system workspace.
+- vanilla-extract configured.
+- Architecture ownership boundaries documented.
+- Gallery taxonomy documented.
+- Gallery inventory created.
+- Inventory grouped by dependency order.
+- Inventory items assigned to build phases.
+- Contentful explicitly deferred.
+- Phase 1 entry point confirmed.
+
+Inventory status:
+
+- Provisional.
+- No source-backed gallery/reference image was found in the repo during this pass.
+- A future visual reference may be added later to refine the inventory, but it does not block Phase 1.
+
+Verification:
+
+- `npm run build` passed.
+- `npm run build-storybook` passed.
+- `npm run lint` passed.
+- `npm run test` is not configured.
+
+Phase 0 closed with Phase 1 — Elements + Foundations as the next active phase.

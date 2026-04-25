@@ -12,7 +12,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 
 ## Phase 0 — Baseline + Gallery Inventory
 
-Status: Active
+Status: Complete
 
 Goal: Establish project structure, ownership boundaries, and build inventory.
 
@@ -24,17 +24,17 @@ Goal: Establish project structure, ownership boundaries, and build inventory.
 - `docs/phases/PHASE-0-BASELINE.md`
 - `docs/system/ARCHITECTURE.md`
 
-### Phase 1 Entry Gate
+### Closeout Summary
 
-Phase 1 starts only after:
+Phase 0 established the project baseline, architecture ownership boundaries, gallery taxonomy, and provisional gallery inventory.
 
-- baseline architecture is documented
-- gallery inventory is accounted for
-- Storybook remains confirmed as the design-system workspace
-- planning docs agree
-- Phase 0 is formally closed
+The gallery inventory is provisional because no source-backed reference image was found during this pass.
+
+This does not block Phase 1. A future source-backed visual board can refine the inventory later.
 
 ## Phase 1 — Elements + Foundations
+
+Status: Active
 
 Goal: Build tokens, typography, text, buttons, images, inputs, and tags.
 
@@ -105,6 +105,6 @@ Goal: Lock UI data contracts before CMS modeling.
 
 Goal: Plan CMS mapping after UI contracts stabilize.
 
-## Phase 11 — Contentful Integration
+## Phase 11 — Contentful Integration later
 
 Goal: Integrate Contentful through adapters and normalized data models.
