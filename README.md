@@ -11,7 +11,8 @@ Phase 1 — Elements + Foundations
 Phase 1 primitive implementation:
 
 - Text primitive complete
-- Button primitive next
+- Button primitive complete
+- Image primitive next
 
 Primitive components are next.
 

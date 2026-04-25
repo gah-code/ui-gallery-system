@@ -44,6 +44,7 @@ They should be stable before layout patterns, reusable components, and sections 
 ## Implemented Primitive Consumers
 
 - `src/components/ui/Text`
+- `src/components/ui/Button`
 
 ## Base Style Expectations
 

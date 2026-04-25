@@ -8,7 +8,7 @@ Primitive contracts define the expected API and behavior of the smallest reusabl
 
 These contracts guide primitive implementation.
 
-Text implementation has started the primitive sequence.
+Text and Button implementation have started the primitive sequence.
 
 ## Build Order
 
@@ -36,7 +36,7 @@ See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 
 ### Button
 
-Status: Not started
+Status: Implemented
 
 See `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`.
 

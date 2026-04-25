@@ -14,11 +14,13 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 1 — Elements + Foundations is the active project phase.
 
-The current Phase 1 pass implements the Text primitive on top of the foundation layer.
+The current Phase 1 pass implements the Button primitive on top of the foundation layer.
 
 Text primitive implementation is complete.
 
-Button and the remaining primitives have not started.
+Button primitive implementation is complete.
+
+Image and the remaining primitives have not started.
 
 Architecture boundaries remain:
 
@@ -67,7 +69,8 @@ docs                     -> roadmap, phase records, taxonomy, architecture notes
 
 - `src/styles/*` owns foundation tokens, base/global styles, and typography role styles.
 - `src/stories/foundations/*` owns cross-cutting Storybook foundation docs.
-- `src/components/ui/*` remains reserved for primitive components.
+- `src/components/ui/*` owns primitive components.
+- Primitive-specific stories are colocated with their primitives.
 - `src/content/*` remains a future content boundary only.
 
 ## Naming Rules

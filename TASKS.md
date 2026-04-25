@@ -38,10 +38,10 @@ Active phase: Phase 1 — Elements + Foundations
 - [x] Implement typography roles
 - [x] Create foundation Storybook docs
 - [x] Implement Text primitive
+- [x] Implement Button primitive
 
 ## Next
 
-- [ ] Implement Button primitive
 - [ ] Implement Image primitive
 - [ ] Implement Tag primitive
 - [ ] Implement Input primitive
