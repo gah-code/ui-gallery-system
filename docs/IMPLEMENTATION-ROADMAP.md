@@ -85,7 +85,15 @@ Goal: Build reusable layout systems before richer components.
 
 ### Current Focus
 
-Plan reusable layout pattern contracts and responsive behavior before implementation.
+Planning reusable layout pattern contracts and responsive behavior before implementation.
+
+### Deliverables
+
+- `docs/phases/PHASE-2-LAYOUT-PATTERNS.md`
+- `docs/system/LAYOUT-PATTERNS.md`
+- `docs/system/PATTERN-CONTRACTS.md`
+- layout pattern components later
+- layout pattern Storybook docs later
 
 ## Phase 3 — Component Library Batch 1
 

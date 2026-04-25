@@ -14,13 +14,15 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 2 — Layout Patterns is active.
 
+Phase 2 starts with planning/contracts before implementation.
+
 Phase 1 — Elements + Foundations is complete.
 
 Architecture boundaries remain:
 
 - `src/styles/*` owns foundations.
 - `src/components/ui/*` owns primitives.
-- `src/components/patterns/*` will own reusable layout pattern abstractions.
+- `src/components/patterns/*` owns reusable layout pattern abstractions.
 - `src/components/sections/*` remains reserved for section-level compositions.
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.

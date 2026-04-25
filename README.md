@@ -8,7 +8,12 @@ Phase 2 — Layout Patterns
 
 ## Current Focus
 
-Planning Phase 2 layout pattern contracts before implementation.
+Planning Phase 2 layout pattern contracts:
+
+- pattern scope
+- responsive behavior rules
+- Storybook validation requirements
+- implementation order
 
 ## Phase 1 Status
 
@@ -47,9 +52,12 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/GALLERY-INVENTORY.md`
 - `docs/phases/PHASE-0-BASELINE.md`
 - `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`
+- `docs/phases/PHASE-2-LAYOUT-PATTERNS.md`
 - `docs/system/ARCHITECTURE.md`
 - `docs/system/FOUNDATIONS.md`
 - `docs/system/PRIMITIVE-CONTRACTS.md`
+- `docs/system/LAYOUT-PATTERNS.md`
+- `docs/system/PATTERN-CONTRACTS.md`
 
 ## Runtime
 

@@ -51,22 +51,25 @@ Active phase: Phase 2 — Layout Patterns
 
 ### Phase 2 — Layout Patterns
 
-- [ ] Plan layout pattern scope
-- [ ] Define layout pattern contracts
-- [ ] Define responsive behavior rules
-- [ ] Define Storybook validation requirements
-- [ ] Confirm implementation order for layout patterns
+- [x] Plan layout pattern scope
+- [x] Define layout pattern contracts
+- [x] Define responsive behavior rules
+- [x] Define Storybook validation requirements
+- [x] Create Phase 2 planning doc
+- [x] Create layout patterns system doc
+- [x] Create pattern contracts doc
+- [x] Confirm implementation order for layout patterns
 
 ## Next
 
-- [ ] Implement row/card layout pattern
-- [ ] Implement grid/card layout pattern
-- [ ] Implement single-column layout pattern
-- [ ] Implement sidebar layout pattern
-- [ ] Implement multi-column/magazine layout pattern
-- [ ] Implement Z-pattern layout
-- [ ] Implement F-pattern layout
-- [ ] Implement asymmetry/experimental layout pattern
+- [ ] Implement Row pattern
+- [ ] Implement Grid pattern
+- [ ] Implement SingleColumn pattern
+- [ ] Implement Sidebar pattern
+- [ ] Implement Magazine pattern
+- [ ] Implement ZPattern layout
+- [ ] Implement FPattern layout
+- [ ] Implement Asymmetric layout
 
 ## Later
 
