@@ -55,7 +55,7 @@ Main content plus supporting side content.
 
 ### Magazine
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 
@@ -63,7 +63,7 @@ Mixed-width editorial layout.
 
 ### ZPattern
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 
@@ -71,7 +71,7 @@ Alternating visual/text journey layout.
 
 ### FPattern
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 

@@ -422,7 +422,61 @@ It supports:
 - main-content protection
 - dense sidebar content safety
 
-Remaining layout patterns have not started.
+Magazine has since been implemented. Remaining layout patterns after Magazine have not started.
+
+## Magazine Pattern Implementation Note
+
+The Magazine pattern has been implemented as the fifth Phase 2 layout pattern.
+
+It supports:
+
+- stacked small-screen behavior
+- mixed-width editorial columns
+- media/content slots
+- layout variants
+- reverse layout behavior
+- gap variants
+- alignment variants
+- dense editorial content
+- long-content safety
+- missing-media fallback
+
+ZPattern has since been implemented. Remaining layout patterns after ZPattern have not started.
+
+## ZPattern Implementation Note
+
+The ZPattern layout has been implemented as the sixth Phase 2 layout pattern.
+
+It supports:
+
+- stacked small-screen behavior
+- alternating media/content rows at larger widths
+- multiple journey rows
+- global media-position behavior
+- per-item media-position override
+- gap variants
+- alignment variants
+- long-copy safety
+- missing-media fallback
+
+FPattern has since been implemented. Asymmetric remains the final Phase 2 layout pattern.
+
+## FPattern Implementation Note
+
+The FPattern layout has been implemented as the seventh Phase 2 layout pattern.
+
+It supports:
+
+- scan-friendly lead/support hierarchy
+- sparse and dense content
+- action areas
+- support/rail layout
+- wide lead layout
+- full-width footer/details area
+- responsive stacking
+- long-copy safety
+
+Asymmetric remains the final Phase 2 layout pattern.
 
 ## Acceptance Criteria
 

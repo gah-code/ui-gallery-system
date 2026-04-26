@@ -85,7 +85,7 @@ Goal: Build reusable layout systems before richer components.
 
 ### Current Focus
 
-Row, Grid, SingleColumn, and Sidebar patterns implemented. Magazine pattern is next.
+Row, Grid, SingleColumn, Sidebar, Magazine, ZPattern, and FPattern layouts implemented. Asymmetric layout is next.
 
 ### Deliverables
 
@@ -96,6 +96,9 @@ Row, Grid, SingleColumn, and Sidebar patterns implemented. Magazine pattern is n
 - `src/components/patterns/Grid`
 - `src/components/patterns/SingleColumn`
 - `src/components/patterns/Sidebar`
+- `src/components/patterns/Magazine`
+- `src/components/patterns/ZPattern`
+- `src/components/patterns/FPattern`
 - layout pattern components later
 - layout pattern Storybook docs later
 

@@ -18,9 +18,9 @@ const patterns = [
   { name: 'Grid', status: 'Implemented' },
   { name: 'SingleColumn', status: 'Implemented' },
   { name: 'Sidebar', status: 'Implemented' },
-  { name: 'Magazine', status: 'Planned' },
-  { name: 'ZPattern', status: 'Planned' },
-  { name: 'FPattern', status: 'Planned' },
+  { name: 'Magazine', status: 'Implemented' },
+  { name: 'ZPattern', status: 'Implemented' },
+  { name: 'FPattern', status: 'Implemented' },
   { name: 'Asymmetric', status: 'Planned' },
 ] as const;
 

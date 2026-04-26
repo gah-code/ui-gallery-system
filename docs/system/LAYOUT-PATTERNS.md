@@ -49,6 +49,9 @@ row -> grid -> single-column -> sidebar -> multi-column/magazine -> Z-pattern ->
 - `src/components/patterns/Grid`
 - `src/components/patterns/SingleColumn`
 - `src/components/patterns/Sidebar`
+- `src/components/patterns/Magazine`
+- `src/components/patterns/ZPattern`
+- `src/components/patterns/FPattern`
 
 ## Not in Scope Yet
 

@@ -66,9 +66,9 @@ Active phase: Phase 2 — Layout Patterns
 - [x] Implement Grid pattern
 - [x] Implement SingleColumn pattern
 - [x] Implement Sidebar pattern
-- [ ] Implement Magazine pattern
-- [ ] Implement ZPattern layout
-- [ ] Implement FPattern layout
+- [x] Implement Magazine pattern
+- [x] Implement ZPattern layout
+- [x] Implement FPattern layout
 - [ ] Implement Asymmetric layout
 
 ## Later

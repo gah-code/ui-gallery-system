@@ -14,7 +14,10 @@ Phase 2 layout pattern implementation:
 - Grid pattern complete
 - SingleColumn pattern complete
 - Sidebar pattern complete
-- Magazine pattern next
+- Magazine pattern complete
+- ZPattern layout complete
+- FPattern layout complete
+- Asymmetric layout next
 
 ## Phase 1 Status
 
