@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Active phase: Phase 2 — Layout Patterns
+Active phase: Phase 3 — Component Library Batch 1
 
 ## Completed
 
@@ -47,8 +47,6 @@ Active phase: Phase 2 — Layout Patterns
 - [x] Confirm planning docs agree
 - [x] Perform Phase 1 formal closeout
 
-## Now
-
 ### Phase 2 — Layout Patterns
 
 - [x] Plan layout pattern scope
@@ -59,9 +57,6 @@ Active phase: Phase 2 — Layout Patterns
 - [x] Create layout patterns system doc
 - [x] Create pattern contracts doc
 - [x] Confirm implementation order for layout patterns
-
-## Next
-
 - [x] Implement Row pattern
 - [x] Implement Grid pattern
 - [x] Implement SingleColumn pattern
@@ -69,11 +64,38 @@ Active phase: Phase 2 — Layout Patterns
 - [x] Implement Magazine pattern
 - [x] Implement ZPattern layout
 - [x] Implement FPattern layout
-- [ ] Implement Asymmetric layout
+- [x] Implement Asymmetric layout
+- [x] Review Phase 2 implementation completeness
+- [x] Confirm Storybook coverage for all layout patterns
+- [x] Confirm planning docs agree
+- [x] Perform Phase 2 formal closeout
+
+## Now
+
+### Phase 3 — Component Library Batch 1
+
+- [ ] Plan component batch 1 scope
+- [ ] Define component API contracts
+- [ ] Define component dependency map
+- [ ] Define accessibility expectations
+- [ ] Define Storybook validation requirements
+- [ ] Confirm implementation order for component batch 1
+
+## Next
+
+- [ ] Implement Card component
+- [ ] Implement Breadcrumbs component
+- [ ] Implement Pagination component
+- [ ] Implement Alert component
+- [ ] Implement Stats component
+- [ ] Implement Gallery component
+- [ ] Implement Feature Box component
+- [ ] Implement Preview/Profile Card component
+- [ ] Implement Accordion component
+- [ ] Implement Tabs component
 
 ## Later
 
-- [ ] Phase 3 — Component Library Batch 1
 - [ ] Phase 4 — Component Library Batch 2
 - [ ] Phase 5 — Section Components
 - [ ] Phase 6 — Gallery Index + Demo Pages

@@ -4,20 +4,26 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 2 — Layout Patterns
+Phase 3 — Component Library Batch 1
 
 ## Current Focus
 
-Phase 2 layout pattern implementation:
+Planning Phase 3 component-library contracts before implementation.
 
-- Row pattern complete
-- Grid pattern complete
-- SingleColumn pattern complete
-- Sidebar pattern complete
-- Magazine pattern complete
-- ZPattern layout complete
-- FPattern layout complete
-- Asymmetric layout next
+## Phase 2 Status
+
+Phase 2 — Layout Patterns is complete.
+
+The project now has reusable layout patterns for:
+
+- Row
+- Grid
+- SingleColumn
+- Sidebar
+- Magazine
+- ZPattern
+- FPattern
+- Asymmetric
 
 ## Phase 1 Status
 

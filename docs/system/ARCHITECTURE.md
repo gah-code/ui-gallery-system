@@ -12,11 +12,11 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 2 — Layout Patterns is active.
+Phase 3 — Component Library Batch 1 is active.
 
-Phase 2 planning/contracts are complete.
+Phase 2 — Layout Patterns is complete.
 
-Layout implementation has started with `src/components/patterns/Row`, `src/components/patterns/Grid`, `src/components/patterns/SingleColumn`, `src/components/patterns/Sidebar`, `src/components/patterns/Magazine`, `src/components/patterns/ZPattern`, and `src/components/patterns/FPattern`.
+Phase 3 should begin with component API contracts and dependency mapping before implementation.
 
 Phase 1 — Elements + Foundations is complete.
 

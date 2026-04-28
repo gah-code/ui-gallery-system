@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Layout implementation started
+Complete
 
 ## Goal
 
@@ -459,7 +459,7 @@ It supports:
 - long-copy safety
 - missing-media fallback
 
-FPattern has since been implemented. Asymmetric remains the final Phase 2 layout pattern.
+FPattern and Asymmetric have since been implemented. All planned Phase 2 layout patterns are implemented.
 
 ## FPattern Implementation Note
 
@@ -476,7 +476,27 @@ It supports:
 - responsive stacking
 - long-copy safety
 
-Asymmetric remains the final Phase 2 layout pattern.
+Asymmetric has since been implemented. All planned Phase 2 layout patterns are implemented.
+
+## Asymmetric Implementation Note
+
+The Asymmetric layout has been implemented as the eighth and final Phase 2 layout pattern.
+
+It supports:
+
+- safe stacked small-screen behavior
+- intentional uneven columns at larger widths
+- primary and secondary content areas
+- optional accent content
+- layout variants
+- offset variants
+- reverse layout behavior
+- long-content safety
+- missing-secondary fallback
+
+All planned Phase 2 layout patterns are now implemented.
+
+Phase 2 has been reviewed and formally closed.
 
 ## Acceptance Criteria
 
@@ -491,6 +511,14 @@ Phase 2 planning is complete when:
 - [x] TASKS.md reflects the next implementation step
 - [x] Verification commands pass
 
+Phase 2 closeout is complete when:
+
+- [x] All planned layout patterns are implemented
+- [x] Storybook coverage exists for all planned layout patterns
+- [x] Planning docs agree
+- [x] Verification commands pass
+- [x] Phase 2 formal closeout is complete
+
 ## Verification Commands
 
 ```bash
@@ -500,10 +528,38 @@ npm run build-storybook
 npm run lint
 ```
 
-## Closeout / Reopen Notes
+## Closeout Note
 
-Phase 2 is active.
+Phase 2 is complete.
 
-This document defines planning, contracts, and current implementation notes.
+Completed outcomes:
 
-Do not close Phase 2 until layout patterns are implemented, documented, validated in Storybook, and planning state agrees.
+- Row pattern implemented
+- Grid pattern implemented
+- SingleColumn pattern implemented
+- Sidebar pattern implemented
+- Magazine pattern implemented
+- ZPattern layout implemented
+- FPattern layout implemented
+- Asymmetric layout implemented
+
+Storybook coverage exists for all planned layout patterns and validates:
+
+- responsive behavior
+- sparse content
+- dense content
+- long-copy stress
+- uneven content
+- missing media/content fallbacks where relevant
+- layout-specific contract behavior
+
+Verification:
+
+- `npm run build` passed
+- `npm run build-storybook` passed
+- `npm run lint` passed
+- `npm run test` is not configured
+
+Phase 2 closed with Phase 3 — Component Library Batch 1 as the next active phase.
+
+Contentful remains deferred.

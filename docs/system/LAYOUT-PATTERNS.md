@@ -52,6 +52,22 @@ row -> grid -> single-column -> sidebar -> multi-column/magazine -> Z-pattern ->
 - `src/components/patterns/Magazine`
 - `src/components/patterns/ZPattern`
 - `src/components/patterns/FPattern`
+- `src/components/patterns/Asymmetric`
+
+## Phase 2 Completion Note
+
+All planned layout patterns have been implemented and accepted for Phase 2 closeout.
+
+Implemented patterns:
+
+- `src/components/patterns/Row`
+- `src/components/patterns/Grid`
+- `src/components/patterns/SingleColumn`
+- `src/components/patterns/Sidebar`
+- `src/components/patterns/Magazine`
+- `src/components/patterns/ZPattern`
+- `src/components/patterns/FPattern`
+- `src/components/patterns/Asymmetric`
 
 ## Not in Scope Yet
 

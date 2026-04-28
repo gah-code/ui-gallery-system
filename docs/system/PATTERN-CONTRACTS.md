@@ -13,6 +13,21 @@ Pattern contracts define the expected behavior of reusable layout abstractions b
 - Patterns should remain useful in both app surfaces and Storybook.
 - Pattern stories should validate realistic content density and responsive behavior.
 
+## Phase 2 Completion Note
+
+All planned pattern contracts have been implemented and documented in Storybook.
+
+Status:
+
+- Row: Implemented
+- Grid: Implemented
+- SingleColumn: Implemented
+- Sidebar: Implemented
+- Magazine: Implemented
+- ZPattern: Implemented
+- FPattern: Implemented
+- Asymmetric: Implemented
+
 ## Implementation Order
 
 ```txt
@@ -79,7 +94,7 @@ Scan-friendly content-heavy hierarchy.
 
 ### Asymmetric
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 

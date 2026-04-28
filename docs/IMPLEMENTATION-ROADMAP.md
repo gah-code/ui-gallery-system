@@ -79,13 +79,26 @@ Phase 2 — Layout Patterns is now the active phase.
 
 ## Phase 2 — Layout Patterns
 
-Status: Active
+Status: Complete
 
 Goal: Build reusable layout systems before richer components.
 
-### Current Focus
+### Closeout Summary
 
-Row, Grid, SingleColumn, Sidebar, Magazine, ZPattern, and FPattern layouts implemented. Asymmetric layout is next.
+Phase 2 established all planned reusable layout patterns.
+
+Completed:
+
+- Row
+- Grid
+- SingleColumn
+- Sidebar
+- Magazine
+- ZPattern
+- FPattern
+- Asymmetric
+
+Phase 3 — Component Library Batch 1 is now the active phase.
 
 ### Deliverables
 
@@ -99,12 +112,19 @@ Row, Grid, SingleColumn, Sidebar, Magazine, ZPattern, and FPattern layouts imple
 - `src/components/patterns/Magazine`
 - `src/components/patterns/ZPattern`
 - `src/components/patterns/FPattern`
-- layout pattern components later
-- layout pattern Storybook docs later
+- `src/components/patterns/Asymmetric`
+- layout pattern components
+- layout pattern Storybook docs
 
 ## Phase 3 — Component Library Batch 1
 
+Status: Active
+
 Goal: Build foundational reusable components.
+
+### Current Focus
+
+Plan component APIs, dependencies, accessibility requirements, and Storybook validation before implementation.
 
 Includes:
 

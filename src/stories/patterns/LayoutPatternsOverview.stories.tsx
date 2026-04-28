@@ -21,7 +21,7 @@ const patterns = [
   { name: 'Magazine', status: 'Implemented' },
   { name: 'ZPattern', status: 'Implemented' },
   { name: 'FPattern', status: 'Implemented' },
-  { name: 'Asymmetric', status: 'Planned' },
+  { name: 'Asymmetric', status: 'Implemented' },
 ] as const;
 
 export const Overview: Story = {
