@@ -16,15 +16,18 @@ Phase 3 — Component Library Batch 1 is active.
 
 Phase 2 — Layout Patterns is complete.
 
-Phase 3 should begin with component API contracts and dependency mapping before implementation.
+Phase 3 planning/contracts are complete.
+
+Component implementation has started with `src/components/components/Card`, `src/components/components/Breadcrumbs`, `src/components/components/Pagination`, `src/components/components/Alert`, `src/components/components/Stats`, `src/components/components/Gallery`, and `src/components/components/FeatureBox`.
 
 Phase 1 — Elements + Foundations is complete.
 
 Architecture boundaries remain:
 
 - `src/styles/*` owns foundations.
-- `src/components/ui/*` owns primitives.
+- `src/components/ui/*` owns primitive elements.
 - `src/components/patterns/*` owns reusable layout pattern abstractions.
+- `src/components/components/*` owns reusable component-library components.
 - `src/components/sections/*` remains reserved for section-level compositions.
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
@@ -40,6 +43,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 ```txt
 src/components/ui        -> reusable primitives
 src/components/patterns  -> layout/pattern abstractions
+src/components/components -> reusable component-library components
 src/components/sections  -> section-level compositions
 src/components/layout    -> shell/chrome/layout ownership
 src/content              -> future content boundary, no CMS yet
@@ -55,6 +59,7 @@ docs                     -> roadmap, phase records, taxonomy, architecture notes
 |---|---|---|
 | `src/components/ui` | reusable primitives | route-level composition |
 | `src/components/patterns` | layout/pattern abstractions | business content |
+| `src/components/components` | reusable component-library components | section composition |
 | `src/components/sections` | section composition | raw CMS data |
 | `src/components/layout` | shell/chrome/page frame | individual component variants |
 | `src/content` | future content boundary | current CMS integration |
