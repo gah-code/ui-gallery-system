@@ -181,13 +181,17 @@ Goal: Build heavier interactive and content-rich components.
 
 ### Current Focus
 
-Planning richer component contracts, dependencies, accessibility expectations, and Storybook validation before implementation.
+Carousel, Testimonials, Customer Logos, and Featured-In Logos components implemented. Steps component is next.
 
 ### Deliverables
 
 - `docs/phases/PHASE-4-COMPONENT-LIBRARY-BATCH-2.md`
 - `docs/system/COMPONENT-BATCH-2-CONTRACTS.md`
 - updated `docs/system/COMPONENTS.md`
+- `src/components/components/Carousel`
+- `src/components/components/Testimonials`
+- `src/components/components/CustomerLogos`
+- `src/components/components/FeaturedInLogos`
 - component implementations later
 - component Storybook docs later
 

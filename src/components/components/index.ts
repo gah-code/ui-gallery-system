@@ -63,3 +63,39 @@ export { Accordion } from './Accordion';
 export type { AccordionDensity, AccordionItem, AccordionProps, AccordionTone } from './Accordion';
 export { Tabs } from './Tabs';
 export type { TabItem, TabsDensity, TabsProps, TabsTone } from './Tabs';
+export { Carousel } from './Carousel';
+export type {
+  CarouselGap,
+  CarouselItem,
+  CarouselItemsPerView,
+  CarouselProps,
+} from './Carousel';
+export { Testimonials } from './Testimonials';
+export type {
+  TestimonialAlign,
+  TestimonialColumns,
+  TestimonialDensity,
+  TestimonialItem,
+  TestimonialLayout,
+  TestimonialTag,
+  TestimonialTone,
+  TestimonialsProps,
+} from './Testimonials';
+export { CustomerLogos } from './CustomerLogos';
+export type {
+  CustomerLogoItem,
+  CustomerLogosColumns,
+  CustomerLogosDensity,
+  CustomerLogosLayout,
+  CustomerLogosProps,
+  CustomerLogosTone,
+} from './CustomerLogos';
+export { FeaturedInLogos } from './FeaturedInLogos';
+export type {
+  FeaturedInLogoItem,
+  FeaturedInLogosColumns,
+  FeaturedInLogosDensity,
+  FeaturedInLogosLayout,
+  FeaturedInLogosProps,
+  FeaturedInLogosTone,
+} from './FeaturedInLogos';

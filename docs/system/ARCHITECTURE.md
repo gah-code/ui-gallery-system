@@ -14,7 +14,7 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 4 — Component Library Batch 2 is active.
 
-Phase 4 starts with planning/contracts before implementation.
+Phase 4 started with planning/contracts before implementation.
 
 Phase 3 — Component Library Batch 1 is complete.
 
@@ -22,7 +22,7 @@ Phase 2 — Layout Patterns is complete.
 
 All planned Phase 3 Component Library Batch 1 components are implemented in `src/components/components/*`.
 
-Phase 4 implementation has not started.
+Phase 4 implementation has started with `src/components/components/Carousel`, `src/components/components/Testimonials`, `src/components/components/CustomerLogos`, and `src/components/components/FeaturedInLogos`.
 
 Phase 1 — Elements + Foundations is complete.
 

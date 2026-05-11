@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Planning
+Active — Implementation Started
 
 ## Goal
 
@@ -87,7 +87,7 @@ Phase 4 components should avoid:
 
 ### Carousel
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -131,7 +131,7 @@ Build order:
 
 ### Testimonials
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -175,7 +175,7 @@ Build order:
 
 ### Customer Logos
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -214,7 +214,7 @@ Build order:
 
 ### Featured-In Logos
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -490,15 +490,15 @@ Storybook should demonstrate:
 
 Phase 4 planning is complete when:
 
-- [ ] Phase 4 planning doc exists
-- [ ] Component batch 2 scope is defined
-- [ ] Component API contracts are defined
-- [ ] Dependency map is defined
-- [ ] Accessibility expectations are defined
-- [ ] Storybook validation requirements are defined
-- [ ] Implementation order is confirmed
-- [ ] TASKS.md reflects the next implementation step
-- [ ] Verification commands pass
+- [x] Phase 4 planning doc exists
+- [x] Component batch 2 scope is defined
+- [x] Component API contracts are defined
+- [x] Dependency map is defined
+- [x] Accessibility expectations are defined
+- [x] Storybook validation requirements are defined
+- [x] Implementation order is confirmed
+- [x] TASKS.md reflects the next implementation step
+- [x] Verification commands pass
 
 ## Verification Commands
 
@@ -513,6 +513,80 @@ npm run lint
 
 Phase 4 is active.
 
-This document currently defines planning and contracts only.
+## Carousel Component Implementation Note
+
+The Carousel component has been implemented as the first Phase 4 reusable component.
+
+It supports:
+
+- labeled carousel region
+- previous/next controls
+- disabled boundary states
+- current slide state
+- status text
+- gap variants
+- item-per-view variants
+- card/media/custom item content
+- empty-items fallback
+- no autoplay by default
+
+Testimonials is now implemented in the note below.
+
+## Testimonials Component Implementation Note
+
+The Testimonials component has been implemented as the second Phase 4 reusable component.
+
+It supports:
+
+- grid testimonials
+- single quote layout
+- featured quote layout
+- avatar usage
+- missing-avatar safety
+- long-quote safety
+- attribution metadata
+- tag metadata
+- empty-items fallback
+- optional Carousel composition in Storybook
+
+Customer Logos is now implemented in the note below.
+
+## Customer Logos Component Implementation Note
+
+The Customer Logos component has been implemented as the third Phase 4 reusable component.
+
+It supports:
+
+- row, grid, and dense layouts
+- column variants
+- density variants
+- plain/subtle/card tones
+- optional heading and description
+- visible brand names
+- linked logo items
+- decorative logo-cloud behavior
+- missing-logo fallback
+- empty-items fallback
+
+Featured-In Logos is now implemented in the note below.
+
+## Featured-In Logos Component Implementation Note
+
+The Featured-In Logos component has been implemented as the fourth Phase 4 reusable component.
+
+It supports:
+
+- row, grid, and compact layouts
+- column variants
+- density variants
+- plain/subtle/card/editorial tones
+- optional heading and description
+- visible source names
+- linked logo items
+- decorative logo-strip behavior
+- missing-logo fallback
+- empty-items fallback
+
+Steps and remaining Phase 4 components have not started.
 
 Do not close Phase 4 until Component Library Batch 2 is implemented, documented, validated in Storybook, and planning state agrees.

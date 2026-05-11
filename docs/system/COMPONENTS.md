@@ -59,13 +59,15 @@ Components should not depend on:
 
 ## Roadmap
 
-Phase 3 Component Library Batch 1 is complete. Phase 4 Component Library Batch 2 is active for planning/contracts before implementation.
+Phase 3 Component Library Batch 1 is complete. Phase 4 Component Library Batch 2 is active.
+
+Carousel, Testimonials, Customer Logos, and Featured-In Logos components implemented. Steps component is next.
 
 ## Phase 4 — Component Library Batch 2
 
-Status: Active — Planning
+Status: Active — Implementation Started
 
-Planned components:
+Batch 2 scope:
 
 - Carousel
 - Testimonials
@@ -87,6 +89,13 @@ They should compose:
 - Batch 1 components where useful
 
 They should not introduce CMS assumptions or section-level behavior.
+
+## Implemented Phase 4 Components
+
+- `src/components/components/Carousel`
+- `src/components/components/Testimonials`
+- `src/components/components/CustomerLogos`
+- `src/components/components/FeaturedInLogos`
 
 ## Phase 3 Completion Note
 

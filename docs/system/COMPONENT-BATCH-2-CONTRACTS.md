@@ -24,19 +24,19 @@ Carousel -> Testimonials -> CustomerLogos -> FeaturedInLogos -> Steps -> Forms -
 
 ### Carousel
 
-Status: Planned
+Status: Implemented
 
 ### Testimonials
 
-Status: Planned
+Status: Implemented
 
 ### CustomerLogos
 
-Status: Planned
+Status: Implemented
 
 ### FeaturedInLogos
 
-Status: Planned
+Status: Implemented
 
 ### Steps
 
