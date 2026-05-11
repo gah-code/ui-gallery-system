@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Component implementation started
+Complete
 
 ## Goal
 
@@ -392,7 +392,7 @@ Build order:
 
 ### Preview/Profile Card
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -438,7 +438,7 @@ Build order:
 
 ### Accordion
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -482,7 +482,7 @@ Build order:
 
 ### Tabs
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -647,7 +647,66 @@ It supports:
 - action slot
 - long-heading and dense-copy safety
 
-Remaining Phase 3 components have not started.
+Preview/Profile Card is now implemented in the note below.
+
+## Preview/Profile Card Component Implementation Note
+
+The Preview/Profile Card component has been implemented as the eighth Phase 3 reusable component.
+
+It supports:
+
+- profile card usage
+- article preview usage
+- project preview usage
+- case study preview usage
+- image/avatar rendering
+- missing-image fallback
+- compact and horizontal layouts
+- title-scoped link behavior
+- dense metadata
+- actions slot
+- long-copy safety
+
+Accordion is now implemented in the note below.
+
+## Accordion Component Implementation Note
+
+The Accordion component has been implemented as the ninth Phase 3 reusable component.
+
+It supports:
+
+- native button controls
+- expanded/collapsed state
+- associated panels
+- one-open behavior by default
+- multiple-open behavior when enabled
+- initially open items
+- disabled items
+- density variants
+- tone variants
+- long-content safety
+
+Tabs is now implemented in the note below.
+
+## Tabs Component Implementation Note
+
+The Tabs component has been implemented as the tenth and final Phase 3 reusable component.
+
+It supports:
+
+- tab list semantics
+- tab trigger semantics
+- tab panel semantics
+- selected state
+- uncontrolled usage
+- controlled usage
+- disabled tabs
+- ArrowLeft / ArrowRight keyboard navigation
+- density variants
+- tone variants
+- long-label overflow behavior
+
+All planned Phase 3 components are now implemented.
 
 ## Storybook Plan
 
@@ -689,8 +748,41 @@ npm run lint
 
 ## Closeout / Reopen Notes
 
-Phase 3 is active.
+## Closeout Note
 
-Component implementation has started with Card, Breadcrumbs, Pagination, Alert, Stats, Gallery, and Feature Box.
+Phase 3 is complete.
 
-Do not close Phase 3 until Component Library Batch 1 is implemented, documented, validated in Storybook, and planning state agrees.
+Completed outcomes:
+
+- Card component implemented
+- Breadcrumbs component implemented
+- Pagination component implemented
+- Alert component implemented
+- Stats component implemented
+- Gallery component implemented
+- Feature Box component implemented
+- Preview/Profile Card component implemented
+- Accordion component implemented
+- Tabs component implemented
+
+Storybook coverage exists for all planned Component Library Batch 1 components and validates:
+
+- canonical usage
+- variants
+- content density
+- long-copy stress
+- missing media/content states where relevant
+- interaction states
+- accessibility expectations
+- responsive behavior where relevant
+
+Verification:
+
+- `npm run build` passed
+- `npm run build-storybook` passed
+- `npm run lint` passed
+- `npm run test` is not configured
+
+Phase 3 closed with Phase 4 — Component Library Batch 2 as the next active phase.
+
+Contentful remains deferred.

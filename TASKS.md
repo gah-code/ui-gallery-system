@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Active phase: Phase 3 — Component Library Batch 1
+Active phase: Phase 4 — Component Library Batch 2
 
 ## Completed
 
@@ -70,8 +70,6 @@ Active phase: Phase 3 — Component Library Batch 1
 - [x] Confirm planning docs agree
 - [x] Perform Phase 2 formal closeout
 
-## Now
-
 ### Phase 3 — Component Library Batch 1
 
 - [x] Plan component batch 1 scope
@@ -83,9 +81,6 @@ Active phase: Phase 3 — Component Library Batch 1
 - [x] Create component system doc
 - [x] Create component contracts doc
 - [x] Confirm implementation order for component batch 1
-
-## Next
-
 - [x] Implement Card component
 - [x] Implement Breadcrumbs component
 - [x] Implement Pagination component
@@ -93,13 +88,41 @@ Active phase: Phase 3 — Component Library Batch 1
 - [x] Implement Stats component
 - [x] Implement Gallery component
 - [x] Implement Feature Box component
-- [ ] Implement Preview/Profile Card component
-- [ ] Implement Accordion component
-- [ ] Implement Tabs component
+- [x] Implement Preview/Profile Card component
+- [x] Implement Accordion component
+- [x] Implement Tabs component
+- [x] Review Phase 3 implementation completeness
+- [x] Confirm Storybook coverage for all Phase 3 components
+- [x] Confirm planning docs agree
+- [x] Perform Phase 3 formal closeout
+
+## Now
+
+### Phase 4 — Component Library Batch 2
+
+- [ ] Plan component batch 2 scope
+- [ ] Define component API contracts
+- [ ] Define component dependency map
+- [ ] Define accessibility expectations
+- [ ] Define Storybook validation requirements
+- [ ] Create Phase 4 planning doc
+- [ ] Create component batch 2 contracts doc
+- [ ] Confirm implementation order for component batch 2
+
+## Next
+
+- [ ] Implement Carousel component
+- [ ] Implement Testimonials component
+- [ ] Implement Customer Logos component
+- [ ] Implement Featured-In Logos component
+- [ ] Implement Steps component
+- [ ] Implement Forms component
+- [ ] Implement Tables component
+- [ ] Implement Pricing Tables component
+- [ ] Implement Modal component
 
 ## Later
 
-- [ ] Phase 4 — Component Library Batch 2
 - [ ] Phase 5 — Section Components
 - [ ] Phase 6 — Gallery Index + Demo Pages
 - [ ] Phase 7 — Storybook Productization

@@ -4,20 +4,34 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 3 — Component Library Batch 1
+Phase 4 — Component Library Batch 2
 
 ## Current Focus
 
-Phase 3 component-library implementation:
+Planning Phase 4 component-library contracts:
 
-- Card component complete
-- Breadcrumbs component complete
-- Pagination component complete
-- Alert component complete
-- Stats component complete
-- Gallery component complete
-- Feature Box component complete
-- Preview/Profile Card component next
+- component scope
+- dependency map
+- accessibility expectations
+- Storybook validation requirements
+- implementation order
+
+## Phase 3 Status
+
+Phase 3 — Component Library Batch 1 is complete.
+
+The project now has reusable components for:
+
+- Card
+- Breadcrumbs
+- Pagination
+- Alert
+- Stats
+- Gallery
+- Feature Box
+- Preview/Profile Card
+- Accordion
+- Tabs
 
 ## Phase 2 Status
 
@@ -73,6 +87,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/phases/PHASE-1-ELEMENTS-FOUNDATIONS.md`
 - `docs/phases/PHASE-2-LAYOUT-PATTERNS.md`
 - `docs/phases/PHASE-3-COMPONENT-LIBRARY-BATCH-1.md`
+- `docs/phases/PHASE-4-COMPONENT-LIBRARY-BATCH-2.md`
 - `docs/system/ARCHITECTURE.md`
 - `docs/system/FOUNDATIONS.md`
 - `docs/system/PRIMITIVE-CONTRACTS.md`
@@ -80,6 +95,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/system/PATTERN-CONTRACTS.md`
 - `docs/system/COMPONENTS.md`
 - `docs/system/COMPONENT-CONTRACTS.md`
+- `docs/system/COMPONENT-BATCH-2-CONTRACTS.md`
 
 ## Runtime
 

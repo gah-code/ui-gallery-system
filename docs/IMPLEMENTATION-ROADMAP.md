@@ -98,7 +98,7 @@ Completed:
 - FPattern
 - Asymmetric
 
-Phase 3 — Component Library Batch 1 is now the active phase.
+Phase 3 — Component Library Batch 1 is complete.
 
 ### Deliverables
 
@@ -118,13 +118,28 @@ Phase 3 — Component Library Batch 1 is now the active phase.
 
 ## Phase 3 — Component Library Batch 1
 
-Status: Active
+Status: Complete
 
 Goal: Build foundational reusable components.
 
-### Current Focus
+### Closeout Summary
 
-Card, Breadcrumbs, Pagination, Alert, Stats, Gallery, and Feature Box components implemented. Preview/Profile Card component is next.
+Phase 3 established the first reusable component-library batch.
+
+Completed:
+
+- Card
+- Breadcrumbs
+- Pagination
+- Alert
+- Stats
+- Gallery
+- Feature Box
+- Preview/Profile Card
+- Accordion
+- Tabs
+
+Phase 4 — Component Library Batch 2 is now the active phase.
 
 ### Deliverables
 
@@ -139,6 +154,9 @@ Card, Breadcrumbs, Pagination, Alert, Stats, Gallery, and Feature Box components
 - `src/components/components/Stats`
 - `src/components/components/Gallery`
 - `src/components/components/FeatureBox`
+- `src/components/components/PreviewProfileCard`
+- `src/components/components/Accordion`
+- `src/components/components/Tabs`
 - component implementations later
 - component Storybook docs later
 
@@ -157,17 +175,32 @@ Includes:
 
 ## Phase 4 — Component Library Batch 2
 
+Status: Active
+
 Goal: Build heavier interactive and content-rich components.
+
+### Current Focus
+
+Planning richer component contracts, dependencies, accessibility expectations, and Storybook validation before implementation.
+
+### Deliverables
+
+- `docs/phases/PHASE-4-COMPONENT-LIBRARY-BATCH-2.md`
+- `docs/system/COMPONENT-BATCH-2-CONTRACTS.md`
+- updated `docs/system/COMPONENTS.md`
+- component implementations later
+- component Storybook docs later
 
 Includes:
 
 - Carousel
 - Testimonials
-- Logos
+- Customer Logos
+- Featured-In Logos
 - Steps
 - Forms
 - Tables
-- Pricing tables
+- Pricing Tables
 - Modals
 
 ## Phase 5 — Section Components

@@ -12,13 +12,17 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 3 — Component Library Batch 1 is active.
+Phase 4 — Component Library Batch 2 is active.
+
+Phase 4 starts with planning/contracts before implementation.
+
+Phase 3 — Component Library Batch 1 is complete.
 
 Phase 2 — Layout Patterns is complete.
 
-Phase 3 planning/contracts are complete.
+All planned Phase 3 Component Library Batch 1 components are implemented in `src/components/components/*`.
 
-Component implementation has started with `src/components/components/Card`, `src/components/components/Breadcrumbs`, `src/components/components/Pagination`, `src/components/components/Alert`, `src/components/components/Stats`, `src/components/components/Gallery`, and `src/components/components/FeatureBox`.
+Phase 4 implementation has not started.
 
 Phase 1 — Elements + Foundations is complete.
 
@@ -31,6 +35,8 @@ Architecture boundaries remain:
 - `src/components/sections/*` remains reserved for section-level compositions.
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
+
+Phase 4 planning defines component API contracts and dependency mapping before implementation.
 
 ## Build Dependency Order
 

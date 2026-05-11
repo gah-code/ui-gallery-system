@@ -53,10 +53,57 @@ Components should not depend on:
 - `src/components/components/Stats`
 - `src/components/components/Gallery`
 - `src/components/components/FeatureBox`
+- `src/components/components/PreviewProfileCard`
+- `src/components/components/Accordion`
+- `src/components/components/Tabs`
 
 ## Roadmap
 
-Card, Breadcrumbs, Pagination, Alert, Stats, Gallery, and Feature Box components implemented. Preview/Profile Card component is next.
+Phase 3 Component Library Batch 1 is complete. Phase 4 Component Library Batch 2 is active for planning/contracts before implementation.
+
+## Phase 4 — Component Library Batch 2
+
+Status: Active — Planning
+
+Planned components:
+
+- Carousel
+- Testimonials
+- Customer Logos
+- Featured-In Logos
+- Steps
+- Forms
+- Tables
+- Pricing Tables
+- Modals
+
+Batch 2 components are richer, more interactive, or more content-heavy than Batch 1.
+
+They should compose:
+
+- foundations
+- primitives
+- layout patterns
+- Batch 1 components where useful
+
+They should not introduce CMS assumptions or section-level behavior.
+
+## Phase 3 Completion Note
+
+All planned Component Library Batch 1 components have been implemented and accepted for Phase 3 closeout.
+
+Implemented components:
+
+- `src/components/components/Card`
+- `src/components/components/Breadcrumbs`
+- `src/components/components/Pagination`
+- `src/components/components/Alert`
+- `src/components/components/Stats`
+- `src/components/components/Gallery`
+- `src/components/components/FeatureBox`
+- `src/components/components/PreviewProfileCard`
+- `src/components/components/Accordion`
+- `src/components/components/Tabs`
 
 ## Storybook Role
 

@@ -47,3 +47,19 @@ export type {
   FeatureBoxTone,
   FeatureBoxVariant,
 } from './FeatureBox';
+export { PreviewProfileCard } from './PreviewProfileCard';
+export type {
+  PreviewProfileCardDensity,
+  PreviewProfileCardImage,
+  PreviewProfileCardImageShape,
+  PreviewProfileCardLayout,
+  PreviewProfileCardProps,
+  PreviewProfileCardStatus,
+  PreviewProfileCardTag,
+  PreviewProfileCardTone,
+  PreviewProfileCardVariant,
+} from './PreviewProfileCard';
+export { Accordion } from './Accordion';
+export type { AccordionDensity, AccordionItem, AccordionProps, AccordionTone } from './Accordion';
+export { Tabs } from './Tabs';
+export type { TabItem, TabsDensity, TabsProps, TabsTone } from './Tabs';
