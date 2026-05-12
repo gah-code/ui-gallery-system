@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Active phase: Phase 5 — Section Components
+Active phase: Phase 6 — Gallery Index + Demo Pages
 
 ## Completed
 
@@ -120,8 +120,6 @@ Active phase: Phase 5 — Section Components
 - [x] Confirm planning docs agree
 - [x] Perform Phase 4 formal closeout
 
-## Now
-
 ### Phase 5 — Section Components
 
 - [x] Plan section component scope
@@ -139,17 +137,33 @@ Active phase: Phase 5 — Section Components
 - [x] Implement Footer section
 - [x] Implement CTA section
 - [x] Implement Feature Row section
+- [x] Review Phase 5 implementation completeness
+- [x] Confirm Storybook coverage for all Phase 5 sections
+- [x] Confirm planning docs agree
+- [x] Perform Phase 5 formal closeout
+
+## Now
+
+### Phase 6 — Gallery Index + Demo Pages
+
+- [ ] Plan gallery index scope
+- [ ] Define demo page scope
+- [ ] Define gallery metadata model
+- [ ] Define browsing/filtering behavior
+- [ ] Define routing/demo surface boundaries
+- [ ] Define Storybook relationship
+- [ ] Confirm implementation order for gallery/demo pages
 
 ## Next
 
-- [ ] Review Phase 5 implementation completeness
-- [ ] Confirm Storybook coverage for all Phase 5 sections
-- [ ] Confirm planning docs agree
-- [ ] Perform Phase 5 formal closeout
+- [ ] Implement gallery index surface
+- [ ] Implement gallery category browsing
+- [ ] Implement demo page shell
+- [ ] Implement section comparison pages
+- [ ] Connect gallery metadata to existing primitives, patterns, components, and sections
 
 ## Later
 
-- [ ] Phase 6 — Gallery Index + Demo Pages
 - [ ] Phase 7 — Storybook Productization
 - [ ] Phase 8 — Responsive Polish + Section Contract Refinement
 - [ ] Phase 9 — Static Data Shape Freeze

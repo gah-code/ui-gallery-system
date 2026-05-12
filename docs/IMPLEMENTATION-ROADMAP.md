@@ -195,7 +195,7 @@ Completed:
 - Pricing Tables
 - Modal
 
-Phase 5 — Section Components is now the active phase.
+Phase 5 — Section Components was activated after Phase 4 and is now complete.
 
 ### Deliverables
 
@@ -228,13 +228,23 @@ Includes:
 
 ## Phase 5 — Section Components
 
-Status: Active
+Status: Complete
 
 Goal: Compose primitives, components, and patterns into section-level surfaces.
 
-### Current Focus
+### Closeout Summary
 
-All planned Phase 5 section components are implemented. Phase 5 is ready for review before formal closeout.
+Phase 5 established reusable section-level compositions.
+
+Completed:
+
+- Navigation
+- Hero
+- Footer
+- CTA Section
+- Feature Row
+
+Phase 6 — Gallery Index + Demo Pages is now the active phase.
 
 ### Deliverables
 
@@ -259,7 +269,13 @@ Includes:
 
 ## Phase 6 — Gallery Index + Demo Pages
 
+Status: Active
+
 Goal: Make the app browsable as a UI reference system.
+
+### Current Focus
+
+Plan gallery index scope, demo page boundaries, gallery metadata, browsing behavior, and Storybook relationship before implementation.
 
 ## Phase 7 — Storybook Productization
 

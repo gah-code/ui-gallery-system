@@ -12,13 +12,11 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 5 — Section Components is active.
+Phase 6 — Gallery Index + Demo Pages is active.
 
-Phase 5 starts with planning/contracts before implementation.
+Phase 5 — Section Components is complete.
 
-All planned Phase 5 section components are implemented in `src/components/sections/*`.
-
-Phase 6 has not started.
+Phase 6 should begin with gallery index scope, demo page boundaries, and metadata planning before implementation.
 
 Phase 4 — Component Library Batch 2 is complete.
 
@@ -42,7 +40,7 @@ Architecture boundaries remain:
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
 
-Phase 5 planning defines section API contracts and dependency mapping before implementation.
+Phase 6 should remain planning-first before gallery or demo page implementation begins.
 
 ## Build Dependency Order
 

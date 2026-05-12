@@ -51,7 +51,19 @@ Sections should not depend on:
 
 ## Roadmap
 
-All planned Phase 5 section components are implemented. Phase 5 is ready for review before formal closeout.
+Phase 5 is complete. Phase 6 — Gallery Index + Demo Pages is active for planning before implementation.
+
+## Phase 5 Completion Note
+
+All planned section components have been implemented and accepted for Phase 5 closeout.
+
+Implemented sections:
+
+- `src/components/sections/Navigation`
+- `src/components/sections/Hero`
+- `src/components/sections/Footer`
+- `src/components/sections/CTASection`
+- `src/components/sections/FeatureRow`
 
 ## Storybook Role
 

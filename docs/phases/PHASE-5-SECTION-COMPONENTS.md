@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Implementation Started
+Complete
 
 ## Goal
 
@@ -360,7 +360,7 @@ npm run lint
 
 ## Closeout / Reopen Notes
 
-Phase 5 is active.
+Phase 5 implementation is complete.
 
 All planned Phase 5 section components are now implemented in the notes below.
 
@@ -469,6 +469,36 @@ It supports:
 
 All planned Phase 5 section components are now implemented.
 
-Phase 5 is not closed until planning docs, Storybook coverage, and verification are reviewed together.
+## Closeout Note
 
-Do not close Phase 5 until section components are implemented, documented, validated in Storybook, and planning state agrees.
+Phase 5 is complete.
+
+Completed outcomes:
+
+- Navigation section implemented
+- Hero section implemented
+- Footer section implemented
+- CTA Section implemented
+- Feature Row section implemented
+
+Storybook coverage exists for all planned section components and validates:
+
+- realistic section content
+- sparse content
+- dense content
+- long-copy stress
+- missing media/content states where relevant
+- responsive behavior
+- accessibility expectations
+- section composition boundaries
+
+Verification:
+
+- `npm run build` passed
+- `npm run build-storybook` passed
+- `npm run lint` passed
+- `npm run test` is not configured
+
+Phase 5 closed with Phase 6 — Gallery Index + Demo Pages as the next active phase.
+
+Contentful remains deferred.

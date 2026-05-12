@@ -4,17 +4,23 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 5 — Section Components
+Phase 6 — Gallery Index + Demo Pages
 
 ## Current Focus
 
-Phase 5 section implementation is complete.
+Planning Phase 6 gallery index and demo page contracts before implementation.
 
-Next focus:
+## Phase 5 Status
 
-- review Phase 5 completeness
-- verify Storybook section coverage
-- prepare Phase 5 formal closeout
+Phase 5 — Section Components is complete.
+
+The project now has reusable section components for:
+
+- Navigation
+- Hero
+- Footer
+- CTA Section
+- Feature Row
 
 ## Phase 4 Status
 
