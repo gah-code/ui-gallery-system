@@ -244,7 +244,7 @@ Completed:
 - CTA Section
 - Feature Row
 
-Phase 6 — Gallery Index + Demo Pages is now the active phase.
+Phase 6 — Gallery Index + Demo Pages was activated after Phase 5 and is now complete.
 
 ### Deliverables
 
@@ -269,13 +269,24 @@ Includes:
 
 ## Phase 6 — Gallery Index + Demo Pages
 
-Status: Active
+Status: Complete
 
 Goal: Make the app browsable as a UI reference system.
 
-### Current Focus
+### Closeout Summary
 
-All planned Phase 6 gallery/demo implementation tasks are complete. Phase 6 is ready for review before formal closeout.
+Phase 6 established app-side gallery and demo surfaces.
+
+Completed:
+
+- Static gallery metadata
+- Gallery Index
+- Gallery Category Browsing
+- Demo Page Shell
+- Section Comparison Pages
+- Gallery Metadata Connection
+
+Phase 7 — Storybook Productization is now the active phase.
 
 ### Deliverables
 
@@ -291,7 +302,13 @@ All planned Phase 6 gallery/demo implementation tasks are complete. Phase 6 is r
 
 ## Phase 7 — Storybook Productization
 
+Status: Active
+
 Goal: Make Storybook the system of record for the UI layer.
+
+### Current Focus
+
+Plan Storybook information architecture, documentation standards, story coverage expectations, accessibility review expectations, and interaction/testing expectations before implementation.
 
 ## Phase 8 — Responsive Polish + Section Contract Refinement
 

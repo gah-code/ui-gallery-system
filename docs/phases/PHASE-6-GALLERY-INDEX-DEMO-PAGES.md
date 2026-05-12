@@ -2,7 +2,7 @@
 
 ## Status
 
-Active
+Complete
 
 ## Goal
 
@@ -267,11 +267,11 @@ npm run lint
 
 ## Closeout / Reopen Notes
 
-Phase 6 is active.
+Phase 6 is complete.
 
 This document tracks Phase 6 planning, contracts, and implementation notes.
 
-Do not close Phase 6 until gallery/demo surfaces are implemented, documented, validated, and planning state agrees.
+Phase 7 — Storybook Productization is the next active phase.
 
 ## Static Gallery Metadata Implementation Note
 
@@ -373,4 +373,32 @@ GalleryIndex and GalleryCategoryBrowser consume the static metadata directly.
 
 All planned Phase 6 implementation tasks are now complete.
 
-Phase 6 is not closed until planning docs, gallery/demo coverage, and verification are reviewed together.
+Phase 6 was closed after planning docs, gallery/demo coverage, and verification were reviewed together.
+
+## Closeout Note
+
+Phase 6 is complete.
+
+Completed outcomes:
+
+- Static gallery metadata implemented
+- Gallery Index surface implemented
+- Gallery Category Browsing implemented
+- Demo Page Shell implemented
+- Section Comparison Pages implemented
+- Gallery Metadata Connection implemented
+
+The gallery/demo layer now provides app-side browsing and comparison surfaces for the completed UI system.
+
+Storybook remains the primary design-system workspace.
+
+Verification:
+
+- `npm run build` passed
+- `npm run build-storybook` passed
+- `npm run lint` passed
+- `npm run test` is not configured
+
+Phase 6 closed with Phase 7 — Storybook Productization as the next active phase.
+
+Contentful remains deferred.

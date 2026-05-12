@@ -4,17 +4,24 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 6 — Gallery Index + Demo Pages
+Phase 7 — Storybook Productization
 
 ## Current Focus
 
-Phase 6 gallery/demo implementation is complete.
+Planning Phase 7 Storybook productization before implementation.
 
-Next focus:
+## Phase 6 Status
 
-- review Phase 6 completeness
-- verify gallery/demo metadata coverage
-- prepare Phase 6 formal closeout
+Phase 6 — Gallery Index + Demo Pages is complete.
+
+The project now has app-side gallery/demo surfaces for:
+
+- Static gallery metadata
+- Gallery Index
+- Gallery Category Browsing
+- Demo Page Shell
+- Section Comparison Pages
+- Gallery Metadata Connection
 
 ## Phase 5 Status
 

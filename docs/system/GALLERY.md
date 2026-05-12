@@ -56,6 +56,22 @@ Static metadata in `src/data/gallery/*` now powers the gallery index and categor
 
 Gallery/demo metadata remains static-first and CMS-free.
 
+## Phase 6 Completion Note
+
+All planned gallery/demo surfaces have been implemented and accepted for Phase 6 closeout.
+
+Implemented gallery/demo surfaces:
+
+- `src/data/gallery`
+- `src/components/sections/GalleryIndex`
+- `src/components/sections/GalleryCategoryBrowser`
+- `src/components/sections/DemoPageShell`
+- `src/components/sections/SectionComparison`
+
+Gallery surfaces are app-side browsing aids.
+
+Storybook remains the primary design-system workspace.
+
 ## Category Model
 
 Categories:

@@ -12,7 +12,9 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 6 — Gallery Index + Demo Pages is active.
+Phase 7 — Storybook Productization is active.
+
+Phase 6 — Gallery Index + Demo Pages is complete.
 
 Phase 5 — Section Components is complete.
 
@@ -36,8 +38,8 @@ Architecture boundaries remain:
 - `src/components/ui/*` owns primitive elements.
 - `src/components/patterns/*` owns reusable layout pattern abstractions.
 - `src/components/components/*` owns reusable component-library components.
-- `src/components/sections/*` owns section-level compositions.
-- `src/data/*` owns typed static fixtures and static gallery metadata.
+- `src/components/sections/*` owns section-level compositions and app-side gallery/demo surfaces.
+- `src/data/*` owns typed static fixtures and gallery metadata.
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
 
@@ -47,9 +49,13 @@ SectionComparison composes completed Phase 5 section components for app-side com
 
 Gallery metadata is static-first under `src/data/gallery/*` and now represents the implemented UI layers plus Phase 6 gallery/demo surfaces.
 
-Phase 6 implementation is complete and ready for review/closeout.
+Phase 7 should begin with Storybook productization planning before implementation.
 
-Phase 7 has not started.
+Phase 7 implementation has not started.
+
+Static data shape freeze has not started.
+
+Contentful remains deferred.
 
 ## Build Dependency Order
 

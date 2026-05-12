@@ -72,6 +72,21 @@ Values:
 
 The metadata contract is static-first and may be refined during the later static data shape freeze phase.
 
+## Phase 6 Completion Note
+
+All planned gallery/demo contracts have been implemented.
+
+Status:
+
+- Static Gallery Metadata: Implemented
+- Gallery Index: Implemented
+- Gallery Category Browsing: Implemented
+- Demo Page Shell: Implemented
+- Section Comparison Pages: Implemented
+- Gallery Metadata Connection: Implemented
+
+The metadata contract remains eligible for refinement during the later static data shape freeze phase.
+
 ## Browsing Behavior
 
 Initial browsing should support:

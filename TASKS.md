@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Active phase: Phase 6 — Gallery Index + Demo Pages
+Active phase: Phase 7 — Storybook Productization
 
 ## Completed
 
@@ -142,8 +142,6 @@ Active phase: Phase 6 — Gallery Index + Demo Pages
 - [x] Confirm planning docs agree
 - [x] Perform Phase 5 formal closeout
 
-## Now
-
 ### Phase 6 — Gallery Index + Demo Pages
 
 - [x] Plan gallery index scope
@@ -162,17 +160,35 @@ Active phase: Phase 6 — Gallery Index + Demo Pages
 - [x] Implement demo page shell
 - [x] Implement section comparison pages
 - [x] Connect gallery metadata to existing primitives, patterns, components, and sections
+- [x] Review Phase 6 implementation completeness
+- [x] Confirm gallery/demo metadata coverage
+- [x] Confirm planning docs agree
+- [x] Perform Phase 6 formal closeout
+
+## Now
+
+### Phase 7 — Storybook Productization
+
+- [ ] Plan Storybook productization scope
+- [ ] Define Storybook information architecture
+- [ ] Define documentation standards
+- [ ] Define story coverage expectations
+- [ ] Define accessibility review expectations
+- [ ] Define interaction/testing expectations
+- [ ] Confirm implementation order for Storybook productization
 
 ## Next
 
-- [ ] Review Phase 6 implementation completeness
-- [ ] Confirm gallery/demo metadata coverage
-- [ ] Confirm planning docs agree
-- [ ] Perform Phase 6 formal closeout
+- [ ] Review Storybook story hierarchy
+- [ ] Add or refine MDX/docs surfaces
+- [ ] Standardize story naming
+- [ ] Standardize story descriptions and usage notes
+- [ ] Add Storybook coverage gaps
+- [ ] Review accessibility coverage
+- [ ] Review interaction/state coverage
 
 ## Later
 
-- [ ] Phase 7 — Storybook Productization
 - [ ] Phase 8 — Responsive Polish + Section Contract Refinement
 - [ ] Phase 9 — Static Data Shape Freeze
 - [ ] Phase 10 — Contentful Readiness
