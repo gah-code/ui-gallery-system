@@ -16,7 +16,7 @@ Phase 6 — Gallery Index + Demo Pages is active.
 
 Phase 5 — Section Components is complete.
 
-Phase 6 starts with planning/contracts before implementation.
+Phase 6 started with planning/contracts before implementation.
 
 Phase 4 — Component Library Batch 2 is complete.
 
@@ -41,9 +41,9 @@ Architecture boundaries remain:
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
 
-Gallery index and category browsing compose existing system pieces and static gallery metadata as app-side browsing surfaces.
+Gallery index, category browsing, and DemoPageShell compose existing system pieces and static gallery metadata as app-side gallery/demo surfaces.
 
-Demo page shell and section comparison page implementation have not started.
+Section comparison page implementation has not started.
 
 ## Build Dependency Order
 

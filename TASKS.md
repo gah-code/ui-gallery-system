@@ -159,10 +159,10 @@ Active phase: Phase 6 — Gallery Index + Demo Pages
 - [x] Implement gallery metadata
 - [x] Implement gallery index surface
 - [x] Implement gallery category browsing
+- [x] Implement demo page shell
 
 ## Next
 
-- [ ] Implement demo page shell
 - [ ] Implement section comparison pages
 - [ ] Connect gallery metadata to existing primitives, patterns, components, and sections
 

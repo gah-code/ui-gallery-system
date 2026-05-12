@@ -126,7 +126,7 @@ Build order:
 
 ### Demo Page Shell
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -290,7 +290,7 @@ It includes:
 - static gallery items for section components
 - optional metadata helpers
 
-Gallery index UI and category browsing UI are now implemented. Demo page shell and section comparison pages have not started.
+Gallery index UI, category browsing UI, and demo page shell are now implemented. Section comparison pages have not started.
 
 ## Gallery Index Surface Implementation Note
 
@@ -306,7 +306,7 @@ It uses static gallery metadata to show:
 - category item previews
 - Storybook relationship note
 
-Category browsing UI is now implemented. Demo page shell and section comparison pages have not started.
+Category browsing UI and demo page shell are now implemented. Section comparison pages have not started.
 
 ## Gallery Category Browsing Implementation Note
 
@@ -322,4 +322,20 @@ It uses static gallery metadata to show:
 - item phase/status/path/storybook metadata
 - item tags
 
-Demo page shell and section comparison pages have not started.
+Demo page shell is now implemented. Section comparison pages have not started.
+
+## Demo Page Shell Implementation Note
+
+The demo page shell has been implemented as the fourth Phase 6 implementation pass.
+
+It supports:
+
+- consistent demo-page header
+- metadata row
+- actions row
+- framed or unframed content area
+- empty content fallback
+- compact/default/spacious densities
+- Storybook relationship note
+
+Section comparison pages have not started.

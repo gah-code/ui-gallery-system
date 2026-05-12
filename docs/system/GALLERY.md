@@ -47,10 +47,10 @@ It helps explore the completed layers:
 
 - `src/components/sections/GalleryIndex`
 - `src/components/sections/GalleryCategoryBrowser`
+- `src/components/sections/DemoPageShell`
 
 ## Planned Gallery Surfaces
 
-- Demo page shell
 - Section comparison pages
 - Gallery metadata connection
 
