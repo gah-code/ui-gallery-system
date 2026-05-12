@@ -22,7 +22,7 @@ Phase 2 — Layout Patterns is complete.
 
 All planned Phase 3 Component Library Batch 1 components are implemented in `src/components/components/*`.
 
-Phase 4 implementation has started with `src/components/components/Carousel`, `src/components/components/Testimonials`, `src/components/components/CustomerLogos`, and `src/components/components/FeaturedInLogos`.
+Phase 4 implementation has started with `src/components/components/Carousel`, `src/components/components/Testimonials`, `src/components/components/CustomerLogos`, `src/components/components/FeaturedInLogos`, `src/components/components/Steps`, `src/components/components/Forms`, and `src/components/components/Tables`.
 
 Phase 1 — Elements + Foundations is complete.
 

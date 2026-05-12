@@ -99,3 +99,31 @@ export type {
   FeaturedInLogosProps,
   FeaturedInLogosTone,
 } from './FeaturedInLogos';
+export { Steps } from './Steps';
+export type {
+  StepItem,
+  StepsDensity,
+  StepsLayout,
+  StepsProps,
+  StepStatus,
+  StepsVariant,
+} from './Steps';
+export { Forms } from './Forms';
+export type {
+  FormField,
+  FormsDensity,
+  FormsElement,
+  FormsLayout,
+  FormsProps,
+  FormStatus,
+  FormsTone,
+} from './Forms';
+export { Tables } from './Tables';
+export type {
+  TableAlign,
+  TableColumn,
+  TableDensity,
+  TableRow,
+  TablesProps,
+  TableTone,
+} from './Tables';

@@ -181,7 +181,7 @@ Goal: Build heavier interactive and content-rich components.
 
 ### Current Focus
 
-Carousel, Testimonials, Customer Logos, and Featured-In Logos components implemented. Steps component is next.
+Carousel, Testimonials, Customer Logos, Featured-In Logos, Steps, Forms, and Tables components implemented. Pricing Tables component is next.
 
 ### Deliverables
 
@@ -192,6 +192,9 @@ Carousel, Testimonials, Customer Logos, and Featured-In Logos components impleme
 - `src/components/components/Testimonials`
 - `src/components/components/CustomerLogos`
 - `src/components/components/FeaturedInLogos`
+- `src/components/components/Steps`
+- `src/components/components/Forms`
+- `src/components/components/Tables`
 - component implementations later
 - component Storybook docs later
 

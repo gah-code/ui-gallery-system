@@ -14,7 +14,10 @@ Phase 4 component-library implementation:
 - Testimonials component complete
 - Customer Logos component complete
 - Featured-In Logos component complete
-- Steps component next
+- Steps component complete
+- Forms component complete
+- Tables component complete
+- Pricing Tables component next
 
 ## Phase 3 Status
 

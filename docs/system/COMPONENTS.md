@@ -61,7 +61,7 @@ Components should not depend on:
 
 Phase 3 Component Library Batch 1 is complete. Phase 4 Component Library Batch 2 is active.
 
-Carousel, Testimonials, Customer Logos, and Featured-In Logos components implemented. Steps component is next.
+Carousel, Testimonials, Customer Logos, Featured-In Logos, Steps, Forms, and Tables components implemented. Pricing Tables component is next.
 
 ## Phase 4 — Component Library Batch 2
 
@@ -96,6 +96,9 @@ They should not introduce CMS assumptions or section-level behavior.
 - `src/components/components/Testimonials`
 - `src/components/components/CustomerLogos`
 - `src/components/components/FeaturedInLogos`
+- `src/components/components/Steps`
+- `src/components/components/Forms`
+- `src/components/components/Tables`
 
 ## Phase 3 Completion Note
 

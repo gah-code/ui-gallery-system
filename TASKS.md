@@ -112,12 +112,12 @@ Active phase: Phase 4 — Component Library Batch 2
 - [x] Implement Testimonials component
 - [x] Implement Customer Logos component
 - [x] Implement Featured-In Logos component
+- [x] Implement Steps component
+- [x] Implement Forms component
+- [x] Implement Tables component
 
 ## Next
 
-- [ ] Implement Steps component
-- [ ] Implement Forms component
-- [ ] Implement Tables component
 - [ ] Implement Pricing Tables component
 - [ ] Implement Modal component
 

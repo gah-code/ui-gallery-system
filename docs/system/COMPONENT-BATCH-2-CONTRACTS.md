@@ -40,15 +40,15 @@ Status: Implemented
 
 ### Steps
 
-Status: Planned
+Status: Implemented
 
 ### Forms
 
-Status: Planned
+Status: Implemented
 
 ### Tables
 
-Status: Planned
+Status: Implemented
 
 ### PricingTables
 

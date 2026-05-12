@@ -254,7 +254,7 @@ Build order:
 
 ### Steps
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -296,7 +296,7 @@ Build order:
 
 ### Forms
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -343,7 +343,7 @@ Build order:
 
 ### Tables
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -587,6 +587,65 @@ It supports:
 - missing-logo fallback
 - empty-items fallback
 
-Steps and remaining Phase 4 components have not started.
+Steps is now implemented in the note below.
+
+## Steps Component Implementation Note
+
+The Steps component has been implemented as the fifth Phase 4 reusable component.
+
+It supports:
+
+- ordered-list semantics
+- numbered steps
+- icon steps
+- plain steps
+- vertical, horizontal, and responsive layouts
+- compact/default/spacious densities
+- current/complete/disabled/default statuses
+- metadata and actions slots
+- long-copy safety
+- empty-items fallback
+
+Forms is now implemented in the note below.
+
+## Forms Component Implementation Note
+
+The Forms component has been implemented as the sixth Phase 4 reusable component.
+
+It supports:
+
+- stacked, grid, and inline form layouts
+- compact/default/spacious densities
+- default/subtle/outline tones
+- title and description content
+- passed field nodes
+- form-level status messages
+- actions slot
+- footer/disclaimer content
+- disabled form behavior
+- helper/error/success Storybook states
+
+Tables is now implemented in the note below.
+
+## Tables Component Implementation Note
+
+The Tables component has been implemented as the seventh Phase 4 reusable component.
+
+It supports:
+
+- semantic table markup
+- title and description
+- caption
+- configurable columns
+- custom cell rendering
+- compact/default/spacious densities
+- default/subtle/outline tones
+- striped rows
+- responsive overflow behavior
+- status/tag/action cell content
+- long-cell content safety
+- empty-row fallback
+
+Remaining Phase 4 components have not started.
 
 Do not close Phase 4 until Component Library Batch 2 is implemented, documented, validated in Storybook, and planning state agrees.
