@@ -8,7 +8,10 @@ Phase 7 — Storybook Productization
 
 ## Current Focus
 
-Planning Phase 7 Storybook productization before implementation.
+Phase 7 Storybook productization:
+
+- Storybook hierarchy and coverage audit complete
+- next: standardize Storybook hierarchy, naming, notes, and coverage gaps
 
 ## Phase 6 Status
 
@@ -125,6 +128,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/phases/PHASE-4-COMPONENT-LIBRARY-BATCH-2.md`
 - `docs/phases/PHASE-5-SECTION-COMPONENTS.md`
 - `docs/phases/PHASE-6-GALLERY-INDEX-DEMO-PAGES.md`
+- `docs/phases/PHASE-7-STORYBOOK-PRODUCTIZATION.md`
 - `docs/system/ARCHITECTURE.md`
 - `docs/system/FOUNDATIONS.md`
 - `docs/system/PRIMITIVE-CONTRACTS.md`
@@ -137,6 +141,9 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/system/SECTION-CONTRACTS.md`
 - `docs/system/GALLERY.md`
 - `docs/system/GALLERY-CONTRACTS.md`
+- `docs/system/STORYBOOK.md`
+- `docs/system/STORYBOOK-CONTRACTS.md`
+- `docs/system/STORYBOOK-AUDIT.md`
 
 ## Runtime
 

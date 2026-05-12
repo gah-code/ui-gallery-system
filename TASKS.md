@@ -165,27 +165,35 @@ Active phase: Phase 7 — Storybook Productization
 - [x] Confirm planning docs agree
 - [x] Perform Phase 6 formal closeout
 
+### Phase 7 — Storybook Productization
+
+- [x] Plan Storybook productization scope
+- [x] Define Storybook information architecture
+- [x] Define documentation standards
+- [x] Define story naming standards
+- [x] Define story coverage expectations
+- [x] Define accessibility review expectations
+- [x] Define interaction/testing expectations
+- [x] Create Phase 7 planning doc
+- [x] Create Storybook system doc
+- [x] Create Storybook contracts doc
+- [x] Confirm implementation order for Storybook productization
+- [x] Review Storybook story hierarchy
+
 ## Now
 
 ### Phase 7 — Storybook Productization
 
-- [ ] Plan Storybook productization scope
-- [ ] Define Storybook information architecture
-- [ ] Define documentation standards
-- [ ] Define story coverage expectations
-- [ ] Define accessibility review expectations
-- [ ] Define interaction/testing expectations
-- [ ] Confirm implementation order for Storybook productization
+- [ ] Standardize Storybook hierarchy
 
 ## Next
 
-- [ ] Review Storybook story hierarchy
-- [ ] Add or refine MDX/docs surfaces
 - [ ] Standardize story naming
 - [ ] Standardize story descriptions and usage notes
 - [ ] Add Storybook coverage gaps
 - [ ] Review accessibility coverage
 - [ ] Review interaction/state coverage
+- [ ] Add or refine MDX/docs surfaces
 
 ## Later
 
