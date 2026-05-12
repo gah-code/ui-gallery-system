@@ -48,7 +48,7 @@ Page close with secondary navigation, metadata, legal/social links.
 
 ### CTASection
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 

@@ -228,7 +228,7 @@ Build order:
 
 ### CTA Section
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -362,7 +362,7 @@ npm run lint
 
 Phase 5 is active.
 
-Navigation, Hero, and Footer are now implemented in the notes below.
+Navigation, Hero, Footer, and CTA Section are now implemented in the notes below.
 
 ## Navigation Section Implementation Note
 
@@ -421,6 +421,29 @@ It supports:
 - long-link-group safety
 - responsive stacking behavior
 
-Remaining Phase 5 sections have not started.
+CTA Section is now implemented in the note below.
+
+## CTA Section Implementation Note
+
+The CTA Section has been implemented as the fourth Phase 5 section component.
+
+It supports:
+
+- semantic section rendering
+- centered, split, and compact variants
+- default/subtle/raised/outline/brand tones
+- compact/default/spacious densities
+- controlled content width
+- framed surface option
+- eyebrow metadata
+- status label
+- tags
+- actions
+- support slot
+- footer slot
+- long-copy safety
+- responsive split behavior
+
+Feature Row remains the final Phase 5 section.
 
 Do not close Phase 5 until section components are implemented, documented, validated in Storybook, and planning state agrees.

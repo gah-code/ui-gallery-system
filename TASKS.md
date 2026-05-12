@@ -137,10 +137,10 @@ Active phase: Phase 5 — Section Components
 - [x] Implement Navigation section
 - [x] Implement Hero section
 - [x] Implement Footer section
+- [x] Implement CTA section
 
 ## Next
 
-- [ ] Implement CTA section
 - [ ] Implement Feature Row section
 
 ## Later

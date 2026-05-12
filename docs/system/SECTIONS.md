@@ -46,10 +46,11 @@ Sections should not depend on:
 - `src/components/sections/Navigation`
 - `src/components/sections/Hero`
 - `src/components/sections/Footer`
+- `src/components/sections/CTASection`
 
 ## Roadmap
 
-Navigation, Hero, and Footer sections implemented. CTA Section is next.
+Navigation, Hero, Footer, and CTA Section implemented. Feature Row section is next.
 
 ## Storybook Role
 
