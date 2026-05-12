@@ -45,7 +45,11 @@ Gallery index, category browsing, DemoPageShell, and SectionComparison compose e
 
 SectionComparison composes completed Phase 5 section components for app-side comparison demos.
 
-Gallery metadata connection remains incomplete.
+Gallery metadata is static-first under `src/data/gallery/*` and now represents the implemented UI layers plus Phase 6 gallery/demo surfaces.
+
+Phase 6 implementation is complete and ready for review/closeout.
+
+Phase 7 has not started.
 
 ## Build Dependency Order
 

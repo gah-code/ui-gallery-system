@@ -48,7 +48,7 @@ Phase 6 covers:
 - Gallery/demo pages may use existing primitives, patterns, components, and sections.
 - Gallery/demo pages should not redefine component APIs.
 - Gallery/demo pages should not introduce raw CMS data.
-- `src/data/*` may hold typed static gallery metadata later.
+- `src/data/*` holds typed static gallery metadata.
 - `src/content/*` remains a future content boundary only.
 - Storybook remains the primary design-system workspace.
 - Gallery pages are browsing/demo surfaces, not the final source of design-system truth.
@@ -169,7 +169,7 @@ Build order:
 
 ### Gallery Metadata Connection
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -269,7 +269,7 @@ npm run lint
 
 Phase 6 is active.
 
-This document currently defines planning and contracts only.
+This document tracks Phase 6 planning, contracts, and implementation notes.
 
 Do not close Phase 6 until gallery/demo surfaces are implemented, documented, validated, and planning state agrees.
 
@@ -290,7 +290,7 @@ It includes:
 - static gallery items for section components
 - optional metadata helpers
 
-Gallery index UI, category browsing UI, and demo page shell are now implemented. Section comparison pages have not started.
+Gallery index UI, category browsing UI, demo page shell, section comparison pages, and gallery metadata connection are now implemented.
 
 ## Gallery Index Surface Implementation Note
 
@@ -306,7 +306,7 @@ It uses static gallery metadata to show:
 - category item previews
 - Storybook relationship note
 
-Category browsing UI and demo page shell are now implemented. Section comparison pages have not started.
+Category browsing UI, demo page shell, section comparison pages, and gallery metadata connection are now implemented.
 
 ## Gallery Category Browsing Implementation Note
 
@@ -322,7 +322,7 @@ It uses static gallery metadata to show:
 - item phase/status/path/storybook metadata
 - item tags
 
-Demo page shell is now implemented. Section comparison pages have not started.
+Demo page shell, section comparison pages, and gallery metadata connection are now implemented.
 
 ## Demo Page Shell Implementation Note
 
@@ -338,7 +338,7 @@ It supports:
 - compact/default/spacious densities
 - Storybook relationship note
 
-Section comparison pages are now implemented. Gallery metadata connection remains incomplete.
+Section comparison pages and gallery metadata connection are now implemented.
 
 ## Section Comparison Pages Implementation Note
 
@@ -354,4 +354,23 @@ They provide app-side comparison demos for completed section components:
 
 The comparison surface uses DemoPageShell and existing section components.
 
-Gallery metadata connection remains the final Phase 6 implementation task.
+Gallery metadata connection is now implemented.
+
+## Gallery Metadata Connection Implementation Note
+
+Gallery metadata has been connected to the implemented gallery/demo surfaces as the final Phase 6 implementation pass.
+
+The static metadata now covers:
+
+- completed foundations
+- completed primitives
+- completed layout patterns
+- completed reusable components
+- completed section components
+- Phase 6 gallery/demo surfaces
+
+GalleryIndex and GalleryCategoryBrowser consume the static metadata directly.
+
+All planned Phase 6 implementation tasks are now complete.
+
+Phase 6 is not closed until planning docs, gallery/demo coverage, and verification are reviewed together.

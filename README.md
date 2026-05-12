@@ -8,14 +8,13 @@ Phase 6 — Gallery Index + Demo Pages
 
 ## Current Focus
 
-Phase 6 gallery/demo implementation:
+Phase 6 gallery/demo implementation is complete.
 
-- static gallery metadata complete
-- gallery index surface complete
-- gallery category browsing complete
-- demo page shell complete
-- section comparison pages complete
-- gallery metadata connection next
+Next focus:
+
+- review Phase 6 completeness
+- verify gallery/demo metadata coverage
+- prepare Phase 6 formal closeout
 
 ## Phase 5 Status
 

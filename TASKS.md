@@ -161,10 +161,14 @@ Active phase: Phase 6 — Gallery Index + Demo Pages
 - [x] Implement gallery category browsing
 - [x] Implement demo page shell
 - [x] Implement section comparison pages
+- [x] Connect gallery metadata to existing primitives, patterns, components, and sections
 
 ## Next
 
-- [ ] Connect gallery metadata to existing primitives, patterns, components, and sections
+- [ ] Review Phase 6 implementation completeness
+- [ ] Confirm gallery/demo metadata coverage
+- [ ] Confirm planning docs agree
+- [ ] Perform Phase 6 formal closeout
 
 ## Later
 

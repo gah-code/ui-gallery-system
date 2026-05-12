@@ -17,7 +17,7 @@ Gallery contracts define the expected metadata, browsing behavior, and demo surf
 ## Implementation Order
 
 ```txt
-Gallery metadata -> Gallery index -> Category browsing -> Demo shell -> Section comparison pages
+Gallery metadata -> Gallery index -> Category browsing -> Demo shell -> Section comparison pages -> Gallery metadata connection
 ```
 
 ## Implemented Surfaces
@@ -26,6 +26,7 @@ Gallery metadata -> Gallery index -> Category browsing -> Demo shell -> Section 
 - Gallery Category Browsing: Implemented
 - Demo Page Shell: Implemented
 - Section Comparison Pages: Implemented
+- Gallery Metadata Connection: Implemented
 
 ## Metadata Contract
 

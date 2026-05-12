@@ -18,7 +18,7 @@ It helps explore the completed layers:
 |---|---|
 | Storybook design-system documentation | Storybook stories |
 | Gallery metadata | `src/data/*` |
-| Gallery/demo pages | app/demo surfaces later |
+| Gallery/demo pages | `src/components/sections/*` app-side gallery/demo surfaces |
 | UI primitives | `src/components/ui/*` |
 | Layout patterns | `src/components/patterns/*` |
 | Reusable components | `src/components/components/*` |
@@ -50,9 +50,11 @@ It helps explore the completed layers:
 - `src/components/sections/DemoPageShell`
 - `src/components/sections/SectionComparison`
 
-## Planned Gallery Surfaces
+## Metadata Connection Note
 
-- Gallery metadata connection
+Static metadata in `src/data/gallery/*` now powers the gallery index and category browsing surfaces.
+
+Gallery/demo metadata remains static-first and CMS-free.
 
 ## Category Model
 
