@@ -32,7 +32,7 @@ Primary site navigation and brand/action entry point.
 
 ### Hero
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 

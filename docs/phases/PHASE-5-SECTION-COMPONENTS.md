@@ -130,7 +130,7 @@ Build order:
 
 ### Hero
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -362,7 +362,7 @@ npm run lint
 
 Phase 5 is active.
 
-Navigation is now implemented in the note below.
+Navigation and Hero are now implemented in the notes below.
 
 ## Navigation Section Implementation Note
 
@@ -379,6 +379,27 @@ It supports:
 - compact/default/spacious densities
 - wrapping responsive behavior
 - no-links fallback
+
+Hero is now implemented in the note below.
+
+## Hero Section Implementation Note
+
+The Hero section has been implemented as the second Phase 5 section component.
+
+It supports:
+
+- semantic section rendering
+- default/centered/split/media variants
+- compact/default/spacious densities
+- controlled content width
+- eyebrow metadata
+- status label
+- tags
+- actions
+- media slot
+- footer slot
+- content-only fallback when media is missing
+- responsive split behavior
 
 Remaining Phase 5 sections have not started.
 
