@@ -273,7 +273,7 @@ Build order:
 
 ### Feature Row
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -362,7 +362,7 @@ npm run lint
 
 Phase 5 is active.
 
-Navigation, Hero, Footer, and CTA Section are now implemented in the notes below.
+All planned Phase 5 section components are now implemented in the notes below.
 
 ## Navigation Section Implementation Note
 
@@ -444,6 +444,31 @@ It supports:
 - long-copy safety
 - responsive split behavior
 
-Feature Row remains the final Phase 5 section.
+Feature Row is now implemented in the note below.
+
+## Feature Row Section Implementation Note
+
+The Feature Row section has been implemented as the fifth and final Phase 5 section component.
+
+It supports:
+
+- semantic section rendering
+- section header content
+- eyebrow metadata
+- status label
+- tags
+- section actions
+- feature grid/row/centered variants
+- auto/two/three/four column configurations
+- compact/default/spacious densities
+- FeatureBox-based feature items
+- feature icons/media/actions
+- long-copy safety
+- empty-state fallback
+- responsive stacking behavior
+
+All planned Phase 5 section components are now implemented.
+
+Phase 5 is not closed until planning docs, Storybook coverage, and verification are reviewed together.
 
 Do not close Phase 5 until section components are implemented, documented, validated in Storybook, and planning state agrees.

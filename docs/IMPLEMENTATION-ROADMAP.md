@@ -234,7 +234,7 @@ Goal: Compose primitives, components, and patterns into section-level surfaces.
 
 ### Current Focus
 
-Navigation, Hero, Footer, and CTA Section implemented. Feature Row section is next.
+All planned Phase 5 section components are implemented. Phase 5 is ready for review before formal closeout.
 
 ### Deliverables
 
@@ -245,8 +245,9 @@ Navigation, Hero, Footer, and CTA Section implemented. Feature Row section is ne
 - `src/components/sections/Hero`
 - `src/components/sections/Footer`
 - `src/components/sections/CTASection`
-- section implementations later
-- section Storybook docs later
+- `src/components/sections/FeatureRow`
+- section implementations complete
+- section Storybook docs complete
 
 Includes:
 

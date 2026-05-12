@@ -47,10 +47,11 @@ Sections should not depend on:
 - `src/components/sections/Hero`
 - `src/components/sections/Footer`
 - `src/components/sections/CTASection`
+- `src/components/sections/FeatureRow`
 
 ## Roadmap
 
-Navigation, Hero, Footer, and CTA Section implemented. Feature Row section is next.
+All planned Phase 5 section components are implemented. Phase 5 is ready for review before formal closeout.
 
 ## Storybook Role
 

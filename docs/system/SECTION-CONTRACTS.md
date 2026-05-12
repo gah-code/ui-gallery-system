@@ -56,7 +56,7 @@ Focused action section.
 
 ### FeatureRow
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 

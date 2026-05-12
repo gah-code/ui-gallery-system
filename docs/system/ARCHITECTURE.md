@@ -16,7 +16,9 @@ Phase 5 — Section Components is active.
 
 Phase 5 starts with planning/contracts before implementation.
 
-Phase 5 implementation has started with `src/components/sections/Navigation`, `src/components/sections/Hero`, `src/components/sections/Footer`, and `src/components/sections/CTASection`.
+All planned Phase 5 section components are implemented in `src/components/sections/*`.
+
+Phase 6 has not started.
 
 Phase 4 — Component Library Batch 2 is complete.
 

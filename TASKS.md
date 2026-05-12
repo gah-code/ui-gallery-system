@@ -138,10 +138,14 @@ Active phase: Phase 5 — Section Components
 - [x] Implement Hero section
 - [x] Implement Footer section
 - [x] Implement CTA section
+- [x] Implement Feature Row section
 
 ## Next
 
-- [ ] Implement Feature Row section
+- [ ] Review Phase 5 implementation completeness
+- [ ] Confirm Storybook coverage for all Phase 5 sections
+- [ ] Confirm planning docs agree
+- [ ] Perform Phase 5 formal closeout
 
 ## Later
 
