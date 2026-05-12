@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Planning
+Active — Implementation Started
 
 ## Goal
 
@@ -83,7 +83,7 @@ Sections should avoid:
 
 ### Navigation
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -338,16 +338,16 @@ Storybook should demonstrate:
 
 Phase 5 planning is complete when:
 
-- [ ] Phase 5 planning doc exists
-- [ ] Section scope is defined
-- [ ] Section API contracts are defined
-- [ ] Dependency map is defined
-- [ ] Responsive section contracts are defined
-- [ ] Accessibility expectations are defined
-- [ ] Storybook validation requirements are defined
-- [ ] Implementation order is confirmed
-- [ ] TASKS.md reflects the next implementation step
-- [ ] Verification commands pass
+- [x] Phase 5 planning doc exists
+- [x] Section scope is defined
+- [x] Section API contracts are defined
+- [x] Dependency map is defined
+- [x] Responsive section contracts are defined
+- [x] Accessibility expectations are defined
+- [x] Storybook validation requirements are defined
+- [x] Implementation order is confirmed
+- [x] TASKS.md reflects the next implementation step
+- [x] Verification commands pass
 
 ## Verification Commands
 
@@ -362,6 +362,24 @@ npm run lint
 
 Phase 5 is active.
 
-This document currently defines planning and contracts only.
+Navigation is now implemented in the note below.
+
+## Navigation Section Implementation Note
+
+The Navigation section has been implemented as the first Phase 5 section component.
+
+It supports:
+
+- semantic nav landmark
+- brand area
+- primary links
+- current page state
+- optional action area
+- default/minimal/centered variants
+- compact/default/spacious densities
+- wrapping responsive behavior
+- no-links fallback
+
+Remaining Phase 5 sections have not started.
 
 Do not close Phase 5 until section components are implemented, documented, validated in Storybook, and planning state agrees.

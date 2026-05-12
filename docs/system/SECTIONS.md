@@ -41,6 +41,14 @@ Sections should not depend on:
 - CTA Section
 - Feature Row
 
+## Implemented Sections
+
+- `src/components/sections/Navigation`
+
+## Roadmap
+
+Navigation section implemented. Hero section is next.
+
 ## Storybook Role
 
 Storybook should validate:
