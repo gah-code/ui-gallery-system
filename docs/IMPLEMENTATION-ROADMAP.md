@@ -234,7 +234,15 @@ Goal: Compose primitives, components, and patterns into section-level surfaces.
 
 ### Current Focus
 
-Plan section APIs, dependencies, responsive behavior, and Storybook validation before implementation.
+Planning section contracts, dependencies, responsive behavior, accessibility expectations, and Storybook validation before implementation.
+
+### Deliverables
+
+- `docs/phases/PHASE-5-SECTION-COMPONENTS.md`
+- `docs/system/SECTIONS.md`
+- `docs/system/SECTION-CONTRACTS.md`
+- section implementations later
+- section Storybook docs later
 
 Includes:
 

@@ -128,7 +128,11 @@ Active phase: Phase 5 — Section Components
 - [ ] Define section API contracts
 - [ ] Define section dependency map
 - [ ] Define responsive section contracts
+- [ ] Define accessibility expectations
 - [ ] Define Storybook validation requirements
+- [ ] Create Phase 5 planning doc
+- [ ] Create sections system doc
+- [ ] Create section contracts doc
 - [ ] Confirm implementation order for section components
 
 ## Next

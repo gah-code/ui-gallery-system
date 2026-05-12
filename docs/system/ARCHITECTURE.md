@@ -14,6 +14,8 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 Phase 5 — Section Components is active.
 
+Phase 5 starts with planning/contracts before implementation.
+
 Phase 4 — Component Library Batch 2 is complete.
 
 Phase 3 — Component Library Batch 1 is complete.
@@ -23,8 +25,6 @@ Phase 2 — Layout Patterns is complete.
 All planned Phase 3 Component Library Batch 1 components are implemented in `src/components/components/*`.
 
 All planned Phase 4 Component Library Batch 2 components are implemented in `src/components/components/*`.
-
-Phase 5 should begin with section API contracts, dependency mapping, and responsive behavior before implementation.
 
 Phase 1 — Elements + Foundations is complete.
 

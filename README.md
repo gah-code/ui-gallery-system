@@ -8,7 +8,14 @@ Phase 5 — Section Components
 
 ## Current Focus
 
-Planning Phase 5 section component contracts before implementation.
+Planning Phase 5 section contracts:
+
+- section scope
+- dependency map
+- responsive behavior
+- accessibility expectations
+- Storybook validation requirements
+- implementation order
 
 ## Phase 4 Status
 
@@ -98,6 +105,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/phases/PHASE-2-LAYOUT-PATTERNS.md`
 - `docs/phases/PHASE-3-COMPONENT-LIBRARY-BATCH-1.md`
 - `docs/phases/PHASE-4-COMPONENT-LIBRARY-BATCH-2.md`
+- `docs/phases/PHASE-5-SECTION-COMPONENTS.md`
 - `docs/system/ARCHITECTURE.md`
 - `docs/system/FOUNDATIONS.md`
 - `docs/system/PRIMITIVE-CONTRACTS.md`
@@ -106,6 +114,8 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/system/COMPONENTS.md`
 - `docs/system/COMPONENT-CONTRACTS.md`
 - `docs/system/COMPONENT-BATCH-2-CONTRACTS.md`
+- `docs/system/SECTIONS.md`
+- `docs/system/SECTION-CONTRACTS.md`
 
 ## Runtime
 
