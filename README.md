@@ -4,20 +4,27 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 4 — Component Library Batch 2
+Phase 5 — Section Components
 
 ## Current Focus
 
-Phase 4 component-library implementation:
+Planning Phase 5 section component contracts before implementation.
 
-- Carousel component complete
-- Testimonials component complete
-- Customer Logos component complete
-- Featured-In Logos component complete
-- Steps component complete
-- Forms component complete
-- Tables component complete
-- Pricing Tables component next
+## Phase 4 Status
+
+Phase 4 — Component Library Batch 2 is complete.
+
+The project now has reusable components for:
+
+- Carousel
+- Testimonials
+- Customer Logos
+- Featured-In Logos
+- Steps
+- Forms
+- Tables
+- Pricing Tables
+- Modal
 
 ## Phase 3 Status
 

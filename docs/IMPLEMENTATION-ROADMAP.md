@@ -139,7 +139,7 @@ Completed:
 - Accordion
 - Tabs
 
-Phase 4 — Component Library Batch 2 is now the active phase.
+Phase 4 — Component Library Batch 2 is complete.
 
 ### Deliverables
 
@@ -175,13 +175,27 @@ Includes:
 
 ## Phase 4 — Component Library Batch 2
 
-Status: Active
+Status: Complete
 
 Goal: Build heavier interactive and content-rich components.
 
-### Current Focus
+### Closeout Summary
 
-Carousel, Testimonials, Customer Logos, Featured-In Logos, Steps, Forms, and Tables components implemented. Pricing Tables component is next.
+Phase 4 established the second reusable component-library batch.
+
+Completed:
+
+- Carousel
+- Testimonials
+- Customer Logos
+- Featured-In Logos
+- Steps
+- Forms
+- Tables
+- Pricing Tables
+- Modal
+
+Phase 5 — Section Components is now the active phase.
 
 ### Deliverables
 
@@ -195,8 +209,10 @@ Carousel, Testimonials, Customer Logos, Featured-In Logos, Steps, Forms, and Tab
 - `src/components/components/Steps`
 - `src/components/components/Forms`
 - `src/components/components/Tables`
-- component implementations later
-- component Storybook docs later
+- `src/components/components/PricingTables`
+- `src/components/components/Modal`
+- implemented component files
+- component Storybook docs
 
 Includes:
 
@@ -212,7 +228,13 @@ Includes:
 
 ## Phase 5 — Section Components
 
+Status: Active
+
 Goal: Compose primitives, components, and patterns into section-level surfaces.
+
+### Current Focus
+
+Plan section APIs, dependencies, responsive behavior, and Storybook validation before implementation.
 
 Includes:
 

@@ -12,9 +12,9 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 4 — Component Library Batch 2 is active.
+Phase 5 — Section Components is active.
 
-Phase 4 started with planning/contracts before implementation.
+Phase 4 — Component Library Batch 2 is complete.
 
 Phase 3 — Component Library Batch 1 is complete.
 
@@ -22,7 +22,9 @@ Phase 2 — Layout Patterns is complete.
 
 All planned Phase 3 Component Library Batch 1 components are implemented in `src/components/components/*`.
 
-Phase 4 implementation has started with `src/components/components/Carousel`, `src/components/components/Testimonials`, `src/components/components/CustomerLogos`, `src/components/components/FeaturedInLogos`, `src/components/components/Steps`, `src/components/components/Forms`, and `src/components/components/Tables`.
+All planned Phase 4 Component Library Batch 2 components are implemented in `src/components/components/*`.
+
+Phase 5 should begin with section API contracts, dependency mapping, and responsive behavior before implementation.
 
 Phase 1 — Elements + Foundations is complete.
 
@@ -32,11 +34,11 @@ Architecture boundaries remain:
 - `src/components/ui/*` owns primitive elements.
 - `src/components/patterns/*` owns reusable layout pattern abstractions.
 - `src/components/components/*` owns reusable component-library components.
-- `src/components/sections/*` remains reserved for section-level compositions.
+- `src/components/sections/*` owns section-level compositions.
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
 
-Phase 4 planning defines component API contracts and dependency mapping before implementation.
+Phase 5 planning defines section API contracts and dependency mapping before implementation.
 
 ## Build Dependency Order
 

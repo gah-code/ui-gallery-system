@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Implementation Started
+Complete
 
 ## Goal
 
@@ -386,7 +386,7 @@ Build order:
 
 ### Pricing Tables
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -431,7 +431,7 @@ Build order:
 
 ### Modals
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -511,7 +511,7 @@ npm run lint
 
 ## Closeout / Reopen Notes
 
-Phase 4 is active.
+Phase 4 is complete.
 
 ## Carousel Component Implementation Note
 
@@ -646,6 +646,85 @@ It supports:
 - long-cell content safety
 - empty-row fallback
 
-Remaining Phase 4 components have not started.
+Pricing Tables is now implemented in the note below.
 
-Do not close Phase 4 until Component Library Batch 2 is implemented, documented, validated in Storybook, and planning state agrees.
+## Pricing Tables Component Implementation Note
+
+The Pricing Tables component has been implemented as the eighth Phase 4 reusable component.
+
+It supports:
+
+- responsive plan comparison
+- auto/two/three/four column modes
+- compact/default/spacious densities
+- default/subtle/raised/outline tones
+- visible featured plan label
+- badges
+- plan descriptions
+- price and billing period display
+- feature lists
+- action slots
+- footer notes
+- empty-plans fallback
+
+Modal is now implemented in the note below.
+
+## Modal Component Implementation Note
+
+The Modal component has been implemented as the ninth and final Phase 4 reusable component.
+
+It supports:
+
+- accessible dialog semantics
+- title and optional description association
+- close button
+- Escape close behavior
+- backdrop close behavior
+- simple focus trap
+- initial focus behavior
+- focus return behavior
+- size variants
+- tone variants
+- long-content scrolling
+- footer/action slot
+
+All planned Phase 4 components are now implemented.
+
+## Closeout Note
+
+Phase 4 is complete.
+
+Completed outcomes:
+
+- Carousel component implemented
+- Testimonials component implemented
+- Customer Logos component implemented
+- Featured-In Logos component implemented
+- Steps component implemented
+- Forms component implemented
+- Tables component implemented
+- Pricing Tables component implemented
+- Modal component implemented
+
+Storybook coverage exists for all planned Component Library Batch 2 components and validates:
+
+- canonical usage
+- variants
+- content density
+- long-copy stress
+- missing media/content states where relevant
+- interaction states
+- accessibility expectations
+- responsive behavior where relevant
+- keyboard/focus behavior for interactive components
+
+Verification:
+
+- `npm run build` passed
+- `npm run build-storybook` passed
+- `npm run lint` passed
+- `npm run test` is not configured
+
+Phase 4 closed with Phase 5 — Section Components as the next active phase.
+
+Contentful remains deferred.

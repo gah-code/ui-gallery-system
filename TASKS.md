@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Active phase: Phase 4 — Component Library Batch 2
+Active phase: Phase 5 — Section Components
 
 ## Completed
 
@@ -96,8 +96,6 @@ Active phase: Phase 4 — Component Library Batch 2
 - [x] Confirm planning docs agree
 - [x] Perform Phase 3 formal closeout
 
-## Now
-
 ### Phase 4 — Component Library Batch 2
 
 - [x] Plan component batch 2 scope
@@ -115,15 +113,34 @@ Active phase: Phase 4 — Component Library Batch 2
 - [x] Implement Steps component
 - [x] Implement Forms component
 - [x] Implement Tables component
+- [x] Implement Pricing Tables component
+- [x] Implement Modal component
+- [x] Review Phase 4 implementation completeness
+- [x] Confirm Storybook coverage for all Phase 4 components
+- [x] Confirm planning docs agree
+- [x] Perform Phase 4 formal closeout
+
+## Now
+
+### Phase 5 — Section Components
+
+- [ ] Plan section component scope
+- [ ] Define section API contracts
+- [ ] Define section dependency map
+- [ ] Define responsive section contracts
+- [ ] Define Storybook validation requirements
+- [ ] Confirm implementation order for section components
 
 ## Next
 
-- [ ] Implement Pricing Tables component
-- [ ] Implement Modal component
+- [ ] Implement Navigation section
+- [ ] Implement Hero section
+- [ ] Implement Footer section
+- [ ] Implement CTA section
+- [ ] Implement Feature Row section
 
 ## Later
 
-- [ ] Phase 5 — Section Components
 - [ ] Phase 6 — Gallery Index + Demo Pages
 - [ ] Phase 7 — Storybook Productization
 - [ ] Phase 8 — Responsive Polish + Section Contract Refinement

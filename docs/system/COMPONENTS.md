@@ -59,13 +59,13 @@ Components should not depend on:
 
 ## Roadmap
 
-Phase 3 Component Library Batch 1 is complete. Phase 4 Component Library Batch 2 is active.
+Phase 3 Component Library Batch 1 is complete. Phase 4 Component Library Batch 2 is complete.
 
-Carousel, Testimonials, Customer Logos, Featured-In Logos, Steps, Forms, and Tables components implemented. Pricing Tables component is next.
+Phase 5 Section Components is active for planning/contracts before implementation.
 
 ## Phase 4 — Component Library Batch 2
 
-Status: Active — Implementation Started
+Status: Complete
 
 Batch 2 scope:
 
@@ -99,6 +99,24 @@ They should not introduce CMS assumptions or section-level behavior.
 - `src/components/components/Steps`
 - `src/components/components/Forms`
 - `src/components/components/Tables`
+- `src/components/components/PricingTables`
+- `src/components/components/Modal`
+
+## Phase 4 Completion Note
+
+All planned Component Library Batch 2 components have been implemented and accepted for Phase 4 closeout.
+
+Implemented components:
+
+- `src/components/components/Carousel`
+- `src/components/components/Testimonials`
+- `src/components/components/CustomerLogos`
+- `src/components/components/FeaturedInLogos`
+- `src/components/components/Steps`
+- `src/components/components/Forms`
+- `src/components/components/Tables`
+- `src/components/components/PricingTables`
+- `src/components/components/Modal`
 
 ## Phase 3 Completion Note
 

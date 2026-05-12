@@ -127,3 +127,13 @@ export type {
   TablesProps,
   TableTone,
 } from './Tables';
+export { PricingTables } from './PricingTables';
+export type {
+  PricingPlan,
+  PricingTablesColumns,
+  PricingTablesDensity,
+  PricingTablesProps,
+  PricingTablesTone,
+} from './PricingTables';
+export { Modal } from './Modal';
+export type { ModalProps, ModalSize, ModalTone } from './Modal';
