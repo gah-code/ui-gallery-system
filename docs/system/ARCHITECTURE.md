@@ -16,7 +16,7 @@ Phase 6 — Gallery Index + Demo Pages is active.
 
 Phase 5 — Section Components is complete.
 
-Phase 6 should begin with gallery index scope, demo page boundaries, and metadata planning before implementation.
+Phase 6 starts with planning/contracts before implementation.
 
 Phase 4 — Component Library Batch 2 is complete.
 
@@ -37,10 +37,13 @@ Architecture boundaries remain:
 - `src/components/patterns/*` owns reusable layout pattern abstractions.
 - `src/components/components/*` owns reusable component-library components.
 - `src/components/sections/*` owns section-level compositions.
+- `src/data/*` owns typed static fixtures and static gallery metadata.
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
 
-Phase 6 should remain planning-first before gallery or demo page implementation begins.
+Gallery index composes existing system pieces and static gallery metadata as an app-side browsing surface.
+
+Category browsing, demo page shell, and section comparison page implementation have not started.
 
 ## Build Dependency Order
 
@@ -57,7 +60,7 @@ src/components/components -> reusable component-library components
 src/components/sections  -> section-level compositions
 src/components/layout    -> shell/chrome/layout ownership
 src/content              -> future content boundary, no CMS yet
-src/data                 -> typed static fixtures later
+src/data                 -> typed static fixtures and static gallery metadata
 src/styles               -> tokens, base styles, global rhythm
 src/stories              -> foundation and cross-cutting Storybook docs
 docs                     -> roadmap, phase records, taxonomy, architecture notes
@@ -73,7 +76,7 @@ docs                     -> roadmap, phase records, taxonomy, architecture notes
 | `src/components/sections` | section composition | raw CMS data |
 | `src/components/layout` | shell/chrome/page frame | individual component variants |
 | `src/content` | future content boundary | current CMS integration |
-| `src/data` | future typed fixtures | live CMS fetching |
+| `src/data` | typed static fixtures and static gallery metadata | live CMS fetching |
 | `src/styles` | tokens/base/global rhythm | component-specific visuals |
 | `src/stories` | Storybook foundations and cross-cutting docs | app routes |
 | `docs` | roadmap, phase records, architecture notes | implementation code |

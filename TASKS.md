@@ -146,17 +146,21 @@ Active phase: Phase 6 — Gallery Index + Demo Pages
 
 ### Phase 6 — Gallery Index + Demo Pages
 
-- [ ] Plan gallery index scope
-- [ ] Define demo page scope
-- [ ] Define gallery metadata model
-- [ ] Define browsing/filtering behavior
-- [ ] Define routing/demo surface boundaries
-- [ ] Define Storybook relationship
-- [ ] Confirm implementation order for gallery/demo pages
+- [x] Plan gallery index scope
+- [x] Define demo page scope
+- [x] Define gallery metadata model
+- [x] Define browsing/filtering behavior
+- [x] Define routing/demo surface boundaries
+- [x] Define Storybook relationship
+- [x] Create Phase 6 planning doc
+- [x] Create gallery system doc
+- [x] Create gallery contracts doc
+- [x] Confirm implementation order for gallery/demo pages
+- [x] Implement gallery metadata
+- [x] Implement gallery index surface
 
 ## Next
 
-- [ ] Implement gallery index surface
 - [ ] Implement gallery category browsing
 - [ ] Implement demo page shell
 - [ ] Implement section comparison pages

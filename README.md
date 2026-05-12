@@ -8,7 +8,11 @@ Phase 6 — Gallery Index + Demo Pages
 
 ## Current Focus
 
-Planning Phase 6 gallery index and demo page contracts before implementation.
+Phase 6 gallery/demo implementation:
+
+- static gallery metadata complete
+- gallery index surface complete
+- gallery category browsing next
 
 ## Phase 5 Status
 
@@ -111,6 +115,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/phases/PHASE-3-COMPONENT-LIBRARY-BATCH-1.md`
 - `docs/phases/PHASE-4-COMPONENT-LIBRARY-BATCH-2.md`
 - `docs/phases/PHASE-5-SECTION-COMPONENTS.md`
+- `docs/phases/PHASE-6-GALLERY-INDEX-DEMO-PAGES.md`
 - `docs/system/ARCHITECTURE.md`
 - `docs/system/FOUNDATIONS.md`
 - `docs/system/PRIMITIVE-CONTRACTS.md`
@@ -121,6 +126,8 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/system/COMPONENT-BATCH-2-CONTRACTS.md`
 - `docs/system/SECTIONS.md`
 - `docs/system/SECTION-CONTRACTS.md`
+- `docs/system/GALLERY.md`
+- `docs/system/GALLERY-CONTRACTS.md`
 
 ## Runtime
 

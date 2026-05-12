@@ -275,7 +275,18 @@ Goal: Make the app browsable as a UI reference system.
 
 ### Current Focus
 
-Plan gallery index scope, demo page boundaries, gallery metadata, browsing behavior, and Storybook relationship before implementation.
+Gallery index surface implemented. Gallery category browsing is next.
+
+### Deliverables
+
+- `docs/phases/PHASE-6-GALLERY-INDEX-DEMO-PAGES.md`
+- `docs/system/GALLERY.md`
+- `docs/system/GALLERY-CONTRACTS.md`
+- `src/data/gallery`
+- `src/components/sections/GalleryIndex`
+- category browsing later
+- demo page shell later
+- section comparison pages later
 
 ## Phase 7 — Storybook Productization
 
