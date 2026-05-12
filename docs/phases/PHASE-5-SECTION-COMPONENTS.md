@@ -183,7 +183,7 @@ Build order:
 
 ### Footer
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -362,7 +362,7 @@ npm run lint
 
 Phase 5 is active.
 
-Navigation and Hero are now implemented in the notes below.
+Navigation, Hero, and Footer are now implemented in the notes below.
 
 ## Navigation Section Implementation Note
 
@@ -400,6 +400,26 @@ It supports:
 - footer slot
 - content-only fallback when media is missing
 - responsive split behavior
+
+Footer is now implemented in the note below.
+
+## Footer Section Implementation Note
+
+The Footer section has been implemented as the third Phase 5 section component.
+
+It supports:
+
+- semantic footer rendering
+- brand area
+- optional brand statement
+- grouped footer links
+- social/action links
+- legal links
+- metadata/copyright
+- minimal/multi-column/centered variants
+- compact/default/spacious densities
+- long-link-group safety
+- responsive stacking behavior
 
 Remaining Phase 5 sections have not started.
 

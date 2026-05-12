@@ -234,7 +234,7 @@ Goal: Compose primitives, components, and patterns into section-level surfaces.
 
 ### Current Focus
 
-Navigation and Hero sections implemented. Footer section is next.
+Navigation, Hero, and Footer sections implemented. CTA Section is next.
 
 ### Deliverables
 
@@ -243,6 +243,7 @@ Navigation and Hero sections implemented. Footer section is next.
 - `docs/system/SECTION-CONTRACTS.md`
 - `src/components/sections/Navigation`
 - `src/components/sections/Hero`
+- `src/components/sections/Footer`
 - section implementations later
 - section Storybook docs later
 

@@ -40,7 +40,7 @@ Page introduction with headline, copy, actions, and optional media.
 
 ### Footer
 
-Status: Planned
+Status: Implemented
 
 Primary role:
 
