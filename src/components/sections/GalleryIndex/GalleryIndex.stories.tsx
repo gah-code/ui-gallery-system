@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite';
 import { GalleryIndex } from './GalleryIndex';
 
 const meta = {
-  title: 'Sections/GalleryIndex',
+  title: 'Gallery/Gallery Index',
   component: GalleryIndex,
   parameters: {
     layout: 'fullscreen',

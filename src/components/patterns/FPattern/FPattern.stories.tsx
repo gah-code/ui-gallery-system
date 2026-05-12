@@ -9,7 +9,7 @@ import { vars } from '../../../styles';
 import { FPattern } from './FPattern';
 
 const meta = {
-  title: 'Patterns/FPattern',
+  title: 'Layout Patterns/F Pattern',
   component: FPattern,
   parameters: {
     layout: 'padded',

@@ -5,7 +5,7 @@ import { Breadcrumbs } from './Breadcrumbs';
 import type { BreadcrumbSeparator, BreadcrumbSize } from './Breadcrumbs';
 
 const meta = {
-  title: 'Components/Breadcrumbs',
+  title: 'Components/Batch 1/Breadcrumbs',
   component: Breadcrumbs,
   parameters: {
     layout: 'padded',

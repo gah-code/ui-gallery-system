@@ -6,7 +6,7 @@ import { Row } from './Row';
 import type { RowAlign, RowGap } from './Row';
 
 const meta = {
-  title: 'Patterns/Row',
+  title: 'Layout Patterns/Row',
   component: Row,
   parameters: {
     layout: 'padded',

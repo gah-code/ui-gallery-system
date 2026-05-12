@@ -29,7 +29,7 @@ const defaultItems: StatItem[] = [
 ];
 
 const meta = {
-  title: 'Components/Stats',
+  title: 'Components/Batch 1/Stats',
   component: Stats,
   parameters: {
     layout: 'padded',

@@ -9,7 +9,7 @@ import { ZPattern } from './ZPattern';
 import type { ZPatternItem } from './ZPattern';
 
 const meta = {
-  title: 'Patterns/ZPattern',
+  title: 'Layout Patterns/Z Pattern',
   component: ZPattern,
   parameters: {
     layout: 'padded',

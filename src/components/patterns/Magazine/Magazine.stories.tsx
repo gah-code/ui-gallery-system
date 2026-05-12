@@ -9,7 +9,7 @@ import { Magazine } from './Magazine';
 import type { MagazineLayout } from './Magazine';
 
 const meta = {
-  title: 'Patterns/Magazine',
+  title: 'Layout Patterns/Magazine',
   component: Magazine,
   parameters: {
     layout: 'padded',

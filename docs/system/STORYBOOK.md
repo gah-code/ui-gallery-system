@@ -95,6 +95,20 @@ The initial Storybook hierarchy and coverage audit is documented in:
 
 - `docs/system/STORYBOOK-AUDIT.md`
 
+## Hierarchy Standardization Note
+
+Storybook hierarchy now follows:
+
+- Foundations
+- Primitives
+- Layout Patterns
+- Components / Batch 1
+- Components / Batch 2
+- Sections
+- Gallery
+
+Details are tracked in `docs/system/STORYBOOK-AUDIT.md`.
+
 ## Not in Scope
 
 - CMS data

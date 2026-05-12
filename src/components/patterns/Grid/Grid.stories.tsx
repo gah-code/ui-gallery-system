@@ -6,7 +6,7 @@ import { Grid } from './Grid';
 import type { GridColumns, GridGap } from './Grid';
 
 const meta = {
-  title: 'Patterns/Grid',
+  title: 'Layout Patterns/Grid',
   component: Grid,
   parameters: {
     layout: 'padded',

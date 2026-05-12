@@ -9,7 +9,7 @@ import { Sidebar } from './Sidebar';
 import type { SidebarGap, SidebarWidth } from './Sidebar';
 
 const meta = {
-  title: 'Patterns/Sidebar',
+  title: 'Layout Patterns/Sidebar',
   component: Sidebar,
   parameters: {
     layout: 'padded',

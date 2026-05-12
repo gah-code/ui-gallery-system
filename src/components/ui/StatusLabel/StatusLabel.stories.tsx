@@ -5,7 +5,7 @@ import { StatusLabel } from './StatusLabel';
 import type { StatusLabelSize, StatusLabelStatus } from './StatusLabel';
 
 const meta = {
-  title: 'UI/StatusLabel',
+  title: 'Primitives/Status Label',
   component: StatusLabel,
   parameters: {
     layout: 'padded',

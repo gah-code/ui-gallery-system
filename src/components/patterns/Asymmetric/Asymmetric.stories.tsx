@@ -8,7 +8,7 @@ import { vars } from '../../../styles';
 import { Asymmetric } from './Asymmetric';
 
 const meta = {
-  title: 'Patterns/Asymmetric',
+  title: 'Layout Patterns/Asymmetric',
   component: Asymmetric,
   parameters: {
     layout: 'padded',

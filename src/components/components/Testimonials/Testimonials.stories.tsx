@@ -6,7 +6,7 @@ import { Carousel, type CarouselItem } from '../Carousel';
 import { Testimonials, type TestimonialItem } from './Testimonials';
 
 const meta = {
-  title: 'Components/Testimonials',
+  title: 'Components/Batch 2/Testimonials',
   component: Testimonials,
   parameters: {
     layout: 'padded',

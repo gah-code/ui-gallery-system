@@ -5,7 +5,7 @@ import { Button } from './Button';
 import type { ButtonSize, ButtonVariant } from './Button';
 
 const meta = {
-  title: 'UI/Button',
+  title: 'Primitives/Button',
   component: Button,
   parameters: {
     layout: 'padded',

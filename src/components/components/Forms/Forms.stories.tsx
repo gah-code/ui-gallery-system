@@ -7,7 +7,7 @@ import { Text } from '../../ui/Text';
 import { Forms, type FormField } from './Forms';
 
 const meta = {
-  title: 'Components/Forms',
+  title: 'Components/Batch 2/Forms',
   component: Forms,
   parameters: {
     layout: 'padded',

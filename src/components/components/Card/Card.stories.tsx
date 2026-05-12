@@ -6,7 +6,7 @@ import { Text } from '../../ui/Text';
 import { Card } from './Card';
 
 const meta = {
-  title: 'Components/Card',
+  title: 'Components/Batch 1/Card',
   component: Card,
   parameters: {
     layout: 'padded',

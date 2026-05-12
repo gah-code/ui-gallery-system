@@ -34,7 +34,7 @@ const features: FeatureRowItem[] = [
 ];
 
 const meta = {
-  title: 'Sections/FeatureRow',
+  title: 'Sections/Feature Row',
   component: FeatureRow,
   parameters: {
     layout: 'fullscreen',

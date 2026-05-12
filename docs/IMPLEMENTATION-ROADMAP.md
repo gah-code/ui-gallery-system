@@ -308,7 +308,7 @@ Goal: Make Storybook the system of record for the UI layer.
 
 ### Current Focus
 
-Storybook hierarchy and coverage audit completed. Productization implementation passes remain.
+Storybook audit and hierarchy standardization completed. Naming, usage notes, coverage gaps, accessibility review, and interaction/state review remain.
 
 ### Deliverables
 
@@ -325,9 +325,11 @@ Storybook hierarchy and coverage audit completed. Productization implementation 
 
 The Storybook hierarchy and coverage audit is complete.
 
+Storybook hierarchy standardization is complete.
+
 Recommended next pass:
 
-- Storybook hierarchy standardization
+- Story naming and usage notes cleanup
 
 ## Phase 8 — Responsive Polish + Section Contract Refinement
 

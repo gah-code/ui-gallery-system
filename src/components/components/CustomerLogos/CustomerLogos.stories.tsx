@@ -4,7 +4,7 @@ import { Text } from '../../ui/Text';
 import { CustomerLogos, type CustomerLogoItem } from './CustomerLogos';
 
 const meta = {
-  title: 'Components/CustomerLogos',
+  title: 'Components/Batch 2/Customer Logos',
   component: CustomerLogos,
   parameters: {
     layout: 'padded',

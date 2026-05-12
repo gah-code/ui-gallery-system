@@ -5,7 +5,7 @@ import { Text } from '../../ui/Text';
 import { PricingTables, type PricingPlan } from './PricingTables';
 
 const meta = {
-  title: 'Components/PricingTables',
+  title: 'Components/Batch 2/Pricing Tables',
   component: PricingTables,
   parameters: {
     layout: 'padded',

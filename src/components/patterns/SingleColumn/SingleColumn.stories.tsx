@@ -13,7 +13,7 @@ import type {
 } from './SingleColumn';
 
 const meta = {
-  title: 'Patterns/SingleColumn',
+  title: 'Layout Patterns/Single Column',
   component: SingleColumn,
   parameters: {
     layout: 'padded',

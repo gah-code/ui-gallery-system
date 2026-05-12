@@ -5,7 +5,7 @@ import { Input } from './Input';
 import type { InputSize } from './Input';
 
 const meta = {
-  title: 'UI/Input',
+  title: 'Primitives/Input',
   component: Input,
   parameters: {
     layout: 'padded',

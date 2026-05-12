@@ -179,16 +179,16 @@ Active phase: Phase 7 — Storybook Productization
 - [x] Create Storybook contracts doc
 - [x] Confirm implementation order for Storybook productization
 - [x] Review Storybook story hierarchy
+- [x] Standardize Storybook hierarchy
 
 ## Now
 
 ### Phase 7 — Storybook Productization
 
-- [ ] Standardize Storybook hierarchy
+- [ ] Standardize story naming and usage notes
 
 ## Next
 
-- [ ] Standardize story naming
 - [ ] Standardize story descriptions and usage notes
 - [ ] Add Storybook coverage gaps
 - [ ] Review accessibility coverage

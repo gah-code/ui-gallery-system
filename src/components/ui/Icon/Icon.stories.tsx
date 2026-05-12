@@ -14,7 +14,7 @@ function DemoIcon() {
 }
 
 const meta = {
-  title: 'UI/Icon',
+  title: 'Primitives/Icon',
   component: Icon,
   parameters: {
     layout: 'padded',

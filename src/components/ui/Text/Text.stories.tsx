@@ -4,7 +4,7 @@ import { Text } from './Text';
 import type { TextAlign, TextTone, TextVariant } from './Text';
 
 const meta = {
-  title: 'UI/Text',
+  title: 'Primitives/Text',
   component: Text,
   parameters: {
     layout: 'padded',

@@ -7,7 +7,7 @@ import { Text } from '../../ui/Text';
 import { Tables, type TableColumn, type TableRow } from './Tables';
 
 const meta = {
-  title: 'Components/Tables',
+  title: 'Components/Batch 2/Tables',
   component: Tables,
   parameters: {
     layout: 'padded',

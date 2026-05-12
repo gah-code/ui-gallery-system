@@ -23,13 +23,11 @@ Storybook audit covers:
 
 ## Current Storybook Structure
 
-Current Storybook file discovery found 53 Storybook-matched files and 43 colocated stories under `src/components`.
+Current Storybook file discovery found 49 Storybook-matched files and 43 colocated stories under `src/components`.
 
 ```txt
 .storybook/main.ts
 .storybook/preview.ts
-src/stories/*.stories.ts
-src/stories/*.mdx
 src/stories/foundations/*.stories.tsx
 src/stories/patterns/*.stories.tsx
 src/components/ui/*/*.stories.tsx
@@ -43,7 +41,7 @@ Notes:
 - Foundation stories live under `src/stories/foundations/*`.
 - Layout pattern overview documentation exists under `src/stories/patterns/*`.
 - Primitive, pattern, component, section, and gallery/demo stories are colocated with implementation folders.
-- Starter Storybook example files still exist under `src/stories/*` with `Example/*` titles.
+- Starter Storybook example files were removed during hierarchy standardization.
 - No `src/stories/components/*` overview story folder currently exists.
 
 ## Storybook Configuration
@@ -75,27 +73,27 @@ Existing foundation stories:
 
 Existing primitive stories:
 
-- `src/components/ui/Text/Text.stories.tsx` — `UI/Text`, stories: `Default`, `Variants`, `Tones`, `Alignment`, `SemanticHeadings`, `LongCopy`
-- `src/components/ui/Button/Button.stories.tsx` — `UI/Button`, stories: `Default`, `Variants`, `Sizes`, `States`, `WithIcons`, `LinkButton`, `FullWidth`, `IconOnly`
-- `src/components/ui/Image/Image.stories.tsx` — `UI/Image`, stories: `Default`, `AspectRatios`, `ObjectFit`, `Radius`, `MissingImageFallback`, `DecorativeImage`, `LogoSafe`
-- `src/components/ui/Tag/Tag.stories.tsx` — `UI/Tag`, stories: `Default`, `Variants`, `Sizes`, `Shapes`, `LongLabel`, `MultipleTags`, `StatusExamples`, `WithIcon`
-- `src/components/ui/Input/Input.stories.tsx` — `UI/Input`, stories: `Default`, `Sizes`, `WithHelperText`, `ErrorState`, `Disabled`, `Required`, `Multiline`, `NoLabel`
-- `src/components/ui/Icon/Icon.stories.tsx` — `UI/Icon`, stories: `Default`, `Sizes`, `Tones`, `FunctionalIcon`, `InlineWithText`, `IconOnlyGuidance`
-- `src/components/ui/StatusLabel/StatusLabel.stories.tsx` — `UI/StatusLabel`, stories: `Default`, `Statuses`, `Sizes`, `WithIcon`, `LongMessage`, `CompactUsage`, `StatusMeaning`
+- `src/components/ui/Text/Text.stories.tsx` — `Primitives/Text`, stories: `Default`, `Variants`, `Tones`, `Alignment`, `SemanticHeadings`, `LongCopy`
+- `src/components/ui/Button/Button.stories.tsx` — `Primitives/Button`, stories: `Default`, `Variants`, `Sizes`, `States`, `WithIcons`, `LinkButton`, `FullWidth`, `IconOnly`
+- `src/components/ui/Image/Image.stories.tsx` — `Primitives/Image`, stories: `Default`, `AspectRatios`, `ObjectFit`, `Radius`, `MissingImageFallback`, `DecorativeImage`, `LogoSafe`
+- `src/components/ui/Tag/Tag.stories.tsx` — `Primitives/Tag`, stories: `Default`, `Variants`, `Sizes`, `Shapes`, `LongLabel`, `MultipleTags`, `StatusExamples`, `WithIcon`
+- `src/components/ui/Input/Input.stories.tsx` — `Primitives/Input`, stories: `Default`, `Sizes`, `WithHelperText`, `ErrorState`, `Disabled`, `Required`, `Multiline`, `NoLabel`
+- `src/components/ui/Icon/Icon.stories.tsx` — `Primitives/Icon`, stories: `Default`, `Sizes`, `Tones`, `FunctionalIcon`, `InlineWithText`, `IconOnlyGuidance`
+- `src/components/ui/StatusLabel/StatusLabel.stories.tsx` — `Primitives/Status Label`, stories: `Default`, `Statuses`, `Sizes`, `WithIcon`, `LongMessage`, `CompactUsage`, `StatusMeaning`
 
 ### Layout Patterns
 
 Existing layout pattern stories:
 
-- `src/components/patterns/Row/Row.stories.tsx` — `Patterns/Row`, includes layout counts, gap, alignment, long-content, and responsive contract stories
-- `src/components/patterns/Grid/Grid.stories.tsx` — `Patterns/Grid`, includes column modes, gaps, sparse/dense content, uneven heights, long-copy, and responsive contract stories
-- `src/components/patterns/SingleColumn/SingleColumn.stories.tsx` — `Patterns/SingleColumn`, includes width, gap, alignment, centered/short/long content, mixed primitive content, and responsive contract stories
-- `src/components/patterns/Sidebar/Sidebar.stories.tsx` — `Patterns/Sidebar`, includes sidebar placement, widths, gaps, long main content, dense sidebar content, stretch alignment, and responsive contract stories
-- `src/components/patterns/Magazine/Magazine.stories.tsx` — `Patterns/Magazine`, includes variants, media/content lead, reverse, missing media, dense editorial content, long-copy, mixed primitive content, and responsive contract stories
-- `src/components/patterns/ZPattern/ZPattern.stories.tsx` — `Patterns/ZPattern`, includes row counts, media position, per-item overrides, missing media, long-copy, mixed primitive content, and responsive contract stories
-- `src/components/patterns/FPattern/FPattern.stories.tsx` — `Patterns/FPattern`, includes sparse/dense content, actions, rail, wide lead, long-copy, footer, mixed primitive content, and responsive contract stories
-- `src/components/patterns/Asymmetric/Asymmetric.stories.tsx` — `Patterns/Asymmetric`, includes lead variants, offset/reverse, missing secondary content, accent, reduced content, long-copy, mixed primitive content, and responsive contract stories
-- `src/stories/patterns/LayoutPatternsOverview.stories.tsx` — `Patterns/Layout Patterns Overview`, story: `Overview`
+- `src/components/patterns/Row/Row.stories.tsx` — `Layout Patterns/Row`, includes layout counts, gap, alignment, long-content, and responsive contract stories
+- `src/components/patterns/Grid/Grid.stories.tsx` — `Layout Patterns/Grid`, includes column modes, gaps, sparse/dense content, uneven heights, long-copy, and responsive contract stories
+- `src/components/patterns/SingleColumn/SingleColumn.stories.tsx` — `Layout Patterns/Single Column`, includes width, gap, alignment, centered/short/long content, mixed primitive content, and responsive contract stories
+- `src/components/patterns/Sidebar/Sidebar.stories.tsx` — `Layout Patterns/Sidebar`, includes sidebar placement, widths, gaps, long main content, dense sidebar content, stretch alignment, and responsive contract stories
+- `src/components/patterns/Magazine/Magazine.stories.tsx` — `Layout Patterns/Magazine`, includes variants, media/content lead, reverse, missing media, dense editorial content, long-copy, mixed primitive content, and responsive contract stories
+- `src/components/patterns/ZPattern/ZPattern.stories.tsx` — `Layout Patterns/Z Pattern`, includes row counts, media position, per-item overrides, missing media, long-copy, mixed primitive content, and responsive contract stories
+- `src/components/patterns/FPattern/FPattern.stories.tsx` — `Layout Patterns/F Pattern`, includes sparse/dense content, actions, rail, wide lead, long-copy, footer, mixed primitive content, and responsive contract stories
+- `src/components/patterns/Asymmetric/Asymmetric.stories.tsx` — `Layout Patterns/Asymmetric`, includes lead variants, offset/reverse, missing secondary content, accent, reduced content, long-copy, mixed primitive content, and responsive contract stories
+- `src/stories/patterns/LayoutPatternsOverview.stories.tsx` — `Layout Patterns/Overview`, story: `Overview`
 
 ### Component Library Batch 1
 
@@ -150,10 +148,7 @@ Existing gallery/demo stories:
 Existing overview/starter stories:
 
 - `src/stories/patterns/LayoutPatternsOverview.stories.tsx` — planned cross-cutting pattern overview
-- `src/stories/Button.stories.ts` — `Example/Button`, starter Storybook example
-- `src/stories/Header.stories.ts` — `Example/Header`, starter Storybook example
-- `src/stories/Page.stories.ts` — `Example/Page`, starter Storybook example
-- `src/stories/Configure.mdx` — default starter configure docs surface
+- Starter `Example/*` stories and the default `Configure.mdx` starter docs surface were removed during hierarchy standardization.
 
 ## Coverage Strengths
 
@@ -168,8 +163,6 @@ Existing overview/starter stories:
 
 ## Coverage Gaps
 
-- Starter `Example/*` stories remain in `src/stories/*` and are not aligned with the planned Phase 7 information architecture.
-- Primitive stories use `UI/*` titles while Phase 7 contracts define a planned `Primitives` top-level group.
 - Primitive stories generally do not expose dedicated `AccessibilityNotes` or `ResponsiveContract` stories, even when accessibility guidance exists in focused stories such as `IconOnlyGuidance`, `StatusMeaning`, or `NoLabel`.
 - Layout pattern stories have strong responsive coverage but usually do not include dedicated `AccessibilityNotes` stories.
 - Some component-library stories use names like `LongCopy`, `LongContent`, `LongMessage`, or `DenseCopy` instead of the planned standard `LongCopyStress` naming.
@@ -188,8 +181,6 @@ Consistent patterns already present:
 
 Inconsistencies to address later:
 
-- Primitive stories are grouped under `UI/*`, not `Primitives/*`.
-- Starter stories are grouped under `Example/*`.
 - Some stories use singular or component-specific alternatives such as `WithAction`, `LongCopy`, `LongContent`, `LongMessage`, `DenseCopy`, `MissingImage`, `MissingMedia`, `MissingLogoFallback`, and `EmptyItems`.
 - Foundation story names use domain-specific labels such as `Overview`, `Roles`, `Scale`, `SurfaceRules`, and `FocusVisible`; these are reasonable but should be documented as foundation-specific exceptions.
 
@@ -221,7 +212,6 @@ Needs improvement:
 - Story descriptions and usage notes are not standardized across all story files.
 - Foundation stories are useful but have minimal explicit productization structure.
 - Primitive stories often rely on example coverage rather than explicit notes about scope, accessibility, and responsive expectations.
-- Starter MDX content is still present and does not reflect the project-specific UI system.
 
 ## Accessibility Review
 
@@ -269,18 +259,53 @@ Interaction gaps to address later:
 Recommended next implementation passes:
 
 ```txt
-1. Storybook hierarchy standardization
-2. Story naming and notes cleanup
-3. Accessibility notes coverage pass
-4. Interaction/state coverage pass
-5. Storybook docs/MDX surface pass, if needed
-6. Final Storybook productization review
+1. Story naming and notes cleanup
+2. Accessibility notes coverage pass
+3. Interaction/state coverage pass
+4. Storybook docs/MDX surface pass, if needed
+5. Final Storybook productization review
 ```
 
-The first follow-up pass should standardize Storybook hierarchy because it affects where naming, notes, and docs work should land.
+Hierarchy standardization is complete. The next follow-up pass should standardize story naming and usage notes.
+
+## Hierarchy Standardization Update
+
+Status: Implemented
+
+The Storybook title hierarchy has been standardized around:
+
+- `Foundations/*`
+- `Primitives/*`
+- `Layout Patterns/*`
+- `Components/Batch 1/*`
+- `Components/Batch 2/*`
+- `Sections/*`
+- `Gallery/*`
+
+Starter `Example/*` stories were handled as follows:
+
+- Deleted `src/stories/Button.stories.ts`
+- Deleted `src/stories/Button.tsx`
+- Deleted `src/stories/Header.stories.ts`
+- Deleted `src/stories/Header.tsx`
+- Deleted `src/stories/Page.stories.ts`
+- Deleted `src/stories/Page.tsx`
+- Deleted `src/stories/Configure.mdx`
+- Deleted starter-only CSS files under `src/stories`
+- Deleted starter-only assets under `src/stories/assets`
+
+Story title updates were limited to Storybook hierarchy paths and matching static Storybook reference strings in gallery metadata.
+
+No component APIs were changed.
+
+No MDX docs were added.
+
+No accessibility or interaction coverage pass was performed in this step.
 
 ## Closeout / Reopen Notes
 
-This audit does not rename, move, or rewrite stories.
+The audit pass did not rename, move, or rewrite stories.
+
+The hierarchy standardization pass updated story titles and removed confirmed starter artifacts, but did not change story examples broadly.
 
 It prepares the Storybook productization implementation work.

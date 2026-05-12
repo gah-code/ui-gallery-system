@@ -23,9 +23,9 @@ Information architecture review -> naming standardization -> documentation notes
 
 ## Information Architecture Status
 
-Status: Audited
+Status: Implemented
 
-Expected top-level groups:
+Story hierarchy now follows:
 
 - Foundations
 - Primitives
@@ -33,7 +33,7 @@ Expected top-level groups:
 - Components / Batch 1
 - Components / Batch 2
 - Sections
-- Gallery / Demo Surfaces
+- Gallery
 
 ## Naming Standards Status
 
@@ -66,3 +66,13 @@ Audit document:
 The audit identifies current hierarchy, coverage strengths, coverage gaps, naming consistency, documentation notes, accessibility coverage, and interaction/state coverage.
 
 No story renaming, moving, or rewriting was performed during the audit pass.
+
+## Hierarchy Standardization Status
+
+Status: Implemented
+
+Story titles now use the standardized top-level hierarchy. Colocated story files remain in place, and confirmed starter `Example/*` artifacts were removed.
+
+No component APIs were changed.
+
+No MDX docs were added.

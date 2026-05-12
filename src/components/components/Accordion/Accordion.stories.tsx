@@ -37,7 +37,7 @@ const baseItems: AccordionItem[] = [
 ];
 
 const meta = {
-  title: 'Components/Accordion',
+  title: 'Components/Batch 1/Accordion',
   component: Accordion,
   parameters: {
     layout: 'padded',

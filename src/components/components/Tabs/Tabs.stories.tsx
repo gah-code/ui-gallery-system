@@ -39,7 +39,7 @@ const baseItems: TabItem[] = [
 ];
 
 const meta = {
-  title: 'Components/Tabs',
+  title: 'Components/Batch 1/Tabs',
   component: Tabs,
   parameters: {
     layout: 'padded',

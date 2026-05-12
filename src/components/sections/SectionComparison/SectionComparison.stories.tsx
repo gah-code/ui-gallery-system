@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite';
 import { SectionComparison } from './SectionComparison';
 
 const meta = {
-  title: 'Sections/SectionComparison',
+  title: 'Gallery/Section Comparison',
   component: SectionComparison,
   parameters: {
     layout: 'fullscreen',

@@ -4,7 +4,7 @@ import { Text } from '../../ui/Text';
 import { Pagination } from './Pagination';
 
 const meta = {
-  title: 'Components/Pagination',
+  title: 'Components/Batch 1/Pagination',
   component: Pagination,
   parameters: {
     layout: 'padded',

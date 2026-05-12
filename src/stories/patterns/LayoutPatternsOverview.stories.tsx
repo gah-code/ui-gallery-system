@@ -4,7 +4,7 @@ import { Tag } from '../../components/ui/Tag';
 import { vars } from '../../styles';
 
 const meta = {
-  title: 'Patterns/Layout Patterns Overview',
+  title: 'Layout Patterns/Overview',
   parameters: {
     layout: 'padded',
   },

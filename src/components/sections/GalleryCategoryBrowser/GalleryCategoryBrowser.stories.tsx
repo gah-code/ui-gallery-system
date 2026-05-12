@@ -2,7 +2,7 @@ import type { Meta, StoryObj } from '@storybook/react-vite';
 import { GalleryCategoryBrowser } from './GalleryCategoryBrowser';
 
 const meta = {
-  title: 'Sections/GalleryCategoryBrowser',
+  title: 'Gallery/Gallery Category Browser',
   component: GalleryCategoryBrowser,
   parameters: {
     layout: 'fullscreen',

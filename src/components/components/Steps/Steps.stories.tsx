@@ -6,7 +6,7 @@ import { Text } from '../../ui/Text';
 import { Steps, type StepItem } from './Steps';
 
 const meta = {
-  title: 'Components/Steps',
+  title: 'Components/Batch 2/Steps',
   component: Steps,
   parameters: {
     layout: 'padded',

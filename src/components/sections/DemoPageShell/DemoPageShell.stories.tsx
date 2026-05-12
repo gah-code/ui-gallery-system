@@ -4,7 +4,7 @@ import { Text } from '../../ui/Text';
 import { DemoPageShell } from './DemoPageShell';
 
 const meta = {
-  title: 'Sections/DemoPageShell',
+  title: 'Gallery/Demo Page Shell',
   component: DemoPageShell,
   parameters: {
     layout: 'fullscreen',

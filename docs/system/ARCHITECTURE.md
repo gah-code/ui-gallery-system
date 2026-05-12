@@ -18,7 +18,13 @@ Phase 7 started with planning/contracts before implementation.
 
 The Storybook hierarchy and coverage audit is complete.
 
-The only Phase 7 implementation work completed so far is the audit; stories have not been renamed, moved, or rewritten.
+Phase 7 implementation work completed so far includes the audit and hierarchy standardization.
+
+Storybook hierarchy standardization is complete.
+
+Story files remain colocated.
+
+Component APIs were not changed.
 
 MDX docs have not been added or rewritten during Phase 7.
 
@@ -57,8 +63,6 @@ Gallery index, category browsing, DemoPageShell, and SectionComparison compose e
 SectionComparison composes completed Phase 5 section components for app-side comparison demos.
 
 Gallery metadata is static-first under `src/data/gallery/*` and now represents the implemented UI layers plus Phase 6 gallery/demo surfaces.
-
-Story files remain colocated unless a later productization pass decides otherwise.
 
 Phase 7 productization is active.
 
@@ -135,7 +139,7 @@ It should validate:
 ## Storybook Boundary
 
 - Foundation and cross-cutting docs live under `src/stories/*`.
-- Component-specific stories should be colocated with components later.
+- Component-specific stories remain colocated with components.
 - Storybook stories can use static fixtures, but should not fetch live CMS data.
 
 ## App-Shell Boundary

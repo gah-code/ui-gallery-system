@@ -6,7 +6,7 @@ import { Text } from '../../ui/Text';
 import { FeatureBox } from './FeatureBox';
 
 const meta = {
-  title: 'Components/FeatureBox',
+  title: 'Components/Batch 1/Feature Box',
   component: FeatureBox,
   parameters: {
     layout: 'padded',

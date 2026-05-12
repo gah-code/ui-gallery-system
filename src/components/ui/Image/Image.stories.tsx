@@ -5,7 +5,7 @@ import { Image } from './Image';
 import type { ImageAspectRatio, ImageFit, ImageRadius } from './Image';
 
 const meta = {
-  title: 'UI/Image',
+  title: 'Primitives/Image',
   component: Image,
   parameters: {
     layout: 'padded',

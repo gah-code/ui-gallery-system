@@ -15,7 +15,7 @@ const defaultActions = (
 );
 
 const meta = {
-  title: 'Sections/CTASection',
+  title: 'Sections/CTA Section',
   component: CTASection,
   parameters: {
     layout: 'fullscreen',

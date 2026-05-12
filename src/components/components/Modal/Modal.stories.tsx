@@ -8,7 +8,7 @@ import { Forms } from '../Forms';
 import { Modal, type ModalSize } from './Modal';
 
 const meta = {
-  title: 'Components/Modal',
+  title: 'Components/Batch 2/Modal',
   component: Modal,
   parameters: {
     layout: 'padded',

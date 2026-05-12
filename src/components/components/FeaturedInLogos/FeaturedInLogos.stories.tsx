@@ -4,7 +4,7 @@ import { Text } from '../../ui/Text';
 import { FeaturedInLogos, type FeaturedInLogoItem } from './FeaturedInLogos';
 
 const meta = {
-  title: 'Components/FeaturedInLogos',
+  title: 'Components/Batch 2/Featured In Logos',
   component: FeaturedInLogos,
   parameters: {
     layout: 'padded',

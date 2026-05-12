@@ -6,7 +6,7 @@ import { PreviewProfileCard } from './PreviewProfileCard';
 import type { PreviewProfileCardImageShape } from './PreviewProfileCard';
 
 const meta = {
-  title: 'Components/PreviewProfileCard',
+  title: 'Components/Batch 1/Preview Profile Card',
   component: PreviewProfileCard,
   parameters: {
     layout: 'padded',

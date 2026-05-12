@@ -6,7 +6,7 @@ import { Card } from '../Card';
 import { Carousel, type CarouselItem } from './Carousel';
 
 const meta = {
-  title: 'Components/Carousel',
+  title: 'Components/Batch 2/Carousel',
   component: Carousel,
   parameters: {
     layout: 'padded',

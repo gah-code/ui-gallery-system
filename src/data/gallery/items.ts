@@ -64,7 +64,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Primitive text renderer for semantic typography roles and tones.',
     phase: 'Phase 1',
     path: 'src/components/ui/Text',
-    storybook: 'UI/Text',
+    storybook: 'Primitives/Text',
     tags: ['typography', 'primitive'],
   },
   {
@@ -75,7 +75,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Primitive action control with variants, sizes, disabled state, and focus styling.',
     phase: 'Phase 1',
     path: 'src/components/ui/Button',
-    storybook: 'UI/Button',
+    storybook: 'Primitives/Button',
     tags: ['action', 'primitive'],
   },
   {
@@ -86,7 +86,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Primitive responsive image surface with aspect-ratio and fallback behavior.',
     phase: 'Phase 1',
     path: 'src/components/ui/Image',
-    storybook: 'UI/Image',
+    storybook: 'Primitives/Image',
     tags: ['media', 'primitive'],
   },
   {
@@ -97,7 +97,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Primitive metadata pill for categories, status context, and compact labels.',
     phase: 'Phase 1',
     path: 'src/components/ui/Tag',
-    storybook: 'UI/Tag',
+    storybook: 'Primitives/Tag',
     tags: ['metadata', 'primitive'],
   },
   {
@@ -108,7 +108,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Primitive form input with labels, helper text, validation state, and disabled state.',
     phase: 'Phase 1',
     path: 'src/components/ui/Input',
-    storybook: 'UI/Input',
+    storybook: 'Primitives/Input',
     tags: ['forms', 'primitive'],
   },
   {
@@ -119,7 +119,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Primitive icon wrapper for decorative and labelled icon usage.',
     phase: 'Phase 1',
     path: 'src/components/ui/Icon',
-    storybook: 'UI/Icon',
+    storybook: 'Primitives/Icon',
     tags: ['icon', 'primitive', 'accessibility'],
   },
   {
@@ -130,7 +130,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Primitive status indicator with text-first success, warning, error, info, and neutral states.',
     phase: 'Phase 1',
     path: 'src/components/ui/StatusLabel',
-    storybook: 'UI/StatusLabel',
+    storybook: 'Primitives/Status Label',
     tags: ['status', 'primitive', 'accessibility'],
   },
   {
@@ -141,7 +141,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Layout pattern for horizontal or wrapped row composition with controlled gaps.',
     phase: 'Phase 2',
     path: 'src/components/patterns/Row',
-    storybook: 'Patterns/Row',
+    storybook: 'Layout Patterns/Row',
     tags: ['layout', 'pattern'],
   },
   {
@@ -152,7 +152,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Responsive grid layout pattern for repeated content and card collections.',
     phase: 'Phase 2',
     path: 'src/components/patterns/Grid',
-    storybook: 'Patterns/Grid',
+    storybook: 'Layout Patterns/Grid',
     tags: ['layout', 'grid', 'pattern'],
   },
   {
@@ -163,7 +163,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Readable single-column layout pattern for focused content stacks.',
     phase: 'Phase 2',
     path: 'src/components/patterns/SingleColumn',
-    storybook: 'Patterns/SingleColumn',
+    storybook: 'Layout Patterns/Single Column',
     tags: ['layout', 'reading', 'pattern'],
   },
   {
@@ -174,7 +174,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Responsive main-and-sidebar layout pattern with safe stacking behavior.',
     phase: 'Phase 2',
     path: 'src/components/patterns/Sidebar',
-    storybook: 'Patterns/Sidebar',
+    storybook: 'Layout Patterns/Sidebar',
     tags: ['layout', 'sidebar', 'pattern'],
   },
   {
@@ -185,7 +185,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Editorial multi-column layout pattern for mixed content hierarchy.',
     phase: 'Phase 2',
     path: 'src/components/patterns/Magazine',
-    storybook: 'Patterns/Magazine',
+    storybook: 'Layout Patterns/Magazine',
     tags: ['layout', 'editorial', 'pattern'],
   },
   {
@@ -196,7 +196,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Alternating image/text layout pattern for sequential feature narratives.',
     phase: 'Phase 2',
     path: 'src/components/patterns/ZPattern',
-    storybook: 'Patterns/ZPattern',
+    storybook: 'Layout Patterns/Z Pattern',
     tags: ['layout', 'alternating', 'pattern'],
   },
   {
@@ -207,7 +207,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Scan-friendly layout pattern for content-heavy surfaces.',
     phase: 'Phase 2',
     path: 'src/components/patterns/FPattern',
-    storybook: 'Patterns/FPattern',
+    storybook: 'Layout Patterns/F Pattern',
     tags: ['layout', 'content', 'pattern'],
   },
   {
@@ -218,7 +218,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Asymmetric layout pattern for intentional uneven composition with responsive fallback.',
     phase: 'Phase 2',
     path: 'src/components/patterns/Asymmetric',
-    storybook: 'Patterns/Asymmetric',
+    storybook: 'Layout Patterns/Asymmetric',
     tags: ['layout', 'experimental', 'pattern'],
   },
   {
@@ -229,7 +229,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Reusable content surface for previews, summaries, media, metadata, and actions.',
     phase: 'Phase 3',
     path: 'src/components/components/Card',
-    storybook: 'Components/Card',
+    storybook: 'Components/Batch 1/Card',
     tags: ['component', 'surface'],
   },
   {
@@ -240,7 +240,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Navigation hierarchy component with current-page semantics.',
     phase: 'Phase 3',
     path: 'src/components/components/Breadcrumbs',
-    storybook: 'Components/Breadcrumbs',
+    storybook: 'Components/Batch 1/Breadcrumbs',
     tags: ['component', 'navigation', 'accessibility'],
   },
   {
@@ -251,7 +251,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Pagination control for navigating paged collections with accessible page state.',
     phase: 'Phase 3',
     path: 'src/components/components/Pagination',
-    storybook: 'Components/Pagination',
+    storybook: 'Components/Batch 1/Pagination',
     tags: ['component', 'navigation'],
   },
   {
@@ -262,7 +262,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Status message component for info, success, warning, error, and neutral notices.',
     phase: 'Phase 3',
     path: 'src/components/components/Alert',
-    storybook: 'Components/Alert',
+    storybook: 'Components/Batch 1/Alert',
     tags: ['component', 'status', 'accessibility'],
   },
   {
@@ -273,7 +273,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Metric display component for proof points and labelled quantitative summaries.',
     phase: 'Phase 3',
     path: 'src/components/components/Stats',
-    storybook: 'Components/Stats',
+    storybook: 'Components/Batch 1/Stats',
     tags: ['component', 'metrics'],
   },
   {
@@ -284,7 +284,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Reusable visual gallery component for media or content item collections.',
     phase: 'Phase 3',
     path: 'src/components/components/Gallery',
-    storybook: 'Components/Gallery',
+    storybook: 'Components/Batch 1/Gallery',
     tags: ['component', 'media', 'collection'],
   },
   {
@@ -295,7 +295,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Feature summary component with text-first meaning and optional icon, media, tags, status, and actions.',
     phase: 'Phase 3',
     path: 'src/components/components/FeatureBox',
-    storybook: 'Components/FeatureBox',
+    storybook: 'Components/Batch 1/Feature Box',
     tags: ['component', 'feature'],
   },
   {
@@ -306,7 +306,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Preview/profile card component for people, articles, projects, and metadata-rich summaries.',
     phase: 'Phase 3',
     path: 'src/components/components/PreviewProfileCard',
-    storybook: 'Components/PreviewProfileCard',
+    storybook: 'Components/Batch 1/Preview Profile Card',
     tags: ['component', 'preview', 'profile'],
   },
   {
@@ -317,7 +317,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Disclosure component for stacked expandable content with accessible control state.',
     phase: 'Phase 3',
     path: 'src/components/components/Accordion',
-    storybook: 'Components/Accordion',
+    storybook: 'Components/Batch 1/Accordion',
     tags: ['component', 'disclosure', 'interactive'],
   },
   {
@@ -328,7 +328,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Tabbed interface component for switching between related content panels.',
     phase: 'Phase 3',
     path: 'src/components/components/Tabs',
-    storybook: 'Components/Tabs',
+    storybook: 'Components/Batch 1/Tabs',
     tags: ['component', 'interactive'],
   },
   {
@@ -339,7 +339,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Carousel component for browsing sequential content with controls and keyboard guidance.',
     phase: 'Phase 4',
     path: 'src/components/components/Carousel',
-    storybook: 'Components/Carousel',
+    storybook: 'Components/Batch 2/Carousel',
     tags: ['component', 'interactive', 'collection'],
   },
   {
@@ -350,7 +350,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Quote and endorsement component with attribution, media, metadata, and carousel composition support.',
     phase: 'Phase 4',
     path: 'src/components/components/Testimonials',
-    storybook: 'Components/Testimonials',
+    storybook: 'Components/Batch 2/Testimonials',
     tags: ['component', 'social-proof'],
   },
   {
@@ -361,7 +361,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Logo collection component for customer or partner brand displays.',
     phase: 'Phase 4',
     path: 'src/components/components/CustomerLogos',
-    storybook: 'Components/CustomerLogos',
+    storybook: 'Components/Batch 2/Customer Logos',
     tags: ['component', 'logos', 'social-proof'],
   },
   {
@@ -372,7 +372,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Editorial logo strip component for press, publication, or featured-in references.',
     phase: 'Phase 4',
     path: 'src/components/components/FeaturedInLogos',
-    storybook: 'Components/FeaturedInLogos',
+    storybook: 'Components/Batch 2/Featured In Logos',
     tags: ['component', 'logos', 'editorial'],
   },
   {
@@ -383,7 +383,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Process component for ordered steps, statuses, icons, and actions.',
     phase: 'Phase 4',
     path: 'src/components/components/Steps',
-    storybook: 'Components/Steps',
+    storybook: 'Components/Batch 2/Steps',
     tags: ['component', 'process'],
   },
   {
@@ -394,7 +394,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Composable form component with fields, validation states, helper text, footer, and submit behavior slots.',
     phase: 'Phase 4',
     path: 'src/components/components/Forms',
-    storybook: 'Components/Forms',
+    storybook: 'Components/Batch 2/Forms',
     tags: ['component', 'forms'],
   },
   {
@@ -405,7 +405,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Structured data table component with responsive overflow, density, status, tags, and actions.',
     phase: 'Phase 4',
     path: 'src/components/components/Tables',
-    storybook: 'Components/Tables',
+    storybook: 'Components/Batch 2/Tables',
     tags: ['component', 'data'],
   },
   {
@@ -416,7 +416,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Plan comparison component for prices, features, badges, featured plans, and actions.',
     phase: 'Phase 4',
     path: 'src/components/components/PricingTables',
-    storybook: 'Components/PricingTables',
+    storybook: 'Components/Batch 2/Pricing Tables',
     tags: ['component', 'pricing', 'comparison'],
   },
   {
@@ -427,7 +427,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Accessible dialog component with close behavior, focus management, sizes, tones, and footer slots.',
     phase: 'Phase 4',
     path: 'src/components/components/Modal',
-    storybook: 'Components/Modal',
+    storybook: 'Components/Batch 2/Modal',
     tags: ['component', 'dialog', 'interactive', 'accessibility'],
   },
   {
@@ -471,7 +471,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Focused call-to-action section with heading, copy, metadata, actions, support slot, and responsive variants.',
     phase: 'Phase 5',
     path: 'src/components/sections/CTASection',
-    storybook: 'Sections/CTASection',
+    storybook: 'Sections/CTA Section',
     tags: ['section', 'action'],
   },
   {
@@ -482,7 +482,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Feature section for related FeatureBox-based items with responsive row/grid layouts.',
     phase: 'Phase 5',
     path: 'src/components/sections/FeatureRow',
-    storybook: 'Sections/FeatureRow',
+    storybook: 'Sections/Feature Row',
     tags: ['section', 'features'],
   },
   {
@@ -493,7 +493,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'App-side browsing entry point for the UI gallery system.',
     phase: 'Phase 6',
     path: 'src/components/sections/GalleryIndex',
-    storybook: 'Sections/GalleryIndex',
+    storybook: 'Gallery/Gallery Index',
     tags: ['gallery', 'demo', 'metadata'],
   },
   {
@@ -505,7 +505,7 @@ export const galleryItems: GalleryItem[] = [
       'Metadata-driven category browsing surface for foundations, primitives, patterns, components, and sections.',
     phase: 'Phase 6',
     path: 'src/components/sections/GalleryCategoryBrowser',
-    storybook: 'Sections/GalleryCategoryBrowser',
+    storybook: 'Gallery/Gallery Category Browser',
     tags: ['gallery', 'category-browsing', 'metadata'],
   },
   {
@@ -516,7 +516,7 @@ export const galleryItems: GalleryItem[] = [
     description: 'Reusable app-side demo frame for title, metadata, actions, and demo content.',
     phase: 'Phase 6',
     path: 'src/components/sections/DemoPageShell',
-    storybook: 'Sections/DemoPageShell',
+    storybook: 'Gallery/Demo Page Shell',
     tags: ['demo', 'shell', 'gallery'],
   },
   {
@@ -528,7 +528,7 @@ export const galleryItems: GalleryItem[] = [
       'App-side comparison surface for completed section components using realistic demo content.',
     phase: 'Phase 6',
     path: 'src/components/sections/SectionComparison',
-    storybook: 'Sections/SectionComparison',
+    storybook: 'Gallery/Section Comparison',
     tags: ['sections', 'comparison', 'demo'],
   },
 ];

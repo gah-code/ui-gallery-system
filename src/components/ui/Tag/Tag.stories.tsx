@@ -5,7 +5,7 @@ import { Tag } from './Tag';
 import type { TagShape, TagSize, TagVariant } from './Tag';
 
 const meta = {
-  title: 'UI/Tag',
+  title: 'Primitives/Tag',
   component: Tag,
   parameters: {
     layout: 'padded',

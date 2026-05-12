@@ -32,7 +32,7 @@ const galleryItems: GalleryItem[] = [
 ];
 
 const meta = {
-  title: 'Components/Gallery',
+  title: 'Components/Batch 1/Gallery',
   component: Gallery,
   parameters: {
     layout: 'padded',

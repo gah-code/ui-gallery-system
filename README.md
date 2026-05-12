@@ -11,7 +11,8 @@ Phase 7 — Storybook Productization
 Phase 7 Storybook productization:
 
 - Storybook hierarchy and coverage audit complete
-- next: standardize Storybook hierarchy, naming, notes, and coverage gaps
+- Storybook hierarchy standardized
+- next: standardize story naming, usage notes, and coverage gaps
 
 ## Phase 6 Status
 

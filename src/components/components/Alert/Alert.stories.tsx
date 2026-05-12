@@ -6,7 +6,7 @@ import { Alert } from './Alert';
 import type { AlertVariant } from './Alert';
 
 const meta = {
-  title: 'Components/Alert',
+  title: 'Components/Batch 1/Alert',
   component: Alert,
   parameters: {
     layout: 'padded',
