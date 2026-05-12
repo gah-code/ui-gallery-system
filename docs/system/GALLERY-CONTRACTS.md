@@ -23,6 +23,7 @@ Gallery metadata -> Gallery index -> Category browsing -> Demo shell -> Section 
 ## Implemented Surfaces
 
 - Gallery Index: Implemented
+- Gallery Category Browsing: Implemented
 
 ## Metadata Contract
 

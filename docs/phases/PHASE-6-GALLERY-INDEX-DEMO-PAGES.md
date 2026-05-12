@@ -97,7 +97,7 @@ Build order:
 
 ### Gallery Category Browsing
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -290,7 +290,7 @@ It includes:
 - static gallery items for section components
 - optional metadata helpers
 
-Gallery index UI is now implemented. Category browsing UI, demo page shell, and section comparison pages have not started.
+Gallery index UI and category browsing UI are now implemented. Demo page shell and section comparison pages have not started.
 
 ## Gallery Index Surface Implementation Note
 
@@ -306,4 +306,20 @@ It uses static gallery metadata to show:
 - category item previews
 - Storybook relationship note
 
-Category browsing UI, demo page shell, and section comparison pages have not started.
+Category browsing UI is now implemented. Demo page shell and section comparison pages have not started.
+
+## Gallery Category Browsing Implementation Note
+
+Gallery category browsing has been implemented as the third Phase 6 implementation pass.
+
+It uses static gallery metadata to show:
+
+- category selector controls
+- selected category summary
+- selected category item count
+- selected category implemented count
+- item cards by category
+- item phase/status/path/storybook metadata
+- item tags
+
+Demo page shell and section comparison pages have not started.

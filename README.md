@@ -12,7 +12,8 @@ Phase 6 gallery/demo implementation:
 
 - static gallery metadata complete
 - gallery index surface complete
-- gallery category browsing next
+- gallery category browsing complete
+- demo page shell next
 
 ## Phase 5 Status
 

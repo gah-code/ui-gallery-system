@@ -275,7 +275,7 @@ Goal: Make the app browsable as a UI reference system.
 
 ### Current Focus
 
-Gallery index surface implemented. Gallery category browsing is next.
+Gallery index and category browsing implemented. Demo page shell is next.
 
 ### Deliverables
 
@@ -284,7 +284,7 @@ Gallery index surface implemented. Gallery category browsing is next.
 - `docs/system/GALLERY-CONTRACTS.md`
 - `src/data/gallery`
 - `src/components/sections/GalleryIndex`
-- category browsing later
+- `src/components/sections/GalleryCategoryBrowser`
 - demo page shell later
 - section comparison pages later
 

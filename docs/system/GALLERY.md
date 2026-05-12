@@ -46,10 +46,10 @@ It helps explore the completed layers:
 ## Implemented Gallery Surfaces
 
 - `src/components/sections/GalleryIndex`
+- `src/components/sections/GalleryCategoryBrowser`
 
 ## Planned Gallery Surfaces
 
-- Category browsing
 - Demo page shell
 - Section comparison pages
 - Gallery metadata connection
