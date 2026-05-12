@@ -275,7 +275,7 @@ Goal: Make the app browsable as a UI reference system.
 
 ### Current Focus
 
-Gallery index, category browsing, and demo page shell implemented. Section comparison pages are next.
+Gallery index, category browsing, demo page shell, and section comparison pages implemented. Gallery metadata connection is next.
 
 ### Deliverables
 
@@ -286,7 +286,8 @@ Gallery index, category browsing, and demo page shell implemented. Section compa
 - `src/components/sections/GalleryIndex`
 - `src/components/sections/GalleryCategoryBrowser`
 - `src/components/sections/DemoPageShell`
-- section comparison pages later
+- `src/components/sections/SectionComparison`
+- gallery metadata connection later
 
 ## Phase 7 — Storybook Productization
 

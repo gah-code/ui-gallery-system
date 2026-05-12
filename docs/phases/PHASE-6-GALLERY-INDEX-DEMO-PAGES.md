@@ -148,7 +148,7 @@ Build order:
 
 ### Section Comparison Pages
 
-Status: Planned
+Status: Implemented
 
 Purpose:
 
@@ -338,4 +338,20 @@ It supports:
 - compact/default/spacious densities
 - Storybook relationship note
 
-Section comparison pages have not started.
+Section comparison pages are now implemented. Gallery metadata connection remains incomplete.
+
+## Section Comparison Pages Implementation Note
+
+Section comparison pages have been implemented as the fifth Phase 6 implementation pass.
+
+They provide app-side comparison demos for completed section components:
+
+- Navigation
+- Hero
+- Footer
+- CTA Section
+- Feature Row
+
+The comparison surface uses DemoPageShell and existing section components.
+
+Gallery metadata connection remains the final Phase 6 implementation task.

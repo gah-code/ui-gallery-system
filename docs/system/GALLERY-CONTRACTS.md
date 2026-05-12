@@ -25,6 +25,7 @@ Gallery metadata -> Gallery index -> Category browsing -> Demo shell -> Section 
 - Gallery Index: Implemented
 - Gallery Category Browsing: Implemented
 - Demo Page Shell: Implemented
+- Section Comparison Pages: Implemented
 
 ## Metadata Contract
 

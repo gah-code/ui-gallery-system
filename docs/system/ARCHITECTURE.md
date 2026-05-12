@@ -41,9 +41,11 @@ Architecture boundaries remain:
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
 
-Gallery index, category browsing, and DemoPageShell compose existing system pieces and static gallery metadata as app-side gallery/demo surfaces.
+Gallery index, category browsing, DemoPageShell, and SectionComparison compose existing system pieces and static gallery metadata as app-side gallery/demo surfaces.
 
-Section comparison page implementation has not started.
+SectionComparison composes completed Phase 5 section components for app-side comparison demos.
+
+Gallery metadata connection remains incomplete.
 
 ## Build Dependency Order
 

@@ -4,3 +4,5 @@ export { GalleryCategoryBrowser } from './GalleryCategoryBrowser';
 export type { GalleryCategoryBrowserProps } from './GalleryCategoryBrowser';
 export { DemoPageShell } from './DemoPageShell';
 export type { DemoPageShellProps } from './DemoPageShell';
+export { SectionComparison } from './SectionComparison';
+export type { SectionComparisonProps } from './SectionComparison';

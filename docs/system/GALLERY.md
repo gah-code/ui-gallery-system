@@ -48,10 +48,10 @@ It helps explore the completed layers:
 - `src/components/sections/GalleryIndex`
 - `src/components/sections/GalleryCategoryBrowser`
 - `src/components/sections/DemoPageShell`
+- `src/components/sections/SectionComparison`
 
 ## Planned Gallery Surfaces
 
-- Section comparison pages
 - Gallery metadata connection
 
 ## Category Model
