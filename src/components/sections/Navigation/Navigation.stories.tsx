@@ -91,6 +91,40 @@ export const ManyLinks: Story = {
   ),
 };
 
+export const LongLabels: Story = {
+  render: () => (
+    <section>
+      <Navigation
+        brand="Northstar Product Experience Design System"
+        items={[
+          { label: 'Platform orchestration overview', href: '#platform' },
+          { label: 'Reusable component documentation', href: '#components', current: true },
+          { label: 'Responsive section composition patterns', href: '#sections' },
+          { label: 'Accessibility and interaction guidance', href: '#accessibility' },
+          { label: 'Implementation roadmap and release notes', href: '#roadmap' },
+        ]}
+        actions={
+          <>
+            <Button href="#contact" variant="ghost">
+              Contact solutions
+            </Button>
+            <Button href="#start">Start implementation</Button>
+          </>
+        }
+      />
+      <div style={noteStyle}>
+        <Text as="h3" variant="heading">
+          Long-label wrapping
+        </Text>
+        <Text as="p" variant="body" tone="secondary">
+          Long brand text, link labels, current-page state, and actions wrap without adding a
+          hamburger menu or route behavior.
+        </Text>
+      </div>
+    </section>
+  ),
+};
+
 export const CurrentPage: Story = {
   render: () => (
     <Navigation

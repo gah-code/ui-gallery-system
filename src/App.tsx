@@ -1,13 +1,7 @@
-import { GalleryCategoryBrowser } from './components/sections/GalleryCategoryBrowser';
-import { GalleryIndex } from './components/sections/GalleryIndex';
+import { GallerySurfaceLayout } from './components/sections/GallerySurfaceLayout';
 
 function App() {
-  return (
-    <>
-      <GalleryIndex />
-      <GalleryCategoryBrowser />
-    </>
-  );
+  return <GallerySurfaceLayout />;
 }
 
 export default App;

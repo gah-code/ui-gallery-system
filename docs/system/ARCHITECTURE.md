@@ -12,7 +12,9 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 8 — Responsive Polish + Section Contract Refinement is active.
+Phase 9 — Static Data Shape Freeze is active.
+
+Phase 8 — Responsive Polish + Section Contract Refinement is complete.
 
 Phase 7 — Storybook Productization is complete.
 
@@ -28,7 +30,7 @@ Architecture boundaries remain:
 - `src/content/*` remains future content boundary only.
 - Storybook remains the primary design-system workspace.
 
-Gallery index, category browsing, DemoPageShell, and SectionComparison compose existing system pieces and static gallery metadata as app-side gallery/demo surfaces.
+Gallery index, category browsing, GallerySurfaceLayout, DemoPageShell, and SectionComparison compose existing system pieces and static gallery metadata as app-side gallery/demo surfaces.
 
 SectionComparison composes completed Phase 5 section components for app-side comparison demos.
 
@@ -36,17 +38,45 @@ Gallery metadata is static-first under `src/data/gallery/*` and now represents t
 
 Responsive behavior audit is complete.
 
+Responsive patch queue is documented.
+
+SectionComparison responsive patch is complete.
+
+Footer responsive patch is complete.
+
+Navigation responsive patch is complete.
+
+Gallery/demo responsive stress story coverage is complete.
+
+Prioritized responsive patch queue is complete.
+
+Section contract refinement review is complete.
+
+No required section API refinements were found.
+
+No responsive patches were applied during the prioritization pass.
+
 No responsive patches were applied during the audit pass.
 
 No section APIs were changed.
 
 No component APIs were changed.
 
-Targeted responsive patches and section contract refinement review remain active Phase 8 work.
+Phase 8 closeout review is complete.
 
-Static data shape freeze has not started.
+Beacon Bar System Alignment is complete.
+
+Phase 8 closeout review has been refreshed after Beacon Bar System Alignment.
+
+Phase 8 formal closeout is complete.
+
+Phase 9 should begin with static data shape freeze planning before implementation.
+
+Static data shape freeze has not been implemented.
 
 Contentful remains deferred.
+
+Contentful remains deferred until UI data contracts are stable.
 
 ## Build Dependency Order
 

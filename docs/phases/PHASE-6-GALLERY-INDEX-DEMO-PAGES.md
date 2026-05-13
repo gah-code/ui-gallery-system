@@ -402,3 +402,11 @@ Verification:
 Phase 6 closed with Phase 7 — Storybook Productization as the next active phase.
 
 Contentful remains deferred.
+
+## Phase 8 Gallery Layout Polish Note
+
+GalleryIndex and GalleryCategoryBrowser remain implemented Phase 6 surfaces.
+
+Phase 8 added a composed GallerySurfaceLayout to improve the app-side gallery landing flow without reopening Phase 6.
+
+No category routes, production routing, CMS assumptions, or Contentful work were introduced.

@@ -114,16 +114,25 @@ export const actions = style({
 });
 
 export const bottom = style({
-  display: 'flex',
-  flexWrap: 'wrap',
-  alignItems: 'center',
-  justifyContent: 'space-between',
+  display: 'grid',
+  justifyItems: 'start',
   gap: vars.space[4],
   borderBlockStart: `1px solid ${vars.color.border.subtle}`,
   paddingBlockStart: vars.space[4],
+  minWidth: 0,
+
+  '@media': {
+    '(min-width: 760px)': {
+      display: 'flex',
+      flexWrap: 'wrap',
+      alignItems: 'center',
+      justifyContent: 'space-between',
+    },
+  },
 });
 
 export const bottomCentered = style({
+  justifyItems: 'center',
   justifyContent: 'center',
   textAlign: 'center',
 });
@@ -132,16 +141,25 @@ export const legalLinks = style({
   display: 'flex',
   flexWrap: 'wrap',
   alignItems: 'center',
-  gap: vars.space[3],
+  rowGap: vars.space[2],
+  columnGap: vars.space[3],
+  maxWidth: '100%',
+  minWidth: 0,
 });
 
 export const socialLinks = style({
   display: 'flex',
   flexWrap: 'wrap',
   alignItems: 'center',
-  gap: vars.space[3],
+  rowGap: vars.space[2],
+  columnGap: vars.space[3],
+  maxWidth: '100%',
+  minWidth: 0,
 });
 
 export const meta = style({
+  maxWidth: '100%',
+  minWidth: 0,
   color: vars.color.text.muted,
+  overflowWrap: 'anywhere',
 });

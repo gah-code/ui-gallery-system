@@ -1,10 +1,21 @@
 import { style } from '@vanilla-extract/css';
 import { vars } from '../../../styles';
+import { galleryThemeColor } from '../GallerySurfaceLayout/GallerySurfaceLayout.css';
 
 export const root = style({
   width: '100%',
   minWidth: 0,
-  background: vars.color.surface.page,
+  background: galleryThemeColor.background,
+  color: galleryThemeColor.text,
+  transitionProperty: 'background-color, color',
+  transitionDuration: vars.motion.duration.base,
+  transitionTimingFunction: vars.motion.easing.standard,
+
+  '@media': {
+    '(prefers-reduced-motion: reduce)': {
+      transitionDuration: '0.01ms',
+    },
+  },
 });
 
 export const inner = style({
@@ -34,9 +45,9 @@ export const categorySummary = style({
   display: 'grid',
   gap: vars.space[3],
   padding: vars.space[5],
-  border: `1px solid ${vars.color.border.subtle}`,
+  border: `1px solid ${galleryThemeColor.border}`,
   borderRadius: vars.radius.lg,
-  background: vars.color.surface.subtle,
+  background: galleryThemeColor.surfaceMuted,
 });
 
 export const categoryHeader = style({
@@ -63,9 +74,9 @@ export const itemCard = style({
   alignContent: 'start',
   gap: vars.space[3],
   padding: vars.space[5],
-  border: `1px solid ${vars.color.border.subtle}`,
+  border: `1px solid ${galleryThemeColor.border}`,
   borderRadius: vars.radius.lg,
-  background: vars.color.surface.raised,
+  background: galleryThemeColor.surface,
   minWidth: 0,
   boxShadow: vars.shadow.sm,
 });
@@ -96,7 +107,27 @@ export const pathText = style({
 
 export const note = style({
   padding: vars.space[4],
-  border: `1px solid ${vars.color.border.subtle}`,
+  border: `1px solid ${galleryThemeColor.border}`,
   borderRadius: vars.radius.lg,
-  background: vars.color.surface.subtle,
+  background: galleryThemeColor.surfaceMuted,
+});
+
+export const controlButton = style({
+  background: galleryThemeColor.surface,
+  borderColor: galleryThemeColor.border,
+  color: galleryThemeColor.text,
+
+  selectors: {
+    '&:hover:not(:disabled):not([aria-disabled="true"])': {
+      background: galleryThemeColor.surfaceMuted,
+    },
+  },
+});
+
+export const textPrimary = style({
+  color: galleryThemeColor.text,
+});
+
+export const textMuted = style({
+  color: galleryThemeColor.textMuted,
 });

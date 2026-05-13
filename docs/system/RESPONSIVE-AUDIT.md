@@ -2,7 +2,7 @@
 
 ## Status
 
-Active — Audit
+Complete
 
 ## Purpose
 
@@ -60,15 +60,24 @@ Strengths:
 
 Risks / Issues:
 
-- The `minimal` variant uses `1fr auto` at all widths, so long brand text plus actions could become cramped on very small screens.
-- Link labels do not currently opt into aggressive wrapping, so unusually long unbroken labels remain a potential overflow edge case.
+- The long brand/link label wrapping issue has been patched.
 - Many-link navigation can become tall on mobile. That appears intentional for this phase, but it should remain an explicit product decision.
 
 Recommended Follow-Up:
 
-- Add a targeted responsive patch or story for long brand / long label navigation states.
-- Consider `overflowWrap` on links if long CMS-provided labels become likely in later phases.
+- Continue to monitor long-label scenarios in future app-side navigation examples.
 - Keep no-hamburger behavior documented unless production navigation requirements change.
+
+## Patch Update
+
+Status: Patched
+
+The Navigation long-label resilience issue has been addressed.
+
+Follow-up:
+
+- Continue to monitor long-label scenarios in future app-side navigation examples.
+- Gallery/demo responsive stress stories are complete.
 
 ---
 
@@ -109,13 +118,24 @@ Strengths:
 
 Risks / Issues:
 
-- The bottom row uses `justify-content: space-between`; when it wraps, mobile distribution may feel uneven.
-- Large numbers of legal/social links may remain readable but visually busy.
+- The bottom row wrapping issue has been patched.
+- Large numbers of legal/social links may remain visually busy in content-heavy demos.
 
 Recommended Follow-Up:
 
-- Consider a small mobile-specific bottom-row alignment patch if visual QA confirms awkward spacing.
-- Add or review a dense legal/social footer example before patching.
+- Continue to monitor long link groups in future content-heavy demos.
+- Navigation long-label resilience has been patched; gallery/demo responsive stress stories are next.
+
+## Patch Update
+
+Status: Patched
+
+The high-priority Footer bottom-row wrapping issue has been addressed.
+
+Follow-up:
+
+- Continue to monitor long link groups in future content-heavy demos.
+- Navigation long-label resilience and gallery/demo responsive stress stories are complete.
 
 ---
 
@@ -260,6 +280,17 @@ Recommended Follow-Up:
 - Review focus outlines inside clipped demo frames before deciding whether frame overflow needs adjustment.
 - Add a responsive comparison story or note if the surface becomes a primary review tool.
 
+## Patch Update
+
+Status: Patched
+
+The high-priority mobile density and focus clipping issue has been addressed.
+
+Follow-up:
+
+- Continue to monitor nested section density in future demos.
+- Footer bottom-row wrapping and Navigation long-label resilience have both been patched.
+
 ## Storybook Responsive Coverage Review
 
 Strengths:
@@ -273,10 +304,12 @@ Strengths:
 
 Gaps:
 
-- GalleryIndex does not yet have a dedicated responsive or long-copy stress story.
-- GalleryCategoryBrowser does not yet have a dedicated long path/tag responsive stress story.
+- GalleryIndex now includes a dedicated `ResponsiveStress` story.
+- GalleryCategoryBrowser now includes a dedicated `ResponsiveStress` story.
+- DemoPageShell now includes a dedicated `ResponsiveStress` story.
 - SectionComparison has `DenseComparison` but no explicit `ResponsiveContract` story.
-- Footer bottom-row wrapping should be visually reviewed with dense legal/social link sets.
+- Footer now includes a dedicated `BottomRowWrapping` Storybook state for dense legal/social link validation.
+- Navigation now includes a dedicated `LongLabels` Storybook state for brand/link/action wrapping validation.
 
 ## Priority Recommendations
 
@@ -286,10 +319,7 @@ Gaps:
 
 ### Medium Priority
 
-- Add targeted Storybook responsive stress coverage for GalleryIndex and GalleryCategoryBrowser.
-- Review and potentially patch Footer bottom-row wrapping/alignment on mobile.
-- Review SectionComparison mobile density and focus outline clipping.
-- Review Navigation long brand / long link labels in minimal and many-link states.
+- Gallery/demo responsive stress stories have been added for the identified coverage gaps.
 
 ### Low Priority
 
@@ -300,22 +330,79 @@ Gaps:
 ## Phase 8 Patch Candidates
 
 1. Section responsive patches
-   - Footer bottom-row mobile alignment.
-   - Navigation long-label overflow protection.
-   - SectionComparison frame density/focus containment if confirmed visually.
+   - Footer bottom-row mobile alignment. Status: Patched.
+   - Navigation long-label overflow protection. Status: Patched.
+   - SectionComparison frame density/focus containment. Status: Patched.
 2. Gallery/demo responsive patches
-   - GalleryIndex responsive/long-copy stress coverage.
-   - GalleryCategoryBrowser long path/tag stress coverage.
-   - DemoPageShell dark-mode tone refinement if needed.
+   - GalleryIndex responsive/long-copy stress coverage. Status: Implemented.
+   - GalleryCategoryBrowser long path/tag stress coverage. Status: Implemented.
+   - DemoPageShell utility-bar/metadata/action stress coverage. Status: Implemented.
 3. Storybook responsive example updates
-   - Add focused responsive stories for gallery/demo surfaces.
+   - Add focused responsive stories for gallery/demo surfaces. Status: Implemented.
    - Avoid story sprawl by adding only the stress states that map to audit risks.
 4. Section contract refinements, only if justified
    - Document when `FeatureRow` should use fixed columns versus `auto`.
    - Document Navigation no-hamburger behavior as an intentional section contract.
 
+## Patch Prioritization Update
+
+Status: Implemented
+
+Responsive patch candidates have been prioritized in:
+
+- `docs/system/RESPONSIVE-PATCH-QUEUE.md`
+
+Recommended order:
+
+1. SectionComparison mobile density + focus clipping
+2. Footer bottom-row wrapping
+3. Navigation long-label resilience
+4. Gallery/demo responsive stress stories
+
+No responsive patches were applied during the prioritization pass.
+
+No section APIs were changed.
+
+No component APIs were changed.
+
+## Storybook Stress Coverage Update
+
+Status: Implemented
+
+Focused responsive stress stories have been added or refined for gallery/demo surfaces.
+
+Covered themes:
+
+- dense metadata
+- long paths and Storybook references
+- category and item card wrapping
+- DemoPageShell beacon bar wrapping
+- dense section comparison behavior
+
+Follow-up:
+
+- Continue using Storybook as the responsive validation surface.
+
+## Gallery Surface Layout Follow-Up
+
+Status: Implemented
+
+A composed GallerySurfaceLayout was added to improve the relationship between GalleryIndex and GalleryCategoryBrowser.
+
+No core gallery APIs were changed.
+
 ## Closeout / Reopen Notes
 
-This audit does not patch responsive behavior.
+The original audit did not patch responsive behavior. Later Phase 8 passes used this audit to guide targeted local patches and Storybook responsive stress coverage.
 
-It prepares targeted responsive polish work for later Phase 8 passes.
+The Phase 8 closeout review confirmed the responsive audit, patch queue, and Storybook stress coverage are complete.
+
+## Phase 8 Closeout Update
+
+Status: Complete
+
+The responsive audit findings have been reviewed, prioritized, and addressed.
+
+High-priority and medium-priority patch candidates were completed.
+
+No section or component API changes were required.

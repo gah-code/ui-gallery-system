@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react-vite';
+import { useState } from 'react';
 import { Button } from '../../ui/Button';
 import { Text } from '../../ui/Text';
-import { DemoPageShell } from './DemoPageShell';
+import { DemoPageShell, type DemoPageShellTheme } from './DemoPageShell';
 
 const meta = {
   title: 'Gallery/Demo Page Shell',
@@ -24,6 +25,30 @@ const demoContent = (
     primitives, patterns, components, or sections here without becoming production page templates.
   </Text>
 );
+
+function ControlledDemoShellStory() {
+  const [theme, setTheme] = useState<DemoPageShellTheme>('dark');
+
+  return (
+    <DemoPageShell
+      theme={theme}
+      onThemeToggle={() =>
+        setTheme((currentTheme) => (currentTheme === 'light' ? 'dark' : 'light'))
+      }
+      phase="Phase 9"
+      category="Planning-side contract patch"
+      title="Demo shell controlled theme"
+      description="This story validates that DemoPageShell can inherit a caller-owned theme while preserving its local fallback behavior for existing usage."
+      tags={['controlled-theme', 'gallery-demo-contract', 'local-fallback-preserved']}
+      framed
+    >
+      <Text as="p" variant="body" tone="secondary">
+        The utility toggle updates caller-owned theme state in this story, matching the shared
+        gallery/demo contract without requiring a global ThemeProvider.
+      </Text>
+    </DemoPageShell>
+  );
+}
 
 export const Default: Story = {
   args: {
@@ -110,6 +135,10 @@ export const DarkMode: Story = {
   },
 };
 
+export const InheritedTheme: Story = {
+  render: () => <ControlledDemoShellStory />,
+};
+
 export const EmptyContent: Story = {
   args: {
     phase: 'Phase 6',
@@ -126,6 +155,46 @@ export const LongCopyStress: Story = {
     description:
       'This story validates that the demo page shell can handle longer explanatory copy without breaking layout, overflowing its container, or confusing the relationship between metadata, actions, and the content area that follows.',
     children: demoContent,
+  },
+};
+
+export const ResponsiveStress: Story = {
+  args: {
+    initialTheme: 'dark',
+    projectLabel: 'UI Roadmap / Demo System / Responsive Validation Workspace',
+    phase: 'Phase 8 responsive polish and section contract refinement',
+    category: 'Gallery and demo surfaces',
+    status: 'review',
+    tags: [
+      'responsive-stress',
+      'beacon-bar',
+      'metadata-wrapping',
+      'action-wrapping',
+      'dark-shell',
+      'storybook-validation',
+    ],
+    title:
+      'Demo shell responsive stress state with long utility identity, metadata, actions, and framed content',
+    description:
+      'This story validates the DemoPageShell beacon bar, local dark shell, project identity text, metadata row, actions, framed content, and note area when copy and tags wrap across viewport sizes.',
+    actions: (
+      <>
+        <Button type="button">Review responsive behavior</Button>
+        <Button type="button" variant="secondary">
+          Compare app-side demos
+        </Button>
+        <Button type="button" variant="ghost">
+          Open Storybook notes
+        </Button>
+      </>
+    ),
+    framed: true,
+    children: (
+      <Text as="p" variant="body" tone="secondary">
+        Framed content remains readable while the utility bar stacks on small screens, action groups
+        wrap at medium widths, and metadata tags avoid forcing horizontal overflow.
+      </Text>
+    ),
   },
 };
 

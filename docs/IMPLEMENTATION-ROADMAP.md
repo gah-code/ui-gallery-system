@@ -321,23 +321,72 @@ Completed:
 - interaction/state coverage review
 - final productization review
 
-Phase 8 — Responsive Polish + Section Contract Refinement is now the active phase.
+Phase 8 — Responsive Polish + Section Contract Refinement was activated after Phase 7 and is now complete.
 
 ## Phase 8 — Responsive Polish + Section Contract Refinement
 
-Status: Active
+Status: Complete
 
 Goal: Validate responsive behavior and section-level contracts.
 
 ### Current Focus
 
-Plan responsive polish scope, section contract refinement scope, responsive review criteria, and implementation order before making changes.
+Completed.
 
-Responsive behavior audit completed. Targeted responsive patches and section contract refinement review remain.
+Responsive behavior audit completed.
+
+Responsive patch candidates prioritized as the implementation queue for targeted Phase 8 patches.
+
+SectionComparison responsive patch completed as the first targeted Phase 8 patch.
+
+Footer bottom-row responsive patch completed as the second targeted Phase 8 patch.
+
+Navigation long-label responsive patch completed as the third targeted Phase 8 patch.
+
+Gallery/demo responsive stress stories completed. Prioritized responsive patch queue is complete.
+
+Section contract refinement review completed. No required section API refinements were found.
+
+Gallery Surface Layout Polish completed as a small app-side gallery composition side quest.
+
+Phase 8 closeout review completed before formal closeout.
+
+Beacon Bar System Alignment completed as a small final Phase 8 side quest.
+
+Phase 8 closeout review refreshed after Beacon Bar System Alignment before formal closeout.
+
+### Closeout Summary
+
+Phase 8 completed responsive polish and section contract review.
+
+Completed:
+
+- DemoShell Beacon Bar Polish
+- responsive behavior audit
+- responsive patch prioritization
+- SectionComparison responsive patch
+- Footer responsive patch
+- Navigation responsive patch
+- gallery/demo responsive stress stories
+- section contract refinement review
+- Gallery Surface Layout Polish
+- Beacon Bar System Alignment
+- closeout review
+- closeout review refresh
+
+No section or component API refinements were required.
+
+Phase 9 — Static Data Shape Freeze is now the active phase.
 
 ## Phase 9 — Static Data Shape Freeze
 
+Status: Active
+
 Goal: Lock UI data contracts before CMS modeling.
+
+### Current Focus
+
+Plan static data shape freeze scope, UI data contract boundaries, fixture ownership rules, and normalized view model expectations before implementation.
 
 ## Phase 10 — Contentful Readiness
 

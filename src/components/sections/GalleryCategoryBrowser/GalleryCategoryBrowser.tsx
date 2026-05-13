@@ -13,6 +13,7 @@ import {
   categoryHeader,
   categoryMeta,
   categorySummary,
+  controlButton,
   controls,
   header,
   inner,
@@ -24,6 +25,8 @@ import {
   pathText,
   root,
   tagList,
+  textMuted,
+  textPrimary,
 } from './GalleryCategoryBrowser.css';
 
 export type GalleryCategoryBrowserProps = {
@@ -66,10 +69,10 @@ export function GalleryCategoryBrowser({
       <div className={inner}>
         <div className={header}>
           <Tag variant="brand">Category browsing</Tag>
-          <Text as="h1" variant="display">
+          <Text as="h1" variant="display" className={textPrimary}>
             {title}
           </Text>
-          <Text as="p" variant="subheading" tone="secondary">
+          <Text as="p" variant="subheading" tone="secondary" className={textMuted}>
             {description}
           </Text>
         </div>
@@ -81,6 +84,7 @@ export function GalleryCategoryBrowser({
             return (
               <Button
                 aria-pressed={selected}
+                className={selected ? undefined : controlButton}
                 key={category.id}
                 onClick={() => setSelectedCategory(category.id)}
                 size="sm"
@@ -96,10 +100,10 @@ export function GalleryCategoryBrowser({
         {selectedCategorySummary ? (
           <div className={categorySummary}>
             <div className={categoryHeader}>
-              <Text as="h2" variant="heading">
+              <Text as="h2" variant="heading" className={textPrimary}>
                 {selectedCategorySummary.title}
               </Text>
-              <Text as="p" variant="body" tone="secondary">
+              <Text as="p" variant="body" tone="secondary" className={textMuted}>
                 {selectedCategorySummary.description}
               </Text>
             </div>
@@ -117,10 +121,10 @@ export function GalleryCategoryBrowser({
           {selectedItems.map((item) => (
             <article className={itemCard} key={item.id}>
               <div className={itemHeader}>
-                <Text as="h3" variant="heading">
+                <Text as="h3" variant="heading" className={textPrimary}>
                   {item.title}
                 </Text>
-                <Text as="p" variant="body" tone="secondary">
+                <Text as="p" variant="body" tone="secondary" className={textMuted}>
                   {item.description}
                 </Text>
               </div>
@@ -131,13 +135,23 @@ export function GalleryCategoryBrowser({
               </div>
 
               {item.path ? (
-                <Text as="p" variant="caption" tone="muted" className={pathText}>
+                <Text
+                  as="p"
+                  variant="caption"
+                  tone="muted"
+                  className={[pathText, textMuted].join(' ')}
+                >
                   Path: {item.path}
                 </Text>
               ) : null}
 
               {item.storybook ? (
-                <Text as="p" variant="caption" tone="muted" className={pathText}>
+                <Text
+                  as="p"
+                  variant="caption"
+                  tone="muted"
+                  className={[pathText, textMuted].join(' ')}
+                >
                   Storybook: {item.storybook}
                 </Text>
               ) : null}
@@ -156,7 +170,7 @@ export function GalleryCategoryBrowser({
         </div>
 
         <div className={note}>
-          <Text as="p" variant="body" tone="secondary">
+          <Text as="p" variant="body" tone="secondary" className={textMuted}>
             Category browsing is intentionally simple in this phase. Advanced search,
             route-level category pages, and demo pages are deferred.
           </Text>

@@ -43,6 +43,8 @@ export type DemoPageShellProps = {
   githubHref?: string;
   linkedInHref?: string;
   initialTheme?: DemoPageShellTheme;
+  theme?: DemoPageShellTheme;
+  onThemeToggle?: () => void;
   className?: string;
   contentClassName?: string;
 } & Omit<HTMLAttributes<HTMLElement>, 'title'>;
@@ -71,17 +73,32 @@ export function DemoPageShell({
   githubHref = 'https://github.com/gah-code',
   linkedInHref = 'https://www.linkedin.com/in/gilberto-haro-2b108222b/',
   initialTheme = 'light',
+  theme,
+  onThemeToggle,
   className,
   contentClassName,
   ...rest
 }: DemoPageShellProps) {
-  const [theme, setTheme] = useState<DemoPageShellTheme>(initialTheme);
+  const [internalTheme, setInternalTheme] = useState<DemoPageShellTheme>(initialTheme);
+  const activeTheme = theme ?? internalTheme;
   const hasMeta = Boolean(phase || category || status || tags.length > 0);
   const hasChildren = children !== undefined && children !== null;
-  const nextTheme = theme === 'light' ? 'dark' : 'light';
+  const nextTheme = activeTheme === 'light' ? 'dark' : 'light';
+
+  function handleThemeToggle() {
+    onThemeToggle?.();
+
+    if (theme === undefined) {
+      setInternalTheme(nextTheme);
+    }
+  }
 
   return (
-    <section {...rest} className={[root, className].filter(Boolean).join(' ')} data-theme={theme}>
+    <section
+      {...rest}
+      className={[root, className].filter(Boolean).join(' ')}
+      data-theme={activeTheme}
+    >
       <div className={[inner, densities[density]].join(' ')}>
         {showUtilityBar ? (
           <div className={utilityBar}>
@@ -114,15 +131,17 @@ export function DemoPageShell({
                 LinkedIn
               </Button>
               <Button
-                aria-label={theme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'}
-                aria-pressed={theme === 'dark'}
+                aria-label={
+                  activeTheme === 'light' ? 'Switch to dark mode' : 'Switch to light mode'
+                }
+                aria-pressed={activeTheme === 'dark'}
                 className={utilityButton}
-                onClick={() => setTheme(nextTheme)}
+                onClick={handleThemeToggle}
                 size="sm"
                 type="button"
                 variant="secondary"
               >
-                {theme === 'light' ? 'Dark mode' : 'Light mode'}
+                {activeTheme === 'light' ? 'Dark mode' : 'Light mode'}
               </Button>
             </div>
           </div>

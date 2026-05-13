@@ -180,6 +180,28 @@ export const ResponsiveContract: Story = {
   ),
 };
 
+export const BottomRowWrapping: Story = {
+  render: () => (
+    <Footer
+      brand="Bottom row wrapping"
+      description="Metadata, legal links, and social links should stack cleanly on small screens and wrap without crowding when labels are long."
+      linkGroups={[linkGroups[0]]}
+      legalLinks={[
+        { label: 'Privacy and data protection policy', href: '#privacy' },
+        { label: 'Terms of service and acceptable use', href: '#terms' },
+        { label: 'Security disclosure process', href: '#security' },
+        { label: 'Accessibility statement', href: '#accessibility' },
+      ]}
+      socialLinks={[
+        { label: 'GitHub organization', href: '#github', ariaLabel: 'GitHub organization' },
+        { label: 'LinkedIn company page', href: '#linkedin', ariaLabel: 'LinkedIn company page' },
+        { label: 'YouTube learning channel', href: '#youtube', ariaLabel: 'YouTube learning channel' },
+      ]}
+      meta="© 2026 UI Gallery System. Responsive footer metadata remains readable even when legal and social link labels wrap across multiple lines."
+    />
+  ),
+};
+
 export const AccessibilityNotes: Story = {
   render: () => (
     <Footer

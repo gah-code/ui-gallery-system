@@ -51,6 +51,16 @@ export const MetadataBehavior: Story = {
   },
 };
 
+export const ResponsiveStress: Story = {
+  args: {
+    defaultCategory: 'section',
+    title:
+      'Responsive category browser with long metadata paths, dense tags, and wrapped category controls',
+    description:
+      'This story validates category selector wrapping, selected-category summary wrapping, item card density, long source paths, Storybook references, and tag wrapping without adding routes or CMS data.',
+  },
+};
+
 export const States: Story = {
   args: {
     defaultCategory: 'section',

@@ -38,6 +38,15 @@ export const MetadataSummary: Story = {
   },
 };
 
+export const ResponsiveStress: Story = {
+  args: {
+    title: 'Responsive metadata gallery index with extended category and preview content',
+    description:
+      'This story validates long heading copy, long descriptive copy, metadata summary cards, category card wrapping, preview list wrapping, and category descriptions across narrow, medium, and wide Storybook viewports.',
+    previewItemLimit: 8,
+  },
+};
+
 export const StorybookRelationship: Story = {
   args: {
     title: 'Gallery and Storybook relationship',

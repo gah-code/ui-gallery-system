@@ -47,6 +47,7 @@ It helps explore the completed layers:
 
 - `src/components/sections/GalleryIndex`
 - `src/components/sections/GalleryCategoryBrowser`
+- `src/components/sections/GallerySurfaceLayout`
 - `src/components/sections/DemoPageShell`
 - `src/components/sections/SectionComparison`
 
@@ -87,6 +88,43 @@ The shell now includes:
 This is an additive refinement of an existing app-side gallery/demo surface.
 
 It does not reopen Phase 6, change DemoPageShell's core purpose, or introduce Contentful assumptions.
+
+## Phase 8 Gallery Surface Layout Polish Note
+
+GalleryIndex and GalleryCategoryBrowser remain implemented Phase 6 surfaces.
+
+Phase 8 added GallerySurfaceLayout as a composed app-side gallery landing flow.
+
+The layout improves responsive separation between the gallery overview and category browsing without changing either component API.
+
+No category routes, production routing, CMS assumptions, or Contentful work were introduced.
+
+## Phase 8 Closeout Note
+
+The Phase 8 closeout confirmed gallery/demo responsive polish is complete.
+
+Gallery/demo surfaces remain app-side browsing aids, and Storybook remains the primary design-system workspace.
+
+## Beacon Bar Alignment Note
+
+GalleryIndex and GalleryCategoryBrowser now share a consistent Beacon Bar pattern through the composed GallerySurfaceLayout as Phase 8 polish.
+
+This improves app-side gallery cohesion without changing the gallery metadata model or adding routes.
+
+The Phase 8 closeout review refresh includes this alignment work.
+
+## Phase 8 Gallery Polish Note
+
+Phase 8 added gallery/demo polish without reopening Phase 6.
+
+Completed:
+
+- DemoShell Beacon Bar Polish
+- Gallery Surface Layout Polish
+- Beacon Bar System Alignment
+- gallery/demo responsive stress story coverage
+
+No category routes, production routing, CMS assumptions, metadata shape changes, or Contentful work were introduced.
 
 ## Category Model
 

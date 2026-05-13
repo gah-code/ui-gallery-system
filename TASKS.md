@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Active phase: Phase 8 — Responsive Polish + Section Contract Refinement
+Active phase: Phase 9 — Static Data Shape Freeze
 
 ## Completed
 
@@ -197,34 +197,82 @@ Active phase: Phase 8 — Responsive Polish + Section Contract Refinement
 - [x] Add focused Storybook dark-mode state
 - [x] Validate responsive utility-bar behavior
 
+### Phase 8 Side Quest — Gallery Surface Layout Polish
+
+- [x] Inspect GalleryIndex and GalleryCategoryBrowser layout relationship
+- [x] Add or validate composed GallerySurfaceLayout
+- [x] Update app wiring if appropriate
+- [x] Add focused Storybook coverage
+- [x] Align stale Gallery Surface Type docs
+
+### Phase 8 Side Quest — Beacon Bar System Alignment
+
+- [x] Inspect existing DemoShell Beacon Bar behavior
+- [x] Create or reuse GalleryBeaconBar pattern
+- [x] Align GalleryIndex and GalleryCategoryBrowser beacon behavior
+- [x] Validate responsive wrapping
+- [x] Add focused Storybook coverage
+- [x] Complete Beacon Bar System Alignment
+
 ### Phase 8 — Responsive Polish + Section Contract Refinement
 
+- [x] Plan responsive polish scope
+- [x] Define section contract refinement scope
+- [x] Create Phase 8 planning doc
+- [x] Create responsive review system doc
+- [x] Create section refinement contracts doc
+- [x] Confirm implementation order for Phase 8
+- [x] Complete DemoShell Beacon Bar Polish
 - [x] Audit section responsive behavior
 - [x] Audit gallery/demo responsive behavior
+- [x] Prioritize responsive patch candidates
+- [x] Patch SectionComparison mobile density and focus clipping
+- [x] Patch Footer bottom-row wrapping
+- [x] Patch Navigation long-label resilience
+- [x] Add gallery/demo responsive stress stories
+- [x] Patch high-priority responsive issues
+- [x] Update Storybook responsive examples
+- [x] Review whether section contract refinements are needed
+- [x] Confirm no section API refinements are required
+- [x] Prepare Phase 8 closeout review
+- [x] Refresh Phase 8 closeout review
+- [x] Perform Phase 8 formal closeout
+
+### Phase 9 Planning-Side Contract Patch — Shared Gallery Theme Contract
+
+- [x] Confirm shared theme contract placement
+- [x] Move gallery/demo theme ownership to GallerySurfaceLayout
+- [x] Apply one inherited gallery/demo data-theme root
+- [x] Control GalleryBeaconBar from shared theme state
+- [x] Preserve DemoPageShell local fallback while adding controlled theme support
+- [x] Validate synced gallery dark mode in Storybook
+- [x] Confirm no static data shape freeze implementation started
 
 ## Now
 
-### Phase 8 — Responsive Polish + Section Contract Refinement
+### Phase 9 — Static Data Shape Freeze
 
-- [ ] Plan responsive polish scope
-- [ ] Define section contract refinement scope
-- [x] Review responsive behavior across sections
-- [x] Review responsive behavior across gallery/demo surfaces
-- [ ] Identify section API contract refinements
-- [ ] Identify Storybook responsive coverage needs
-- [ ] Confirm implementation order for Phase 8
+- [ ] Plan static data shape freeze scope
+- [ ] Inventory existing static metadata and fixture needs
+- [ ] Define UI data contract boundaries
+- [ ] Define fixture ownership rules
+- [ ] Define normalized view model expectations
+- [ ] Identify data shapes needed by sections
+- [ ] Identify data shapes needed by gallery/demo surfaces
+- [ ] Confirm implementation order for Phase 9
 
 ## Next
 
-- [ ] Prioritize responsive patch candidates
-- [ ] Patch high-priority responsive issues
-- [ ] Update Storybook responsive examples
-- [ ] Refine section contracts where needed
-- [ ] Update planning docs and closeout notes
+- [ ] Audit existing static gallery metadata
+- [ ] Draft normalized UI data contracts
+- [ ] Create or refine typed fixture models
+- [ ] Validate section input shapes
+- [ ] Validate gallery/demo input shapes
+- [ ] Document static data contracts
+- [ ] Prepare Contentful readiness criteria for later phases
 
 ## Later
 
-- [ ] Phase 9 — Static Data Shape Freeze
 - [ ] Phase 10 — Contentful Readiness
 - [ ] Phase 11 — Contentful Integration later
 

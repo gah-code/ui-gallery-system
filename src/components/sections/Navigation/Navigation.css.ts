@@ -33,17 +33,17 @@ export const densities = styleVariants({
 
 export const variants = styleVariants({
   default: {
-    gridTemplateColumns: '1fr',
+    gridTemplateColumns: 'minmax(0, 1fr)',
     alignItems: 'center',
 
     '@media': {
       '(min-width: 860px)': {
-        gridTemplateColumns: 'auto minmax(0, 1fr) auto',
+        gridTemplateColumns: 'minmax(0, auto) minmax(0, 1fr) minmax(0, auto)',
       },
     },
   },
   minimal: {
-    gridTemplateColumns: '1fr auto',
+    gridTemplateColumns: 'minmax(0, 1fr) minmax(0, auto)',
     alignItems: 'center',
   },
   centered: {
@@ -54,10 +54,12 @@ export const variants = styleVariants({
 });
 
 export const brand = style({
+  maxWidth: '100%',
   minWidth: 0,
   color: vars.color.text.primary,
   textDecoration: 'none',
   fontWeight: vars.font.weight.bold,
+  overflowWrap: 'anywhere',
 
   selectors: {
     '&:hover': {
@@ -74,8 +76,10 @@ export const links = style({
   display: 'flex',
   flexWrap: 'wrap',
   alignItems: 'center',
+  maxWidth: '100%',
   minWidth: 0,
-  gap: vars.space[3],
+  rowGap: vars.space[2],
+  columnGap: vars.space[3],
 });
 
 export const linksCentered = style({
@@ -83,12 +87,14 @@ export const linksCentered = style({
 });
 
 export const link = style({
+  minWidth: 0,
   color: vars.color.text.secondary,
   textDecoration: 'none',
   fontFamily: vars.font.family.body,
   fontSize: vars.font.size.sm,
   fontWeight: vars.font.weight.medium,
   lineHeight: vars.font.lineHeight.tight,
+  overflowWrap: 'anywhere',
 
   selectors: {
     '&:hover': {
@@ -111,7 +117,10 @@ export const actions = style({
   flexWrap: 'wrap',
   alignItems: 'center',
   justifyContent: 'start',
-  gap: vars.space[3],
+  maxWidth: '100%',
+  minWidth: 0,
+  rowGap: vars.space[2],
+  columnGap: vars.space[3],
 });
 
 export const actionsEnd = style({

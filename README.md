@@ -4,15 +4,35 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 8 — Responsive Polish + Section Contract Refinement
+Phase 9 — Static Data Shape Freeze
 
 ## Current Focus
 
-Phase 8 responsive polish and section contract refinement:
+Phase 9 planning is active.
 
-- DemoShell Beacon Bar Polish complete
-- responsive behavior audit complete
-- next: prioritize responsive patch candidates and contract refinements
+Current planning-side work:
+
+- shared gallery theme contract patch complete
+- next: continue static data shape freeze planning before implementation
+
+## Phase 8 Status
+
+Phase 8 — Responsive Polish + Section Contract Refinement is complete.
+
+Completed:
+
+- DemoShell Beacon Bar Polish
+- responsive behavior audit
+- prioritized responsive patch queue
+- SectionComparison responsive patch
+- Footer responsive patch
+- Navigation responsive patch
+- gallery/demo responsive stress stories
+- section contract refinement review
+- Gallery Surface Layout Polish
+- Beacon Bar System Alignment
+
+No section or component API refinements were required.
 
 ## Phase 7 Status
 
@@ -146,6 +166,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/phases/PHASE-6-GALLERY-INDEX-DEMO-PAGES.md`
 - `docs/phases/PHASE-7-STORYBOOK-PRODUCTIZATION.md`
 - `docs/phases/PHASE-8-RESPONSIVE-POLISH-SECTION-CONTRACTS.md`
+- `docs/phases/PHASE-9-STATIC-DATA-SHAPE-FREEZE.md`
 - `docs/system/ARCHITECTURE.md`
 - `docs/system/FOUNDATIONS.md`
 - `docs/system/PRIMITIVE-CONTRACTS.md`
@@ -163,7 +184,9 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/system/STORYBOOK-AUDIT.md`
 - `docs/system/RESPONSIVE-REVIEW.md`
 - `docs/system/RESPONSIVE-AUDIT.md`
+- `docs/system/RESPONSIVE-PATCH-QUEUE.md`
 - `docs/system/SECTION-REFINEMENT-CONTRACTS.md`
+- `docs/system/SECTION-CONTRACT-REFINEMENT-REVIEW.md`
 
 ## Runtime
 
