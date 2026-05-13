@@ -8,11 +8,11 @@ Phase 8 — Responsive Polish + Section Contract Refinement
 
 ## Current Focus
 
-Planning Phase 8 responsive polish and section contract refinement before main implementation.
+Phase 8 responsive polish and section contract refinement:
 
-Phase 8 side quest complete:
-
-- DemoShell Beacon Bar Polish refined the existing DemoPageShell utility area, local shell theme behavior, social actions, and responsive wrapping.
+- DemoShell Beacon Bar Polish complete
+- responsive behavior audit complete
+- next: prioritize responsive patch candidates and contract refinements
 
 ## Phase 7 Status
 
@@ -162,6 +162,8 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/system/STORYBOOK-CONTRACTS.md`
 - `docs/system/STORYBOOK-AUDIT.md`
 - `docs/system/RESPONSIVE-REVIEW.md`
+- `docs/system/RESPONSIVE-AUDIT.md`
+- `docs/system/SECTION-REFINEMENT-CONTRACTS.md`
 
 ## Runtime
 

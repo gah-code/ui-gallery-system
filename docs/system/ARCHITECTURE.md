@@ -34,9 +34,15 @@ SectionComparison composes completed Phase 5 section components for app-side com
 
 Gallery metadata is static-first under `src/data/gallery/*` and now represents the implemented UI layers plus Phase 6 gallery/demo surfaces.
 
-Phase 8 should begin with responsive review and section contract refinement planning before implementation.
+Responsive behavior audit is complete.
 
-Phase 8 implementation has not started.
+No responsive patches were applied during the audit pass.
+
+No section APIs were changed.
+
+No component APIs were changed.
+
+Targeted responsive patches and section contract refinement review remain active Phase 8 work.
 
 Static data shape freeze has not started.
 

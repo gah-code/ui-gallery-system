@@ -48,4 +48,30 @@ This did not change DemoPageShell's core purpose.
 
 This did not introduce CMS or Contentful assumptions.
 
-Main Phase 8 responsive/contract audits remain active.
+Main Phase 8 contract refinement and targeted patch work remain active.
+
+## Responsive Behavior Audit Implementation Note
+
+The responsive behavior audit has been completed as the first main Phase 8 implementation pass.
+
+The audit reviewed:
+
+- Navigation
+- Hero
+- Footer
+- CTASection
+- FeatureRow
+- GalleryIndex
+- GalleryCategoryBrowser
+- DemoPageShell
+- SectionComparison
+
+The audit documents strengths, risks, and recommended follow-up patches in:
+
+- `docs/system/RESPONSIVE-AUDIT.md`
+
+No responsive patches were applied during this pass.
+
+No section APIs were changed.
+
+No component APIs were changed.

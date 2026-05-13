@@ -197,25 +197,29 @@ Active phase: Phase 8 — Responsive Polish + Section Contract Refinement
 - [x] Add focused Storybook dark-mode state
 - [x] Validate responsive utility-bar behavior
 
+### Phase 8 — Responsive Polish + Section Contract Refinement
+
+- [x] Audit section responsive behavior
+- [x] Audit gallery/demo responsive behavior
+
 ## Now
 
 ### Phase 8 — Responsive Polish + Section Contract Refinement
 
 - [ ] Plan responsive polish scope
 - [ ] Define section contract refinement scope
-- [ ] Review responsive behavior across sections
-- [ ] Review responsive behavior across gallery/demo surfaces
+- [x] Review responsive behavior across sections
+- [x] Review responsive behavior across gallery/demo surfaces
 - [ ] Identify section API contract refinements
 - [ ] Identify Storybook responsive coverage needs
 - [ ] Confirm implementation order for Phase 8
 
 ## Next
 
-- [ ] Audit section responsive behavior
-- [ ] Audit gallery/demo responsive behavior
-- [ ] Refine section contracts where needed
-- [ ] Patch responsive issues
+- [ ] Prioritize responsive patch candidates
+- [ ] Patch high-priority responsive issues
 - [ ] Update Storybook responsive examples
+- [ ] Refine section contracts where needed
 - [ ] Update planning docs and closeout notes
 
 ## Later
