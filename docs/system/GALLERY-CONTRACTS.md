@@ -87,6 +87,21 @@ Status:
 
 The metadata contract remains eligible for refinement during the later static data shape freeze phase.
 
+## Phase 8 DemoShell Beacon Bar Contract Note
+
+Status: Implemented
+
+DemoPageShell now supports a small shell-level utility area for:
+
+- project identity
+- GitHub and LinkedIn profile actions
+- local light/dark shell theme behavior
+- responsive utility-bar wrapping
+
+This remains an app-side demo shell contract.
+
+It does not create production routing, CMS assumptions, or a broad app-wide theme system.
+
 ## Browsing Behavior
 
 Initial browsing should support:

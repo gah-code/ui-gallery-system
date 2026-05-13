@@ -4,19 +4,30 @@ A UI-first, Storybook-centered, gallery/index-driven frontend system.
 
 ## Current Phase
 
-Phase 7 — Storybook Productization
+Phase 8 — Responsive Polish + Section Contract Refinement
 
 ## Current Focus
 
-Phase 7 Storybook productization:
+Planning Phase 8 responsive polish and section contract refinement before main implementation.
 
-- Storybook hierarchy and coverage audit complete
-- Storybook hierarchy standardized
-- story naming and usage notes standardized
-- accessibility coverage reviewed
-- interaction/state coverage reviewed
-- final Storybook productization review complete
-- next: Phase 7 formal closeout
+Phase 8 side quest complete:
+
+- DemoShell Beacon Bar Polish refined the existing DemoPageShell utility area, local shell theme behavior, social actions, and responsive wrapping.
+
+## Phase 7 Status
+
+Phase 7 — Storybook Productization is complete.
+
+Storybook now has:
+
+- standardized hierarchy
+- starter artifact cleanup
+- standardized story naming and usage notes
+- reviewed accessibility coverage
+- reviewed interaction/state coverage
+- final productization review complete
+
+Storybook remains the primary design-system workspace.
 
 ## Phase 6 Status
 
@@ -134,6 +145,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/phases/PHASE-5-SECTION-COMPONENTS.md`
 - `docs/phases/PHASE-6-GALLERY-INDEX-DEMO-PAGES.md`
 - `docs/phases/PHASE-7-STORYBOOK-PRODUCTIZATION.md`
+- `docs/phases/PHASE-8-RESPONSIVE-POLISH-SECTION-CONTRACTS.md`
 - `docs/system/ARCHITECTURE.md`
 - `docs/system/FOUNDATIONS.md`
 - `docs/system/PRIMITIVE-CONTRACTS.md`
@@ -149,6 +161,7 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 - `docs/system/STORYBOOK.md`
 - `docs/system/STORYBOOK-CONTRACTS.md`
 - `docs/system/STORYBOOK-AUDIT.md`
+- `docs/system/RESPONSIVE-REVIEW.md`
 
 ## Runtime
 

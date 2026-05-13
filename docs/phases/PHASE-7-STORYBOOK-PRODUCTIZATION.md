@@ -2,7 +2,7 @@
 
 ## Status
 
-Active
+Complete
 
 ## Goal
 
@@ -171,11 +171,11 @@ npm run lint
 
 ## Closeout / Reopen Notes
 
-Phase 7 is active.
+Phase 7 is complete.
 
 This document defines planning/contracts and tracks Phase 7 implementation notes.
 
-Do not close Phase 7 until Storybook productization work is implemented, reviewed, documented, and planning state agrees.
+Phase 7 closed after Storybook productization work was implemented, reviewed, documented, and planning state agreed.
 
 ## Storybook Hierarchy + Coverage Audit Implementation Note
 
@@ -294,4 +294,40 @@ Decision:
 - Component APIs were not changed.
 - Story files remain colocated.
 
-Phase 7 is ready for formal closeout if verification passes.
+Phase 7 proceeded to formal closeout after verification passed.
+
+## Closeout Note
+
+Phase 7 is complete.
+
+Completed outcomes:
+
+- Storybook productization planning/contracts created
+- Storybook hierarchy and coverage audit completed
+- Storybook hierarchy standardized
+- starter Storybook artifacts removed
+- story naming and lightweight usage notes standardized
+- accessibility coverage reviewed
+- interaction/state coverage reviewed
+- final Storybook productization review completed
+
+Storybook now acts as the primary design-system workspace for the current UI layer.
+
+Confirmed decisions:
+
+- Story files remain colocated.
+- Component APIs were not changed.
+- App-side gallery/demo surfaces remain browsing aids.
+- MDX docs are not required for Phase 7 closeout at this time.
+- Formal interaction tests are not configured and remain out of scope for this phase.
+
+Verification:
+
+- `npm run build` passed
+- `npm run build-storybook` passed
+- `npm run lint` passed
+- `npm run test` is not configured
+
+Phase 7 closed with Phase 8 — Responsive Polish + Section Contract Refinement as the next active phase.
+
+Contentful remains deferred.

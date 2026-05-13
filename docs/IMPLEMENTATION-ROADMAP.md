@@ -286,7 +286,7 @@ Completed:
 - Section Comparison Pages
 - Gallery Metadata Connection
 
-Phase 7 — Storybook Productization is now the active phase.
+Phase 7 — Storybook Productization became active after Phase 6 closeout and is now complete.
 
 ### Deliverables
 
@@ -302,47 +302,36 @@ Phase 7 — Storybook Productization is now the active phase.
 
 ## Phase 7 — Storybook Productization
 
-Status: Active
+Status: Complete
 
 Goal: Make Storybook the system of record for the UI layer.
 
-### Current Focus
+### Closeout Summary
 
-Storybook audit, hierarchy standardization, story naming/usage notes standardization, accessibility coverage review, interaction/state review, and final productization review are complete. Phase 7 is ready for formal closeout.
+Phase 7 productized Storybook as the primary design-system workspace.
 
-### Deliverables
+Completed:
 
-- `docs/phases/PHASE-7-STORYBOOK-PRODUCTIZATION.md`
-- `docs/system/STORYBOOK.md`
-- `docs/system/STORYBOOK-CONTRACTS.md`
-- Storybook hierarchy review complete
-- MDX/docs surfaces later, if needed
-- story naming standardization complete
-- story coverage gap work complete
-- accessibility coverage review complete
-- interaction/state review complete
+- Storybook planning/contracts
+- Storybook hierarchy and coverage audit
+- hierarchy standardization
+- starter artifact cleanup
+- story naming and usage notes standardization
+- accessibility coverage review
+- interaction/state coverage review
+- final productization review
 
-### Implementation Note
-
-The Storybook hierarchy and coverage audit is complete.
-
-Storybook hierarchy standardization is complete.
-
-Story naming and lightweight usage notes standardization is complete.
-
-Accessibility coverage review is complete.
-
-Interaction/state coverage review is complete.
-
-Storybook productization review is complete. Phase 7 is ready for formal closeout.
-
-Recommended next pass:
-
-- Phase 7 formal closeout
+Phase 8 — Responsive Polish + Section Contract Refinement is now the active phase.
 
 ## Phase 8 — Responsive Polish + Section Contract Refinement
 
+Status: Active
+
 Goal: Validate responsive behavior and section-level contracts.
+
+### Current Focus
+
+Plan responsive polish scope, section contract refinement scope, responsive review criteria, and implementation order before making changes.
 
 ## Phase 9 — Static Data Shape Freeze
 

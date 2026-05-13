@@ -2,7 +2,7 @@
 
 ## Current Status
 
-Active phase: Phase 7 — Storybook Productization
+Active phase: Phase 8 — Responsive Polish + Section Contract Refinement
 
 ## Completed
 
@@ -186,21 +186,40 @@ Active phase: Phase 7 — Storybook Productization
 - [x] Review interaction/state coverage
 - [x] Add Storybook coverage gaps
 - [x] Decide MDX/docs surfaces are not needed for Phase 7 closeout
-- [x] Final Storybook productization review
+- [x] Complete final Storybook productization review
+- [x] Perform Phase 7 formal closeout
+
+### Phase 8 Side Quest — DemoShell Beacon Bar Polish
+
+- [x] Add DemoPageShell utility bar
+- [x] Add local light/dark shell theme toggle
+- [x] Add GitHub and LinkedIn shell actions
+- [x] Add focused Storybook dark-mode state
+- [x] Validate responsive utility-bar behavior
 
 ## Now
 
-### Phase 7 — Storybook Productization
+### Phase 8 — Responsive Polish + Section Contract Refinement
 
-- [ ] Perform Phase 7 formal closeout
+- [ ] Plan responsive polish scope
+- [ ] Define section contract refinement scope
+- [ ] Review responsive behavior across sections
+- [ ] Review responsive behavior across gallery/demo surfaces
+- [ ] Identify section API contract refinements
+- [ ] Identify Storybook responsive coverage needs
+- [ ] Confirm implementation order for Phase 8
 
 ## Next
 
-- [ ] Activate Phase 8 planning after closeout
+- [ ] Audit section responsive behavior
+- [ ] Audit gallery/demo responsive behavior
+- [ ] Refine section contracts where needed
+- [ ] Patch responsive issues
+- [ ] Update Storybook responsive examples
+- [ ] Update planning docs and closeout notes
 
 ## Later
 
-- [ ] Phase 8 — Responsive Polish + Section Contract Refinement
 - [ ] Phase 9 — Static Data Shape Freeze
 - [ ] Phase 10 — Contentful Readiness
 - [ ] Phase 11 — Contentful Integration later

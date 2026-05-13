@@ -91,6 +91,25 @@ export const FramedContent: Story = {
   },
 };
 
+export const DarkMode: Story = {
+  args: {
+    initialTheme: 'dark',
+    phase: 'Phase 8',
+    category: 'Responsive polish',
+    title: 'Demo shell dark mode',
+    description:
+      'This story validates the DemoPageShell beacon bar, social actions, local dark-mode surface, and responsive utility-area wrapping.',
+    tags: ['beacon-bar', 'dark-mode', 'responsive'],
+    framed: true,
+    children: (
+      <Text as="p" variant="body" tone="secondary">
+        The utility bar should stack cleanly on small screens, wrap actions at medium widths, and
+        align identity and actions horizontally on larger screens without changing the shell purpose.
+      </Text>
+    ),
+  },
+};
+
 export const EmptyContent: Story = {
   args: {
     phase: 'Phase 6',

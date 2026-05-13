@@ -12,47 +12,9 @@ The default shell Node may not be the correct runtime. Use `.nvmrc` before runni
 
 ## Current Architecture Phase
 
-Phase 7 — Storybook Productization is active.
+Phase 8 — Responsive Polish + Section Contract Refinement is active.
 
-Phase 7 started with planning/contracts before implementation.
-
-The Storybook hierarchy and coverage audit is complete.
-
-Phase 7 implementation work completed so far includes the audit and hierarchy standardization.
-
-Storybook hierarchy standardization is complete.
-
-Story naming and usage notes standardization is complete.
-
-Accessibility coverage review is complete.
-
-Interaction/state coverage review is complete.
-
-Final Storybook productization review is complete.
-
-Story files remain colocated.
-
-Component APIs were not changed.
-
-MDX docs have not been added or rewritten during Phase 7 and are not required for Phase 7 closeout at this time.
-
-Phase 6 — Gallery Index + Demo Pages is complete.
-
-Phase 5 — Section Components is complete.
-
-Phase 6 started with planning/contracts before implementation.
-
-Phase 4 — Component Library Batch 2 is complete.
-
-Phase 3 — Component Library Batch 1 is complete.
-
-Phase 2 — Layout Patterns is complete.
-
-All planned Phase 3 Component Library Batch 1 components are implemented in `src/components/components/*`.
-
-All planned Phase 4 Component Library Batch 2 components are implemented in `src/components/components/*`.
-
-Phase 1 — Elements + Foundations is complete.
+Phase 7 — Storybook Productization is complete.
 
 Architecture boundaries remain:
 
@@ -72,9 +34,9 @@ SectionComparison composes completed Phase 5 section components for app-side com
 
 Gallery metadata is static-first under `src/data/gallery/*` and now represents the implemented UI layers plus Phase 6 gallery/demo surfaces.
 
-Phase 7 productization is active.
+Phase 8 should begin with responsive review and section contract refinement planning before implementation.
 
-Phase 8 has not started.
+Phase 8 implementation has not started.
 
 Static data shape freeze has not started.
 

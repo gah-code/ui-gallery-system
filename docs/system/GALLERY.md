@@ -72,6 +72,22 @@ Gallery surfaces are app-side browsing aids.
 
 Storybook remains the primary design-system workspace.
 
+## Phase 8 DemoShell Polish Note
+
+DemoPageShell received a small Phase 8 polish pass through the DemoShell Beacon Bar side quest.
+
+The shell now includes:
+
+- a slim project utility bar
+- local light/dark shell behavior
+- GitHub and LinkedIn social actions
+- focused Storybook dark-mode validation
+- responsive utility-area wrapping
+
+This is an additive refinement of an existing app-side gallery/demo surface.
+
+It does not reopen Phase 6, change DemoPageShell's core purpose, or introduce Contentful assumptions.
+
 ## Category Model
 
 Categories:
