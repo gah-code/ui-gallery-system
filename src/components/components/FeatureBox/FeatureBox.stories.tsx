@@ -93,7 +93,7 @@ export const Compact: Story = {
   ),
 };
 
-export const WithAction: Story = {
+export const WithActions: Story = {
   render: () => (
     <FeatureBox
       title="Actionable feature"
@@ -128,7 +128,7 @@ export const Centered: Story = {
   ),
 };
 
-export const DenseCopy: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <FeatureBox
       density="spacious"

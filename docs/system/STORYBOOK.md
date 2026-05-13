@@ -109,6 +109,26 @@ Storybook hierarchy now follows:
 
 Details are tracked in `docs/system/STORYBOOK-AUDIT.md`.
 
+## Story Naming + Usage Notes Note
+
+Story names and lightweight usage notes have been standardized where needed.
+
+Story files remain colocated with their UI pieces.
+
+MDX/docs surfaces have not been added yet.
+
+## Accessibility Coverage Note
+
+Accessibility notes have been reviewed and refined across high-priority stories.
+
+The review emphasized semantic structure, accessible names, focus behavior, and avoiding color/icon-only meaning.
+
+## Interaction / State Coverage Note
+
+Interaction and state coverage has been reviewed across high-priority stories.
+
+The review emphasized disabled/loading states, current/selected states, expanded/collapsed states, controlled/uncontrolled behavior, keyboard/focus guidance, and boundary states.
+
 ## Not in Scope
 
 - CMS data

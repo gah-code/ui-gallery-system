@@ -22,6 +22,12 @@ Phase 7 implementation work completed so far includes the audit and hierarchy st
 
 Storybook hierarchy standardization is complete.
 
+Story naming and usage notes standardization is complete.
+
+Accessibility coverage review is complete.
+
+Interaction/state coverage review is complete.
+
 Story files remain colocated.
 
 Component APIs were not changed.

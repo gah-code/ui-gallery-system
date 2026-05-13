@@ -99,7 +99,7 @@ export const WithIcon: Story = {
   ),
 };
 
-export const WithAction: Story = {
+export const WithActions: Story = {
   render: () => (
     <Alert
       variant="warning"
@@ -116,7 +116,7 @@ export const WithAction: Story = {
   ),
 };
 
-export const LongMessage: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <Alert variant="info" title="Long message remains readable">
       This alert intentionally includes a longer message to validate wrapping and vertical rhythm.

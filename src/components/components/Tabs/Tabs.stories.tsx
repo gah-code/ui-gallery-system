@@ -105,7 +105,7 @@ export const Controlled: Story = {
   render: () => <ControlledTabsExample />,
 };
 
-export const LongLabels: Story = {
+export const LongCopyStress: Story = {
   render: () => <Tabs items={longLabelItems} />,
 };
 

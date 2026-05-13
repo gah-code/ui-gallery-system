@@ -166,7 +166,7 @@ export const WithAvatars: Story = {
   ),
 };
 
-export const MissingAvatar: Story = {
+export const MissingMedia: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Testimonials
@@ -177,7 +177,7 @@ export const MissingAvatar: Story = {
   ),
 };
 
-export const LongQuote: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Testimonials layout="single" items={longQuote} tone="outline" />
@@ -240,7 +240,7 @@ export const CarouselComposition: Story = {
   ),
 };
 
-export const EmptyItems: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Testimonials items={[]} />

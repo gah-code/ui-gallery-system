@@ -138,7 +138,7 @@ export const Spacious: Story = {
   ),
 };
 
-export const LongFeatureList: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <PricingTables
@@ -212,7 +212,7 @@ export const CustomActions: Story = {
   ),
 };
 
-export const EmptyPlans: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <PricingTables plans={[]} />

@@ -131,7 +131,7 @@ export const GapVariants: Story = {
   ),
 };
 
-export const LongMainContent: Story = {
+export const LongCopyStress: Story = {
   render: () => <Sidebar main={<MainContent long />} sidebar={<SidebarContent />} />,
 };
 

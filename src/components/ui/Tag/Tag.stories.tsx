@@ -75,7 +75,7 @@ export const Shapes: Story = {
   ),
 };
 
-export const LongLabel: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <div style={{ maxWidth: '14rem' }}>
       <Tag>
@@ -98,7 +98,7 @@ export const MultipleTags: Story = {
   ),
 };
 
-export const StatusExamples: Story = {
+export const WithStatus: Story = {
   render: () => (
     <section style={{ ...stackStyle, maxWidth: vars.font.measure.narrow }}>
       <Text>
@@ -124,6 +124,23 @@ export const WithIcon: Story = {
       <Tag icon={demoIcon} variant="warning">
         Needs review
       </Tag>
+    </section>
+  ),
+};
+
+export const AccessibilityNotes: Story = {
+  render: () => (
+    <section style={{ ...stackStyle, maxWidth: vars.font.measure.comfortable }}>
+      <Text>
+        Tags are supplemental metadata, not controls. Keep the visible label meaningful, and avoid
+        using color or icons as the only source of category or status meaning.
+      </Text>
+      <div style={wrapStyle}>
+        <Tag variant="brand">Visible category</Tag>
+        <Tag icon={demoIcon} variant="success">
+          Success: published
+        </Tag>
+      </div>
     </section>
   ),
 };

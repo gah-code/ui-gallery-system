@@ -51,11 +51,29 @@ export const MetadataBehavior: Story = {
   },
 };
 
+export const States: Story = {
+  args: {
+    defaultCategory: 'section',
+    title: 'Category selection states',
+    description:
+      'The browser starts with a selected category and uses button controls with pressed state to switch between metadata groups without route-level navigation.',
+  },
+};
+
 export const StorybookRelationship: Story = {
   args: {
     defaultCategory: 'primitive',
     title: 'Gallery and Storybook relationship',
     description:
       'GalleryCategoryBrowser is an app-side browsing aid. Storybook remains the primary design-system workspace.',
+  },
+};
+
+export const AccessibilityNotes: Story = {
+  args: {
+    defaultCategory: 'component',
+    title: 'Category browser accessibility notes',
+    description:
+      'GalleryCategoryBrowser uses button controls for category selection, visible selected-category copy, and text metadata for phase, status, paths, Storybook references, and tags.',
   },
 };

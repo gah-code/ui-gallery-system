@@ -73,13 +73,13 @@ Existing foundation stories:
 
 Existing primitive stories:
 
-- `src/components/ui/Text/Text.stories.tsx` — `Primitives/Text`, stories: `Default`, `Variants`, `Tones`, `Alignment`, `SemanticHeadings`, `LongCopy`
-- `src/components/ui/Button/Button.stories.tsx` — `Primitives/Button`, stories: `Default`, `Variants`, `Sizes`, `States`, `WithIcons`, `LinkButton`, `FullWidth`, `IconOnly`
-- `src/components/ui/Image/Image.stories.tsx` — `Primitives/Image`, stories: `Default`, `AspectRatios`, `ObjectFit`, `Radius`, `MissingImageFallback`, `DecorativeImage`, `LogoSafe`
-- `src/components/ui/Tag/Tag.stories.tsx` — `Primitives/Tag`, stories: `Default`, `Variants`, `Sizes`, `Shapes`, `LongLabel`, `MultipleTags`, `StatusExamples`, `WithIcon`
-- `src/components/ui/Input/Input.stories.tsx` — `Primitives/Input`, stories: `Default`, `Sizes`, `WithHelperText`, `ErrorState`, `Disabled`, `Required`, `Multiline`, `NoLabel`
-- `src/components/ui/Icon/Icon.stories.tsx` — `Primitives/Icon`, stories: `Default`, `Sizes`, `Tones`, `FunctionalIcon`, `InlineWithText`, `IconOnlyGuidance`
-- `src/components/ui/StatusLabel/StatusLabel.stories.tsx` — `Primitives/Status Label`, stories: `Default`, `Statuses`, `Sizes`, `WithIcon`, `LongMessage`, `CompactUsage`, `StatusMeaning`
+- `src/components/ui/Text/Text.stories.tsx` — `Primitives/Text`, stories: `Default`, `Variants`, `Tones`, `Alignment`, `SemanticHeadings`, `LongCopyStress`
+- `src/components/ui/Button/Button.stories.tsx` — `Primitives/Button`, stories: `Default`, `Variants`, `Sizes`, `States`, `WithIcons`, `LinkButton`, `FullWidth`, `IconOnly`, `AccessibilityNotes`
+- `src/components/ui/Image/Image.stories.tsx` — `Primitives/Image`, stories: `Default`, `AspectRatios`, `ObjectFit`, `Radius`, `MissingMedia`, `AccessibilityNotes`, `LogoSafe`
+- `src/components/ui/Tag/Tag.stories.tsx` — `Primitives/Tag`, stories: `Default`, `Variants`, `Sizes`, `Shapes`, `LongCopyStress`, `MultipleTags`, `WithStatus`, `WithIcon`, `AccessibilityNotes`
+- `src/components/ui/Input/Input.stories.tsx` — `Primitives/Input`, stories: `Default`, `Sizes`, `WithHelperText`, `ErrorState`, `Disabled`, `Required`, `Multiline`, `States`, `AccessibilityNotes`
+- `src/components/ui/Icon/Icon.stories.tsx` — `Primitives/Icon`, stories: `Default`, `Sizes`, `Tones`, `FunctionalIcon`, `InlineWithText`, `AccessibilityNotes`
+- `src/components/ui/StatusLabel/StatusLabel.stories.tsx` — `Primitives/Status Label`, stories: `Default`, `Statuses`, `Sizes`, `WithIcon`, `LongCopyStress`, `CompactUsage`, `AccessibilityNotes`
 
 ### Layout Patterns
 
@@ -99,7 +99,7 @@ Existing layout pattern stories:
 
 Existing Batch 1 component stories:
 
-- `src/components/components/Card/Card.stories.tsx` — broad content, media, metadata, actions, long-copy, missing-media, and responsive contract coverage
+- `src/components/components/Card/Card.stories.tsx` — broad content, media, metadata, actions, long-copy, missing-media, responsive contract, and accessibility coverage
 - `src/components/components/Breadcrumbs/Breadcrumbs.stories.tsx` — trail length, current page, separators, sizes, long labels, empty items, and accessibility coverage
 - `src/components/components/Pagination/Pagination.stories.tsx` — first/middle/last pages, many pages, compact, prev/next options, link mode, labels, and accessibility coverage
 - `src/components/components/Alert/Alert.stories.tsx` — variants, compact, message-only, icon/action, long message, urgent role guidance, and accessibility coverage
@@ -138,10 +138,10 @@ Existing section stories:
 
 Existing gallery/demo stories:
 
-- `src/components/sections/GalleryIndex/GalleryIndex.stories.tsx` — default, custom intro, short preview lists, metadata summary, and Storybook relationship
-- `src/components/sections/GalleryCategoryBrowser/GalleryCategoryBrowser.stories.tsx` — default, foundations/components/sections defaults, custom intro, metadata behavior, and Storybook relationship
-- `src/components/sections/DemoPageShell/DemoPageShell.stories.tsx` — default, compact/spacious density, metadata, actions, framed content, empty content, long description, and Storybook relationship
-- `src/components/sections/SectionComparison/SectionComparison.stories.tsx` — default, custom intro, dense comparison, and Storybook relationship
+- `src/components/sections/GalleryIndex/GalleryIndex.stories.tsx` — default, custom intro, short preview lists, metadata summary, Storybook relationship, and accessibility coverage
+- `src/components/sections/GalleryCategoryBrowser/GalleryCategoryBrowser.stories.tsx` — default, foundations/components/sections defaults, custom intro, metadata behavior, selector state coverage, Storybook relationship, and accessibility coverage
+- `src/components/sections/DemoPageShell/DemoPageShell.stories.tsx` — default, compact/spacious density, metadata, actions, framed content, empty content, long description, Storybook relationship, and accessibility coverage
+- `src/components/sections/SectionComparison/SectionComparison.stories.tsx` — default, custom intro, dense comparison, Storybook relationship, and accessibility coverage
 
 ### Overview and Starter Stories
 
@@ -157,31 +157,31 @@ Existing overview/starter stories:
 - All Batch 1 and Batch 2 reusable components have colocated Storybook coverage.
 - All Phase 5 section components have colocated stories with responsive and accessibility notes.
 - Phase 6 gallery/demo surfaces have Storybook stories and explicit Storybook relationship notes.
-- Complex interactive components such as Accordion, Tabs, Carousel, Modal, Forms, and Pagination already include meaningful state and accessibility-oriented stories.
+- Complex interactive components such as Button, Input, Accordion, Tabs, Carousel, Modal, Forms, Pagination, and GalleryCategoryBrowser include meaningful state and accessibility-oriented stories.
 - Content stress states are common across patterns, sections, and component-library stories.
 - Empty/missing-content states are represented for many collection, media, and data-display components.
 
 ## Coverage Gaps
 
-- Primitive stories generally do not expose dedicated `AccessibilityNotes` or `ResponsiveContract` stories, even when accessibility guidance exists in focused stories such as `IconOnlyGuidance`, `StatusMeaning`, or `NoLabel`.
+- Primitive stories now include improved lightweight accessibility notes in high-value files.
 - Layout pattern stories have strong responsive coverage but usually do not include dedicated `AccessibilityNotes` stories.
-- Some component-library stories use names like `LongCopy`, `LongContent`, `LongMessage`, or `DenseCopy` instead of the planned standard `LongCopyStress` naming.
-- Some missing-content stories use names like `MissingImage`, `MissingImageFallback`, `MissingLogoFallback`, or `MissingOptionalFields`; naming can be standardized where useful.
-- Gallery/demo surface stories explain the Storybook relationship but generally do not have dedicated `AccessibilityNotes` or `ResponsiveContract` stories.
+- Common long-copy story names have been standardized to `LongCopyStress` where useful.
+- Common missing-media story names have been standardized to `MissingMedia` where the missing content is visual media. Domain-specific names such as `MissingOptionalFields` remain where clearer.
+- Gallery/demo surface stories explain the Storybook relationship and now include dedicated accessibility notes.
 - There is no component-library overview story under `src/stories/components/*`.
-- Storybook addon-vitest is configured, but there is no project-level `npm run test` script.
+- Storybook addon-vitest is configured, but there is no project-level `npm run test` script or formal interaction test suite.
 
 ## Naming Consistency Review
 
 Consistent patterns already present:
 
 - `Default` is common across primitives, patterns, components, sections, and gallery/demo surfaces.
-- `Variants`, `Sizes`, `States`, `WithActions`, `WithMedia`, `EmptyItems`, `ResponsiveContract`, and `AccessibilityNotes` are used frequently.
+- `Variants`, `Sizes`, `States`, `WithActions`, `WithMedia`, `EmptyState`, `ResponsiveContract`, and `AccessibilityNotes` are used frequently.
 - Section stories are especially consistent with `ResponsiveContract` and `AccessibilityNotes`.
 
-Inconsistencies to address later:
+Remaining inconsistencies to address later:
 
-- Some stories use singular or component-specific alternatives such as `WithAction`, `LongCopy`, `LongContent`, `LongMessage`, `DenseCopy`, `MissingImage`, `MissingMedia`, `MissingLogoFallback`, and `EmptyItems`.
+- Some stories intentionally retain domain-specific names such as `KeyboardFocusGuidance`, `ReducedMotionNotes`, `UrgentRoleGuidance`, `DenseFAQ`, and `StorybookRelationship` because they describe specific guidance rather than generic states.
 - Foundation story names use domain-specific labels such as `Overview`, `Roles`, `Scale`, `SurfaceRules`, and `FocusVisible`; these are reasonable but should be documented as foundation-specific exceptions.
 
 Preferred names remain:
@@ -209,9 +209,9 @@ Strong documentation patterns:
 
 Needs improvement:
 
-- Story descriptions and usage notes are not standardized across all story files.
+- Lightweight story descriptions and usage notes have been standardized where helpful; full MDX/docs surfaces remain open.
 - Foundation stories are useful but have minimal explicit productization structure.
-- Primitive stories often rely on example coverage rather than explicit notes about scope, accessibility, and responsive expectations.
+- Primitive notes are improved, and the targeted accessibility coverage review is complete.
 
 ## Accessibility Review
 
@@ -229,10 +229,9 @@ Coverage currently exists for:
 
 Accessibility gaps to address later:
 
-- Add or standardize primitive-level `AccessibilityNotes` stories where the behavior is important.
-- Decide whether layout patterns need dedicated `AccessibilityNotes` stories or documented exceptions.
-- Add accessibility notes to gallery/demo surfaces where they frame demo behavior.
+- Decide during final productization review whether layout patterns need dedicated `AccessibilityNotes` stories or documented exceptions.
 - Consider documenting the Storybook a11y addon `todo` mode and whether a later pass should tighten it.
+- Formal automated accessibility enforcement remains outside this notes-focused review.
 
 ## Interaction / State Review
 
@@ -250,23 +249,19 @@ Coverage currently exists for:
 Interaction gaps to address later:
 
 - There are not yet formal interaction tests despite addon-vitest being configured.
-- Controlled/uncontrolled behavior is covered in Tabs but not consistently documented for every interactive primitive or component.
-- Keyboard/focus behavior is documented for several complex components, but not standardized as a required story naming pattern.
-- Loading/disabled states are present where supported but should be audited systematically during the interaction/state pass.
+- Controlled/uncontrolled behavior is covered where supported, but many components are intentionally presentational and do not own controlled state.
+- Keyboard/focus behavior is documented for several complex components, but it is not enforced by automated interaction tests.
 
 ## Recommended Productization Passes
 
 Recommended next implementation passes:
 
 ```txt
-1. Story naming and notes cleanup
-2. Accessibility notes coverage pass
-3. Interaction/state coverage pass
-4. Storybook docs/MDX surface pass, if needed
-5. Final Storybook productization review
+1. Storybook docs/MDX surface pass, if needed
+2. Final Storybook productization review
 ```
 
-Hierarchy standardization is complete. The next follow-up pass should standardize story naming and usage notes.
+Hierarchy standardization is complete. Story naming and usage notes standardization is complete. Accessibility coverage review is complete. Interaction/state coverage review is complete. The next follow-up pass should decide whether MDX/docs surfaces are needed or proceed to final Storybook productization review.
 
 ## Hierarchy Standardization Update
 
@@ -302,10 +297,99 @@ No MDX docs were added.
 
 No accessibility or interaction coverage pass was performed in this step.
 
+## Story Naming + Usage Notes Update
+
+Status: Implemented
+
+The Storybook story naming and usage notes pass has been completed.
+
+Completed work:
+
+- reviewed story export names for clarity and consistency
+- standardized unclear story names where needed
+- renamed common long-copy stress stories to `LongCopyStress`
+- renamed common empty collection stories to `EmptyState`
+- renamed missing-media stories to `MissingMedia` where the missing content is visual media
+- renamed singular action story names to `WithActions` where multiple action nodes are demonstrated
+- refined primitive-level usage notes where helpful
+- added a lightweight Button accessibility/usage note story
+- preserved colocated story files
+- preserved component APIs
+
+No MDX docs were added.
+
+No formal accessibility coverage pass was completed in this step.
+
+No formal interaction/state testing setup was completed in this step.
+
+## Remaining Usage Note Gaps
+
+- Primitive, component, section, and gallery/demo accessibility notes are improved.
+- Gallery/demo surfaces still rely on Storybook stories rather than MDX documentation; dedicated MDX/docs surfaces remain a later decision.
+- Interaction guidance stories exist for complex components, and the notes-focused interaction/state coverage review is complete.
+
+## Accessibility Coverage Review Update
+
+Status: Implemented
+
+The accessibility coverage review has been completed.
+
+Completed work:
+
+- reviewed high-priority primitive, component, section, and gallery/demo stories
+- added or refined lightweight `AccessibilityNotes` stories where helpful
+- added accessibility notes for Tag, Card, GalleryIndex, GalleryCategoryBrowser, DemoPageShell, and SectionComparison
+- emphasized semantic HTML, accessible names, focus behavior, table/dialog/form semantics, and color/icon supplementation
+- preserved colocated story files
+- preserved component APIs
+
+No MDX docs were added.
+
+No formal interaction/state testing setup was completed in this step.
+
+## Remaining Accessibility Coverage Gaps
+
+- Layout pattern stories remain primarily documented through responsive contracts rather than dedicated accessibility notes.
+- Storybook a11y addon enforcement remains in `todo` mode.
+- Formal interaction test automation remains outside this notes-focused review.
+
+## Interaction / State Coverage Review Update
+
+Status: Implemented
+
+The interaction/state coverage review has been completed.
+
+Completed work:
+
+- reviewed high-priority interactive and stateful stories
+- refined Button state coverage with disabled, loading, and disabled-link guidance
+- added an Input `States` story covering helper, error, disabled, required, and multiline states together
+- added a GalleryCategoryBrowser `States` story for selected category and pressed-control behavior
+- confirmed existing coverage for Pagination, Accordion, Tabs, Carousel, Forms, Modal, Navigation, and CTASection
+- emphasized native behavior, keyboard behavior, controlled/uncontrolled behavior, and visual state coverage
+- preserved colocated story files
+- preserved component APIs
+
+No MDX docs were added.
+
+No formal interaction testing setup was completed in this step.
+
+## Remaining Interaction / State Coverage Gaps
+
+- Formal `play`-based interaction tests are not configured as a project-level test workflow.
+- Optional MDX/docs surfaces remain undecided.
+- Final Storybook productization review remains open.
+
 ## Closeout / Reopen Notes
 
 The audit pass did not rename, move, or rewrite stories.
 
 The hierarchy standardization pass updated story titles and removed confirmed starter artifacts, but did not change story examples broadly.
+
+The story naming and usage notes pass standardized export names and lightweight notes without moving files, changing APIs, adding MDX docs, or completing the accessibility/interaction coverage passes.
+
+The accessibility coverage review added or refined lightweight accessibility notes without moving files, changing APIs, adding MDX docs, or adding formal interaction tests.
+
+The interaction/state coverage review added or refined lightweight state stories without moving files, changing APIs, adding MDX docs, or adding formal interaction tests.
 
 It prepares the Storybook productization implementation work.

@@ -103,7 +103,7 @@ export const WithLegalLinks: Story = {
   },
 };
 
-export const LongLinkGroups: Story = {
+export const LongCopyStress: Story = {
   args: {
     linkGroups: [
       {

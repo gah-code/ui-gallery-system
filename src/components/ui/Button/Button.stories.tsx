@@ -60,13 +60,19 @@ export const Sizes: Story = {
 
 export const States: Story = {
   render: () => (
-    <section style={stackStyle}>
-      <Button>Default</Button>
-      <Button disabled>Disabled</Button>
-      <Button loading>Loading</Button>
-      <Button href="https://storybook.js.org/" disabled>
-        Disabled link
-      </Button>
+    <section style={{ display: 'grid', gap: vars.space[3], maxWidth: vars.font.measure.comfortable }}>
+      <Text>
+        Disabled and loading states prevent action. Link-style buttons use aria-disabled behavior
+        when disabled or loading because anchors do not support the native disabled attribute.
+      </Text>
+      <div style={stackStyle}>
+        <Button>Default</Button>
+        <Button disabled>Disabled</Button>
+        <Button loading>Loading</Button>
+        <Button href="https://storybook.js.org/" disabled>
+          Disabled link
+        </Button>
+      </div>
     </section>
   ),
 };
@@ -110,6 +116,24 @@ export const IconOnly: Story = {
       <Text variant="caption" tone="secondary">
         Icon-only buttons require an accessible label.
       </Text>
+    </section>
+  ),
+};
+
+export const AccessibilityNotes: Story = {
+  render: () => (
+    <section style={{ display: 'grid', gap: vars.space[3], maxWidth: vars.font.measure.narrow }}>
+      <Text>
+        Button uses native button behavior for actions and anchor rendering when href is provided.
+        Visible labels are preferred. Icon-only usage requires an accessible label.
+      </Text>
+      <div style={stackStyle}>
+        <Button>Native action</Button>
+        <Button href="#button-link" variant="secondary">
+          Link action
+        </Button>
+        <Button icon={iconOnlyGlyph} aria-label="Add item" />
+      </div>
     </section>
   ),
 };

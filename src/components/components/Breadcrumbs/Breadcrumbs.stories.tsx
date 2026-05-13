@@ -121,7 +121,7 @@ export const Sizes: Story = {
   ),
 };
 
-export const LongLabels: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <section style={{ ...surfaceStyle, maxWidth: '20rem' }}>
       <Text tone="secondary">Constrained container to validate wrapping behavior.</Text>
@@ -141,7 +141,7 @@ export const LongLabels: Story = {
   ),
 };
 
-export const EmptyItems: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={surfaceStyle}>
       <Text tone="secondary">Empty items render no breadcrumb navigation.</Text>

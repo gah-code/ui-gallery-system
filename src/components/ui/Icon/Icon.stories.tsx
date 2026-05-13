@@ -139,7 +139,7 @@ export const InlineWithText: Story = {
   ),
 };
 
-export const IconOnlyGuidance: Story = {
+export const AccessibilityNotes: Story = {
   render: () => (
     <section style={stackStyle}>
       <Text>Icon-only interactive controls should provide an accessible label on the control.</Text>

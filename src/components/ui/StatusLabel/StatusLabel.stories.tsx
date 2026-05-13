@@ -82,7 +82,7 @@ export const WithIcon: Story = {
   ),
 };
 
-export const LongMessage: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <div style={{ maxWidth: '16rem' }}>
       <StatusLabel status="warning">
@@ -116,7 +116,7 @@ export const CompactUsage: Story = {
   ),
 };
 
-export const StatusMeaning: Story = {
+export const AccessibilityNotes: Story = {
   render: () => (
     <section style={stackStyle}>
       <Text>

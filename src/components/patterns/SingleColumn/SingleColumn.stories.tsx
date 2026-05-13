@@ -147,7 +147,7 @@ export const ShortContent: Story = {
   ),
 };
 
-export const LongContent: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <SingleColumn width="comfortable" gap="lg">
       <Text variant="heading" as="h2">

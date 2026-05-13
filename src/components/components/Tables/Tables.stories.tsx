@@ -203,7 +203,7 @@ export const WithActions: Story = {
   ),
 };
 
-export const LongCellContent: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Tables
@@ -224,7 +224,7 @@ export const LongCellContent: Story = {
   ),
 };
 
-export const EmptyRows: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Tables columns={columns} rows={[]} emptyMessage="No projects match the current view." />

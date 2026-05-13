@@ -96,7 +96,43 @@ export const Multiline: Story = {
   ),
 };
 
-export const NoLabel: Story = {
+export const States: Story = {
+  render: () => (
+    <section style={stackStyle}>
+      <Text>
+        Input states should make helper, error, disabled, required, and multiline behavior visible
+        without relying on form submission logic.
+      </Text>
+      <Input
+        label="Helper text"
+        name="state-helper"
+        helperText="Helpful guidance remains associated with the field."
+      />
+      <Input
+        label="Error"
+        name="state-error"
+        defaultValue="not-an-email"
+        error="Enter a valid email address."
+      />
+      <Input
+        label="Disabled"
+        name="state-disabled"
+        defaultValue="Managed by the system"
+        disabled
+      />
+      <Input
+        label="Required multiline"
+        name="state-required-multiline"
+        helperText="Required multiline fields keep the same label and helper text behavior."
+        multiline
+        required
+        rows={4}
+      />
+    </section>
+  ),
+};
+
+export const AccessibilityNotes: Story = {
   render: () => (
     <section style={stackStyle}>
       <Text>

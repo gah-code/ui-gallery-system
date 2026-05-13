@@ -170,7 +170,7 @@ export const LinkedLogos: Story = {
   ),
 };
 
-export const MissingLogoFallback: Story = {
+export const MissingMedia: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <CustomerLogos items={missingLogoItems} layout="grid" columns="three" tone="card" showNames />
@@ -198,7 +198,7 @@ export const DecorativeLogoCloud: Story = {
   ),
 };
 
-export const EmptyItems: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <CustomerLogos items={[]} />

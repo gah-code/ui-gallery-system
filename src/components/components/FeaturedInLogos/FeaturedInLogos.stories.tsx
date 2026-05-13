@@ -170,7 +170,7 @@ export const LinkedLogos: Story = {
   ),
 };
 
-export const MissingLogoFallback: Story = {
+export const MissingMedia: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <FeaturedInLogos
@@ -204,7 +204,7 @@ export const DecorativeLogoStrip: Story = {
   ),
 };
 
-export const EmptyItems: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <FeaturedInLogos items={[]} />

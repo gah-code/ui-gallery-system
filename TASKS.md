@@ -180,20 +180,22 @@ Active phase: Phase 7 — Storybook Productization
 - [x] Confirm implementation order for Storybook productization
 - [x] Review Storybook story hierarchy
 - [x] Standardize Storybook hierarchy
+- [x] Standardize story naming
+- [x] Standardize story descriptions and usage notes
+- [x] Review accessibility coverage
+- [x] Review interaction/state coverage
+- [x] Add Storybook coverage gaps
 
 ## Now
 
 ### Phase 7 — Storybook Productization
 
-- [ ] Standardize story naming and usage notes
+- [ ] Decide whether MDX/docs surfaces are needed
 
 ## Next
 
-- [ ] Standardize story descriptions and usage notes
-- [ ] Add Storybook coverage gaps
-- [ ] Review accessibility coverage
-- [ ] Review interaction/state coverage
 - [ ] Add or refine MDX/docs surfaces
+- [ ] Final Storybook productization review
 
 ## Later
 

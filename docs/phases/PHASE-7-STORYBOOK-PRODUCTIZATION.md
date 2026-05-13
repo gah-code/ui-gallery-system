@@ -217,3 +217,58 @@ No component APIs were changed.
 No MDX docs were added.
 
 Accessibility notes coverage and interaction/state coverage remain future Phase 7 tasks.
+
+## Story Naming + Usage Notes Implementation Note
+
+Story naming and lightweight usage notes standardization has been completed as the third Phase 7 implementation pass.
+
+Completed work:
+
+- reviewed story names across Storybook layers
+- standardized unclear story export names where needed
+- refined short usage notes where helpful
+- preserved story file colocation
+- preserved component APIs
+- avoided MDX docs in this pass
+
+Subsequent Phase 7 work tracked below:
+
+- accessibility notes coverage pass
+- interaction/state coverage pass
+- optional MDX/docs surfaces, if needed
+- final Storybook productization review
+
+## Accessibility Coverage Review Implementation Note
+
+Accessibility coverage review has been completed as the fourth Phase 7 implementation pass.
+
+Completed work:
+
+- reviewed accessibility coverage across high-priority story files
+- added or refined lightweight accessibility notes where helpful
+- preserved story file colocation
+- preserved component APIs
+- avoided MDX docs in this pass
+
+Subsequent Phase 7 work tracked below:
+
+- interaction/state coverage pass
+- optional MDX/docs surfaces, if needed
+- final Storybook productization review
+
+## Interaction / State Coverage Review Implementation Note
+
+Interaction/state coverage review has been completed as the fifth Phase 7 implementation pass.
+
+Completed work:
+
+- reviewed high-priority interactive and stateful stories
+- added or refined lightweight state stories where helpful
+- preserved story file colocation
+- preserved component APIs
+- avoided MDX docs and formal interaction test setup in this pass
+
+Remaining Phase 7 work:
+
+- optional MDX/docs surfaces, if needed
+- final Storybook productization review

@@ -144,7 +144,7 @@ export const WithActions: Story = {
   },
 };
 
-export const LongCopy: Story = {
+export const LongCopyStress: Story = {
   args: {
     density: 'spacious',
     title:

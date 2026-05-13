@@ -122,7 +122,7 @@ export const MultipleItems: Story = {
   ),
 };
 
-export const LongContent: Story = {
+export const LongCopyStress: Story = {
   render: () => <Accordion items={longContentItems} defaultOpenItems={['long-content']} />,
 };
 

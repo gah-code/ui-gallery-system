@@ -163,7 +163,7 @@ export const LinkedTitle: Story = {
   ),
 };
 
-export const LongCopy: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Card
@@ -235,6 +235,26 @@ export const ResponsiveContract: Story = {
         status={{ label: 'Contract', status: 'info' }}
         tags={[{ label: 'Responsive' }, { label: 'Accessible', variant: 'success' }]}
         actions={<Button>Review contract</Button>}
+      />
+    </section>
+  ),
+};
+
+export const AccessibilityNotes: Story = {
+  render: () => (
+    <section style={storySurfaceStyle}>
+      <Text>
+        Cards keep interactive behavior scoped to explicit links and action nodes. Media should use
+        meaningful alt text when it carries content, decorative media should be marked decorative,
+        and status or tag meaning should be available as visible text rather than color alone.
+      </Text>
+      <Card
+        href="#accessible-card"
+        title="Accessible card composition"
+        description="The linked title, visible metadata, and separate button action remain distinct interactive targets."
+        status={{ label: 'Accessible', status: 'success' }}
+        tags={[{ label: 'Visible metadata', variant: 'info' }]}
+        actions={<Button variant="secondary">Separate action</Button>}
       />
     </section>
   ),

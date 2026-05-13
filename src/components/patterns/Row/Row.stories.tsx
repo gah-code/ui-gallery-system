@@ -131,7 +131,7 @@ export const Alignment: Story = {
   ),
 };
 
-export const LongContentStress: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <Row minItemWidth="18rem">
       <DemoBlock

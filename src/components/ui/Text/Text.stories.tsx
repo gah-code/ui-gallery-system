@@ -107,7 +107,7 @@ export const SemanticHeadings: Story = {
   ),
 };
 
-export const LongCopy: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <article style={surfaceStyle}>
       <Text variant="metadata">Long copy rhythm</Text>

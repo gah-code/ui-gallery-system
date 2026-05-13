@@ -198,7 +198,7 @@ export const FormModal: Story = {
   ),
 };
 
-export const LongContent: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <ModalDemo

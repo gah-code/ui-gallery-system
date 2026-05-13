@@ -246,7 +246,7 @@ export const DisabledControls: Story = {
   ),
 };
 
-export const EmptyItems: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Carousel label="Empty carousel" items={[]} />

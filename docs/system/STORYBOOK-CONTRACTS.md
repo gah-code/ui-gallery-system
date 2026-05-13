@@ -37,11 +37,29 @@ Story hierarchy now follows:
 
 ## Naming Standards Status
 
-Status: Planned for implementation
+Status: Implemented
+
+Story names were reviewed and standardized around clear names such as:
+
+- Default
+- Variants
+- Sizes
+- States
+- ResponsiveContract
+- AccessibilityNotes
+- LongCopyStress
+- EmptyState
+- MissingMedia
+- WithActions
+- WithMedia
 
 ## Documentation Standards Status
 
-Status: Planned for implementation
+Status: Partially Implemented
+
+Lightweight usage notes were reviewed/refined in story files where helpful.
+
+MDX/docs surfaces have not been added yet.
 
 ## Coverage Audit Status
 
@@ -49,11 +67,41 @@ Status: Initial audit implemented
 
 ## Accessibility Audit Status
 
-Status: Initial audit implemented
+Status: Implemented
+
+Accessibility coverage was reviewed across high-priority stories.
+
+The review focused on:
+
+- semantic HTML
+- landmarks
+- headings
+- buttons and links
+- forms
+- tables
+- dialogs
+- tabs
+- accordions
+- carousels
+- current-state semantics
+- color/icon supplementation
 
 ## Interaction/State Audit Status
 
-Status: Initial audit implemented
+Status: Implemented
+
+Interaction and state coverage was reviewed across high-priority stories.
+
+The review focused on:
+
+- disabled states
+- loading states
+- current/selected states
+- expanded/collapsed states
+- controlled/uncontrolled stories
+- keyboard/focus guidance
+- boundary states
+- responsive state behavior
 
 ## Storybook Audit Status
 
@@ -76,3 +124,31 @@ Story titles now use the standardized top-level hierarchy. Colocated story files
 No component APIs were changed.
 
 No MDX docs were added.
+
+## Story Naming + Usage Notes Status
+
+Status: Implemented
+
+Story export names and lightweight usage notes were standardized where useful.
+
+No story files were moved.
+
+No component APIs were changed.
+
+The accessibility coverage pass is complete and tracked separately in Accessibility Audit Status.
+
+No interaction/state testing setup was completed in this step.
+
+## Interaction / State Coverage Status
+
+Status: Implemented
+
+Interaction and state stories were reviewed/refined where useful.
+
+No story files were moved.
+
+No component APIs were changed.
+
+No formal interaction test infrastructure was added.
+
+MDX/docs surfaces have not been added yet.

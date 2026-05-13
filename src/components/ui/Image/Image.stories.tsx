@@ -109,7 +109,7 @@ export const Radius: Story = {
   ),
 };
 
-export const MissingImageFallback: Story = {
+export const MissingMedia: Story = {
   render: () => (
     <div style={{ maxWidth: '24rem' }}>
       <Image alt="Missing source example" aspectRatio="wide" fallback="Image source missing" />
@@ -117,7 +117,7 @@ export const MissingImageFallback: Story = {
   ),
 };
 
-export const DecorativeImage: Story = {
+export const AccessibilityNotes: Story = {
   render: () => (
     <section style={{ display: 'grid', gap: vars.space[4], maxWidth: vars.font.measure.narrow }}>
       <Text>

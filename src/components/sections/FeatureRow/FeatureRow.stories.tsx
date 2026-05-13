@@ -184,7 +184,7 @@ export const SparseContent: Story = {
   },
 };
 
-export const LongCopyFeature: Story = {
+export const LongCopyStress: Story = {
   args: {
     columns: 'two',
     density: 'spacious',

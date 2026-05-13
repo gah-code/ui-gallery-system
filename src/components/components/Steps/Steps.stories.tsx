@@ -186,7 +186,7 @@ export const Statuses: Story = {
   ),
 };
 
-export const LongCopyStep: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Steps
@@ -230,7 +230,7 @@ export const WithActions: Story = {
   ),
 };
 
-export const EmptyItems: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={storySurfaceStyle}>
       <Steps items={[]} />

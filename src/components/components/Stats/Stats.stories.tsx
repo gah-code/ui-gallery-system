@@ -120,7 +120,7 @@ export const ToneVariants: Story = {
   ),
 };
 
-export const LongLabels: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <Stats
       columns="two"
@@ -144,7 +144,7 @@ export const LongLabels: Story = {
   ),
 };
 
-export const EmptyItems: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={surfaceStyle}>
       <Text tone="secondary">Empty items render no stats collection.</Text>

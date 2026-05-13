@@ -99,7 +99,7 @@ export const EmptyContent: Story = {
   },
 };
 
-export const LongDescription: Story = {
+export const LongCopyStress: Story = {
   args: {
     phase: 'Phase 6',
     category: 'Gallery',
@@ -121,6 +121,22 @@ export const StorybookRelationship: Story = {
       <Text as="p" variant="body" tone="secondary">
         Use this shell for browsable app-side demo pages while keeping detailed component state,
         API, and interaction validation in Storybook.
+      </Text>
+    ),
+  },
+};
+
+export const AccessibilityNotes: Story = {
+  args: {
+    phase: 'Phase 6',
+    category: 'Gallery',
+    title: 'Demo shell accessibility notes',
+    description:
+      'DemoPageShell provides a consistent heading, metadata row, optional action row, and content region. Actions remain caller-owned nodes and should keep native button or link semantics.',
+    children: (
+      <Text as="p" variant="body" tone="secondary">
+        Metadata should remain visible text, empty states should be announced as normal page
+        content, and demo framing should not replace component-level accessibility validation.
       </Text>
     ),
   },

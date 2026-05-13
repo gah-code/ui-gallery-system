@@ -73,7 +73,7 @@ export const Dense: Story = {
   render: () => <Gallery items={denseItems} columns="three" density="compact" />,
 };
 
-export const MissingImageFallback: Story = {
+export const MissingMedia: Story = {
   render: () => (
     <Gallery
       columns="three"
@@ -126,7 +126,7 @@ export const MixedContent: Story = {
   ),
 };
 
-export const LongCaptions: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <Gallery
       columns="two"
@@ -191,7 +191,7 @@ export const ColumnModes: Story = {
   ),
 };
 
-export const EmptyItems: Story = {
+export const EmptyState: Story = {
   render: () => (
     <section style={surfaceStyle}>
       <Text tone="secondary">Empty items render no gallery collection.</Text>

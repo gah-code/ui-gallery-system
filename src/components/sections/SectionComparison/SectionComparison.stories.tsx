@@ -37,3 +37,11 @@ export const StorybookRelationship: Story = {
       'SectionComparison is an app-side comparison demo. Storybook remains the primary design-system workspace.',
   },
 };
+
+export const AccessibilityNotes: Story = {
+  args: {
+    title: 'Section comparison accessibility notes',
+    description:
+      'SectionComparison frames completed sections as demos while preserving their underlying landmarks, headings, button and link semantics, visible status text, and responsive stacking behavior.',
+  },
+};

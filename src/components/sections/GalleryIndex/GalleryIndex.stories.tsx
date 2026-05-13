@@ -45,3 +45,11 @@ export const StorybookRelationship: Story = {
       'GalleryIndex is an app-side browsing aid. Storybook remains the primary design-system workspace.',
   },
 };
+
+export const AccessibilityNotes: Story = {
+  args: {
+    title: 'Gallery index accessibility notes',
+    description:
+      'GalleryIndex uses semantic section structure, readable headings, text-based category summaries, and visible counts so status and grouping are not communicated by layout or color alone.',
+  },
+};

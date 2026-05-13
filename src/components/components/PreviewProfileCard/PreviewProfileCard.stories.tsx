@@ -40,7 +40,7 @@ const articleImage = {
   alt: 'Abstract editorial preview',
 };
 
-export const Profile: Story = {
+export const Default: Story = {
   render: () => (
     <PreviewProfileCard
       variant="profile"
@@ -100,7 +100,7 @@ export const CaseStudyPreview: Story = {
   ),
 };
 
-export const MissingImage: Story = {
+export const MissingMedia: Story = {
   render: () => (
     <PreviewProfileCard
       variant="article"
@@ -155,7 +155,7 @@ export const DenseMetadata: Story = {
   ),
 };
 
-export const LongCopy: Story = {
+export const LongCopyStress: Story = {
   render: () => (
     <PreviewProfileCard
       density="spacious"
