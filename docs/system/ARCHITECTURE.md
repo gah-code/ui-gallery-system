@@ -28,11 +28,13 @@ Accessibility coverage review is complete.
 
 Interaction/state coverage review is complete.
 
+Final Storybook productization review is complete.
+
 Story files remain colocated.
 
 Component APIs were not changed.
 
-MDX docs have not been added or rewritten during Phase 7.
+MDX docs have not been added or rewritten during Phase 7 and are not required for Phase 7 closeout at this time.
 
 Phase 6 — Gallery Index + Demo Pages is complete.
 
@@ -71,6 +73,8 @@ SectionComparison composes completed Phase 5 section components for app-side com
 Gallery metadata is static-first under `src/data/gallery/*` and now represents the implemented UI layers plus Phase 6 gallery/demo surfaces.
 
 Phase 7 productization is active.
+
+Phase 8 has not started.
 
 Static data shape freeze has not started.
 

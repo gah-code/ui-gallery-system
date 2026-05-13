@@ -185,17 +185,18 @@ Active phase: Phase 7 — Storybook Productization
 - [x] Review accessibility coverage
 - [x] Review interaction/state coverage
 - [x] Add Storybook coverage gaps
+- [x] Decide MDX/docs surfaces are not needed for Phase 7 closeout
+- [x] Final Storybook productization review
 
 ## Now
 
 ### Phase 7 — Storybook Productization
 
-- [ ] Decide whether MDX/docs surfaces are needed
+- [ ] Perform Phase 7 formal closeout
 
 ## Next
 
-- [ ] Add or refine MDX/docs surfaces
-- [ ] Final Storybook productization review
+- [ ] Activate Phase 8 planning after closeout
 
 ## Later
 

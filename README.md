@@ -15,7 +15,8 @@ Phase 7 Storybook productization:
 - story naming and usage notes standardized
 - accessibility coverage reviewed
 - interaction/state coverage reviewed
-- next: decide on MDX/docs surfaces or proceed to final Storybook productization review
+- final Storybook productization review complete
+- next: Phase 7 formal closeout
 
 ## Phase 6 Status
 

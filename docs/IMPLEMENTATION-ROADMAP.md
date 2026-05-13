@@ -308,7 +308,7 @@ Goal: Make Storybook the system of record for the UI layer.
 
 ### Current Focus
 
-Storybook audit, hierarchy standardization, story naming/usage notes standardization, accessibility coverage review, and interaction/state review are complete. Optional MDX/docs surfaces and final review remain.
+Storybook audit, hierarchy standardization, story naming/usage notes standardization, accessibility coverage review, interaction/state review, and final productization review are complete. Phase 7 is ready for formal closeout.
 
 ### Deliverables
 
@@ -318,9 +318,9 @@ Storybook audit, hierarchy standardization, story naming/usage notes standardiza
 - Storybook hierarchy review complete
 - MDX/docs surfaces later, if needed
 - story naming standardization complete
-- story coverage gap work later
+- story coverage gap work complete
 - accessibility coverage review complete
-- interaction review later
+- interaction/state review complete
 
 ### Implementation Note
 
@@ -334,9 +334,11 @@ Accessibility coverage review is complete.
 
 Interaction/state coverage review is complete.
 
+Storybook productization review is complete. Phase 7 is ready for formal closeout.
+
 Recommended next pass:
 
-- Decide whether MDX/docs surfaces are needed or proceed to final Storybook productization review
+- Phase 7 formal closeout
 
 ## Phase 8 — Responsive Polish + Section Contract Refinement
 
