@@ -520,28 +520,6 @@ A conceptual UI architecture diagram showing one central theme signal flowing fr
 
 ---
 
-# Portfolio framing
-
-This project is valuable as a portfolio piece because it demonstrates more than visual taste. It shows systems thinking.
-
-## What it proves
-
-| Skill | Evidence in the project |
-|---|---|
-| Frontend architecture | Dependency-ordered build: foundations → elements → patterns → components → sections |
-| Design-system thinking | Storybook as system-of-record, not just a screenshot gallery |
-| Content operations | Contentful deferred until UI data contracts are stable |
-| Documentation discipline | README, roadmap, tasks, and phase records treated as active surfaces |
-| UX judgment | Responsive polish based on audit and prioritized risk |
-| Maintainability | No unnecessary API changes during Phase 8 |
-| AI-assisted workflow | Paste-ready IDE prompts, closeout rules, validation gates, and phase handoffs |
-
-## How to describe it in an interview
-
-> I built a UI-first gallery system to practice design-system architecture, Storybook productization, and CMS-readiness planning. Instead of modeling Contentful first, I built and validated the UI contracts through foundations, primitives, patterns, components, sections, and gallery/demo surfaces. The latest phase focused on responsive polish and section contract refinement. The next phase freezes static data shapes so future Contentful integration becomes a mapping exercise rather than a redesign.
-
----
-
 # Final handoff summary
 
 The project is standing at the threshold between visual-system maturity and data-contract maturity.
