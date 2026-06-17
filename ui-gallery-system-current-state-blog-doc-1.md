@@ -4,11 +4,11 @@
 
 ![UI Gallery System Overview](./ui-gallery-system-map.svg)
 
-## Who this is for
+## Who is this for
 
 This documentation is written for a general audience: designers, content strategists, frontend developers, web producers, hiring teams, and future maintainers who want to understand what was built, why it was built this way, and how to continue without losing the thread.
 
-Think of the project as a small city being planned in careful districts. First came the roads and utilities. Then came the homes. Then came the public squares, signs, maps, and lighting. Phase 8 was the moment the city was walked at every screen size, with rough edges polished and contracts checked before the next layer of data architecture begins.
+Think of the project as a small city planned into carefully defined districts. First came the roads and utilities. Then came the homes. Then came the public squares, signs, maps, and lighting. Phase 8 was the moment when the city was walked through at every screen size, with rough edges polished and contracts checked before the next layer of data architecture began.
 
 ---
 
