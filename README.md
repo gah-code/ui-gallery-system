@@ -1,6 +1,10 @@
 # UI Gallery System
 
+# Building a UI Gallery System
+
 A UI-first, Storybook-centered, gallery/index-driven frontend system.
+
+This project is a **UI-first gallery system**: a frontend design-system project built in disciplined phases, validated through Storybook, and presented through an app-side gallery experience. It starts with foundations, primitives, layout patterns, reusable components, and sections before moving into gallery/demo surfaces. Contentful is intentionally deferred until the UI contracts are stable, so the CMS becomes a future mapping layer rather than the force that shapes the design system too early.
 
 ## Current Phase
 

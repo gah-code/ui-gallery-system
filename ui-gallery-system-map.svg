@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="840" viewBox="0 0 1400 840" role="img" aria-labelledby="title desc">
+  <title id="title">UI Gallery System Overview</title>
+  <desc id="desc">A conceptual map showing a UI-first design system progressing from foundations to elements, patterns, components, sections, gallery surfaces, Storybook validation, data shape freeze, and later Contentful integration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f8f4ec"/>
+      <stop offset="52%" stop-color="#eef2ff"/>
+      <stop offset="100%" stop-color="#ecfdf5"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="18" flood-color="#0f172a" flood-opacity="0.13"/>
+    </filter>
+    <style>
+      .title { font: 700 48px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #162033; }
+      .subtitle { font: 500 22px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #475569; }
+      .label { font: 700 23px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #1e293b; }
+      .small { font: 500 16px Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #64748b; }
+      .phase { fill: rgba(255,255,255,0.82); stroke: rgba(71,85,105,0.28); stroke-width: 2; filter: url(#shadow); }
+      .active { fill: #fff7dc; stroke: #c08400; }
+      .complete { fill: #dcfce7; stroke: #16a34a; }
+      .deferred { fill: #e0e7ff; stroke: #6366f1; }
+      .arrow { stroke: #64748b; stroke-width: 4; fill: none; marker-end: url(#arrowhead); opacity: 0.72; }
+      .grid { stroke: rgba(100,116,139,0.16); stroke-width: 1; }
+      .badge { font: 700 13px Inter, ui-sans-serif, system-ui, sans-serif; letter-spacing: 0.06em; text-transform: uppercase; fill: #475569; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#64748b"/>
+    </marker>
+  </defs>
+  <rect width="1400" height="840" fill="url(#bg)"/>
+  <g opacity="0.7">
+    <path class="grid" d="M80 160 H1320"/>
+    <path class="grid" d="M80 320 H1320"/>
+    <path class="grid" d="M80 480 H1320"/>
+    <path class="grid" d="M80 640 H1320"/>
+    <path class="grid" d="M220 120 V720"/>
+    <path class="grid" d="M460 120 V720"/>
+    <path class="grid" d="M700 120 V720"/>
+    <path class="grid" d="M940 120 V720"/>
+    <path class="grid" d="M1180 120 V720"/>
+  </g>
+  <text x="80" y="78" class="title">UI Gallery System</text>
+  <text x="80" y="116" class="subtitle">A UI-first, Storybook-centered path from interface contracts to future CMS readiness.</text>
+
+  <rect x="80" y="190" width="190" height="108" rx="28" class="phase complete"/>
+  <text x="110" y="235" class="label">Foundations</text>
+  <text x="110" y="266" class="small">tokens · rhythm · type</text>
+
+  <rect x="315" y="190" width="190" height="108" rx="28" class="phase complete"/>
+  <text x="345" y="235" class="label">Elements</text>
+  <text x="345" y="266" class="small">text · buttons · tags</text>
+
+  <rect x="550" y="190" width="190" height="108" rx="28" class="phase complete"/>
+  <text x="580" y="235" class="label">Patterns</text>
+  <text x="580" y="266" class="small">grid · sidebar · flow</text>
+
+  <rect x="785" y="190" width="190" height="108" rx="28" class="phase complete"/>
+  <text x="815" y="235" class="label">Components</text>
+  <text x="815" y="266" class="small">cards · tabs · forms</text>
+
+  <rect x="1020" y="190" width="190" height="108" rx="28" class="phase complete"/>
+  <text x="1050" y="235" class="label">Sections</text>
+  <text x="1050" y="266" class="small">hero · nav · footer</text>
+
+  <path d="M270 244 H310" class="arrow"/>
+  <path d="M505 244 H545" class="arrow"/>
+  <path d="M740 244 H780" class="arrow"/>
+  <path d="M975 244 H1015" class="arrow"/>
+
+  <rect x="195" y="405" width="240" height="126" rx="32" class="phase complete"/>
+  <text x="232" y="455" class="label">Gallery Surfaces</text>
+  <text x="232" y="486" class="small">index · browser · demo shell</text>
+  <text x="232" y="510" class="small">Beacon Bar alignment</text>
+
+  <rect x="580" y="405" width="240" height="126" rx="32" class="phase complete"/>
+  <text x="620" y="455" class="label">Storybook</text>
+  <text x="620" y="486" class="small">system workspace</text>
+  <text x="620" y="510" class="small">responsive stress stories</text>
+
+  <rect x="965" y="405" width="240" height="126" rx="32" class="phase active"/>
+  <text x="1005" y="455" class="label">Phase 9</text>
+  <text x="1005" y="486" class="small">static data contracts</text>
+  <text x="1005" y="510" class="small">shared theme patch first</text>
+
+  <path d="M315 300 C315 340 315 365 315 400" class="arrow"/>
+  <path d="M1115 300 C1115 340 1085 365 1085 400" class="arrow"/>
+  <path d="M435 468 H575" class="arrow"/>
+  <path d="M820 468 H960" class="arrow"/>
+
+  <rect x="462" y="618" width="225" height="104" rx="28" class="phase deferred"/>
+  <text x="502" y="663" class="label">Contentful</text>
+  <text x="502" y="694" class="small">readiness later</text>
+
+  <rect x="725" y="618" width="225" height="104" rx="28" class="phase deferred"/>
+  <text x="765" y="663" class="label">Integration</text>
+  <text x="765" y="694" class="small">mapping, not redesign</text>
+
+  <path d="M1085 532 C1085 604 870 595 838 613" class="arrow"/>
+  <path d="M687 670 H720" class="arrow"/>
+
+  <text x="80" y="780" class="badge">Guiding order</text>
+  <text x="80" y="812" class="subtitle">clarify → inventory → build → validate → document → freeze contract → integrate content</text>
+</svg>
