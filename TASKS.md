@@ -250,6 +250,25 @@ Active phase: Phase 9 — Static Data Shape Freeze
 
 ## Now
 
+### Exploratory Storybook Composition
+
+- [x] Align `Portfolio / Home Preview` with the desktop/mobile reference: media-weighted hero, unobstructed portrait badge, stacked mobile capabilities, readable project summaries and compact discipline chips, tighter timeline/writing rhythm. Approved fixtures and all five media files remain unchanged. Node 22.12.0 lint, type/app and Storybook builds pass; Chrome checks at 320/390/768/1024/1440px pass overflow, heading, image, focus, anchor and scoped axe WCAG A/AA checks. Resume download matches its approved hash. New captures: `~/Downloads/portfolio-home-review/*-reference-polish.png`. Existing manager addon-state errors recurred, also on unchanged Hero; one manager navigation timed out, but fresh manager and canvas checks pass. Configuration unchanged. Local fixtures only; no shared API/schema, CMS, Greenfield or phase changes.
+- [x] Polish hero balance and density: larger token-based headline, smaller uncropped portrait, story-local mobile disclosure, tighter capability rows and quieter project captions. Chrome checks at 320/390/768/1024/1440px pass; Enter/Space, hidden-link exclusion, Escape/focus return, six anchors and resume identity verified. Scoped axe WCAG A/AA checks pass in open/closed states; lint, type/app and Storybook builds pass. Existing addon-state warnings recur without blocking the preview. Review captures: `~/Downloads/portfolio-home-review/*-density-polish.png` and `mobile-menu-open.png`. Fixtures/media, shared contracts and phase states unchanged; no CMS access.
+- [x] Refine the small-screen headline to 34px/1.12 below 600px: five lines at 320px, four at 390px; tablet/desktop geometry unchanged. Menu, scoped axe, lint/build and whitespace checks pass. At 200% root text size the headline reflows; existing desktop header overlap remains outside scope. Capture: `~/Downloads/portfolio-home-review/mobile-hero-final.png`. Approved text, media and phase boundaries unchanged.
+
+#### Pause Handoff: BUILDING-UP-2026-09-23T224950Z
+
+- Handoff timestamp: `2026-09-23T22:49:50Z` / `2026-09-23T15:49:50-07:00`. Actual local execution began: `2026-09-23T23:04:25.297Z` / `2026-09-23T16:04:25-07:00`. These identify this pause record, not a Git checkpoint, tag, or phase approval.
+- Fresh repository gate: `master`, HEAD and local `origin/master` both `7e03df2f2203041b35ec74db6a273d334a147dce`, synchronized `0 0`, nothing staged, exactly the eight existing prototype working files. No remote fetch was performed; the tracking reference is local evidence.
+- `Portfolio / Home Preview` is the current fixture-backed working visual baseline, not a release-ready or comprehensively accessibility-certified site. Existing components and scoped styles compose the split hero, mobile disclosure, capability cards, project grid, experience, writing previews, tool chips, contact banner, and footer.
+- Latest reported headline: 34px / 38.08px line height at 320px and 390px, with five/four lines respectively; 48px / 52.8px at 768px and 1440px unchanged. Latest reported responsive/menu/skip-link checks, scoped axe, lint, app/TypeScript build, Storybook build, and whitespace checks passed. Builds and browser checks are historical evidence, not rerun for this documentation-only pause.
+- Latest reported capture: `~/Downloads/portfolio-home-review/mobile-hero-final.png`, 390x844 viewport and 390x4134 full image. File existence and 390x4134 PNG dimensions verified during this pass; no capture was recreated.
+- OPEN: the headline remained unclipped at 200% root-text enlargement, but the desktop Contact/resume overlap remains. Intermittent Storybook addon-state errors and chunk-size/plugin-timing/absent-MDX warnings remain separate OPEN tooling observations, not fixed by visual polish.
+- Declared preview limitations remain: conceptual-diagram fine print, title-only writing previews, and absent case-study routes.
+- Owner priority: pause new UI work; finish CMS Phase 05 acceptance, separately authorized seeding/validation, and closeout; then return to the UI repair below before the subsequent About preview. This handoff grants no CMS or other execution authority. The external snapshot is a backup only, not a Git checkpoint or phase approval.
+- Formal UI Gallery Phase 9 status is unchanged. This prototype does not start Greenfield Phase 06. No new UI implementation, tooling repair, or phase advancement is part of the pause.
+- [ ] First UI repair on return: correct the desktop Contact/resume overlap and repeat enlarged-text checks before release acceptance; then continue with the About preview.
+
 ### Phase 9 — Static Data Shape Freeze
 
 - [ ] Plan static data shape freeze scope
