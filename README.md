@@ -1,5 +1,12 @@
 # UI Gallery System
 
+## Separately governed Greenfield 06.2 candidate
+
+The owner accepted corrected planning revalidation **PASS WITH NOTES**, selected a separate portfolio entry in this npm package and Cloudflare Pages as the intended host, and authorized offline contracts/fixtures plus Node 22.23.3 alignment. The 26-path implementation is EXTERNALLY ACCEPTED — PASS WITH NOTES. The documentation-only reconciliation candidate is COMPLETE; External Final Validation is PENDING. Formal 06.2 approval/checkpoint/freeze is not established by this pass. See [Portfolio contracts](docs/system/PORTFOLIO-CONTRACTS.md) and [Portfolio architecture](docs/system/PORTFOLIO-ARCHITECTURE.md). CMS ledger `06.1-planning-1` belongs to incoming checkpoint `9738cb34127b36cbb118de2438fc4db656b5dc0d`; the local [candidate ledger](../contentful-greenfield-starter/docs/system/FRONTEND-CONTRACT-MAPPING.md) records `06.2-reconciliation-1`. Effective contract version remains **UNASSIGNED UNTIL 06.2 APPROVAL**; reserved label `portfolio-contract-v1.0.0` awaits the [proposed paired-checkpoint rule](../contentful-greenfield-starter/docs/phases/PHASE-06-FRONTEND-CONTRACTS-AND-ADAPTER-BOUNDARY.md#batch-062-qualifying-checkpoint-rule). This is an offline workstream, with no live Contentful integration.
+
+Frontend Phase 9 remains in planning and its existing UI debt stays open. The planning/future-integration statements in this document refer to that independent lifecycle; the new offline portfolio contracts are a separate, reviewable input. Greenfield 06.3–06.6 and frontend Phase 9/10 need their own gates and authority.
+
+
 # Building a UI Gallery System
 
 A UI-first, Storybook-centered, gallery/index-driven frontend system.
@@ -194,14 +201,22 @@ elements -> layout patterns -> components -> sections -> gallery/demo -> Storybo
 
 ## Runtime
 
-Use Node v22.12.0 for this project.
+Use exact Node v22.23.3 for this frontend. This same-major alignment satisfies the locked ESLint 10.2.1 runtime requirement; dependency versions remain unchanged.
+
+If that exact version is already installed with nvm:
 
 ```bash
 nvm use
-npm install
 ```
 
-The default shell Node may not be the correct runtime. Use `.nvmrc` before running Vite or Storybook commands.
+`nvm use` selects an installed version; it does not install a missing version. The Phase 06 / Batch 06.2 candidate uses an isolated, checksum-verified official distribution, with bundled npm 10.9.9, at the following bin path. Activate it for an individual command:
+
+```bash
+PORTFOLIO_NODE_BIN='/Users/gilbertharo/Downloads/building-up-handoff/2026-09-23T224950Z/frontend/phase-06-2-node-runtime-22.23.3-2026-10-15T045252557432Z/node-v22.23.3-darwin-x64/bin'
+PATH="$PORTFOLIO_NODE_BIN:$PATH" node --version
+```
+
+Prefix later frontend commands with the same PATH assignment. This does not change the shell's default Node or nvm alias. A future nvm installation is distinct from the isolated runtime used for this candidate's evidence. Project checks use the credential-free command environment recorded in the external evidence; no dependency installation is part of this batch.
 
 ## Development
 

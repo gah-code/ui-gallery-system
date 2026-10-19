@@ -1,0 +1,23 @@
+# Portfolio architecture decision and implementation boundary
+
+The owner selects **Option B**, a separate portfolio entry in this existing npm package, and **Cloudflare Pages** as the intended static host. The accepted corrected planning revalidation is PASS WITH NOTES. The current 06.2 candidate implements contracts, fixtures and offline checks only; runtime architecture is accepted design awaiting execution proof. Gallery and Storybook entry/configuration/components remain unchanged.
+
+The future entry uses native anchors, pre-resolved normalized data, React `renderToString` and matching hydration. No framework, router or package migration is approved. Every supported route needs complete crawlable HTML and route metadata; public generation must fail on normalization/readiness/configuration errors. The current gallery SPA is not a portfolio route implementation.
+
+## Accepted R1 document and route design
+
+Public canonical paths are `/`, `/about`, `/work`, `/projects`, `/projects/[slug]`, `/writing`, `/writing/[slug]`, `/tools`, `/contact`. Slugs retain the frozen lowercase hyphenated grammar; legal `404` and `index` slugs are not renamed or reserved.
+
+For a canonical ASCII path P including its leading slash, encode its full bytes as lowercase hexadecimal. Split into chunks of at most 64 hex characters, prefix each chunk `d-`, and place `page.html` beneath those directories in `dist-portfolio/_portfolio-docs/`. Its extensionless internal path I ends in `/page`. This is a future physical artifact identity, distinct from public route identity.
+
+Each eligible canonical P gets an exact 200 proxy to I. Each nonroot P has exact P/ and P.html aliases returning 308 to P; home additionally uses `/index.html` -> `/`. Direct I, I.html and I/ each redirect 308 to P. The accepted inference requires single-pass proxy processing: the internal direct-request alias must not be reapplied to the canonical proxy. Keep only encoded `page.html` documents and a sole generic root `404.html`; no `index.html` detail artifacts, nested 404 control files, wildcard fallback or accidental public draft documents. Unknown paths use the host's generic 404 envelope outside the nine page payloads, without attempted-slug/detail metadata leakage.
+
+Capacity is `41 + 6N` exact static rules for N eligible details: N=326 gives 1,997 rules; N=327 exceeds 2,000. Each line must remain within 1,000 characters. Future generation fails before output on collision/capacity/line-limit violations. It must not truncate routes or change CMS slugs. The fixture registry retains 94 symbolic requests, including cross-type sample/404/index slugs and internal aliases; their presence does not prove served behavior.
+
+Q4/Q5/Q7 must prove encoded path enumeration, exact rule matching, extensionless lookup, single-pass proxy behavior, statuses/Location/404/cache handling, full HTML/head/payload parity and real provider behavior. Browser checks must separately prove navigation/history, hydration, no-JS content, responsive/accessibility behavior and media failure handling. No hosting artifacts, build driver, renderer, hydration entry or provider probe exists in this batch.
+
+## Audience and release gates
+
+Production domain/account configuration, real publication eligibility and preview authentication remain deferred. Offline fixtures are never evidence of publication or authentication. A future preview service must authorize before lookup/acquisition, support new draft slugs outside public enumeration, isolate audience/cookies/cache and emit no-store/noindex without public canonical/OG/sitemap. A static deployment-preview URL is not authenticated CMS preview. No preview service is implemented here.
+
+Refer to [Portfolio contracts](PORTFOLIO-CONTRACTS.md) for R2 ownership, inherited checks and version qualifications. The pinned [CMS ledger revision 06.1-planning-1](https://github.com/gah-code/contentful-greenfield-starter/blob/9738cb34127b36cbb118de2438fc4db656b5dc0d/docs/system/FRONTEND-CONTRACT-MAPPING.md) is incoming provenance. The local [candidate ledger](../../../contentful-greenfield-starter/docs/system/FRONTEND-CONTRACT-MAPPING.md) records `06.2-reconciliation-1`. Implementation is EXTERNALLY ACCEPTED — PASS WITH NOTES; reconciliation candidate COMPLETE; External Final Validation PENDING. Effective contract version remains UNASSIGNED UNTIL 06.2 APPROVAL; reserved `portfolio-contract-v1.0.0` awaits the [proposed paired-checkpoint rule](../../../contentful-greenfield-starter/docs/phases/PHASE-06-FRONTEND-CONTRACTS-AND-ADAPTER-BOUNDARY.md#batch-062-qualifying-checkpoint-rule). No formal approval/checkpoint/freeze is established by this pass. Frontend Phase 9 retains its independent lifecycle and UI debt.

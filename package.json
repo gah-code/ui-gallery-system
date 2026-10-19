@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "typecheck:portfolio": "tsc -p tsconfig.portfolio.json",
+    "test:portfolio": "vitest run --config vitest.portfolio.config.ts"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.20.1",

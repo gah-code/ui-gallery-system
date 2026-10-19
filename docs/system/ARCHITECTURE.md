@@ -1,14 +1,17 @@
 # Architecture Contract
 
+## Separately governed Greenfield 06.2 candidate
+
+The owner accepted corrected planning revalidation **PASS WITH NOTES**, selected a separate portfolio entry in this npm package and Cloudflare Pages as the intended host, and authorized offline contracts/fixtures plus Node 22.23.3 alignment. The 26-path implementation is EXTERNALLY ACCEPTED — PASS WITH NOTES. The documentation-only reconciliation candidate is COMPLETE; External Final Validation is PENDING. Formal 06.2 approval/checkpoint/freeze is not established by this pass. See [Portfolio contracts](PORTFOLIO-CONTRACTS.md) and [Portfolio architecture](PORTFOLIO-ARCHITECTURE.md). CMS ledger `06.1-planning-1` belongs to incoming checkpoint `9738cb34127b36cbb118de2438fc4db656b5dc0d`; the local [candidate ledger](../../../contentful-greenfield-starter/docs/system/FRONTEND-CONTRACT-MAPPING.md) records `06.2-reconciliation-1`. Effective contract version remains **UNASSIGNED UNTIL 06.2 APPROVAL**; reserved label `portfolio-contract-v1.0.0` awaits the [proposed paired-checkpoint rule](../../../contentful-greenfield-starter/docs/phases/PHASE-06-FRONTEND-CONTRACTS-AND-ADAPTER-BOUNDARY.md#batch-062-qualifying-checkpoint-rule). This is an offline workstream, with no live Contentful integration.
+
+Frontend Phase 9 remains in planning and its existing UI debt stays open. The planning/future-integration statements in this document refer to that independent lifecycle; the new offline portfolio contracts are a separate, reviewable input. Greenfield 06.3–06.6 and frontend Phase 9/10 need their own gates and authority.
+
+
 ## Runtime Requirement
 
-Use Node v22.12.0 for this project.
+Use exact Node v22.23.3 for this frontend. The owner-authorized Phase 06 / Batch 06.2 same-major runtime correction resolves the Node 22.12.0 incompatibility with locked ESLint 10.2.1; the dependency graph is unchanged.
 
-```bash
-nvm use
-```
-
-The default shell Node may not be the correct runtime. Use `.nvmrc` before running Vite or Storybook commands.
+Use `nvm use` only when Node 22.23.3 is already installed there. This candidate uses a verified isolated official distribution with bundled npm 10.9.9; see [Runtime activation](../../README.md#runtime) for its exact command-scoped PATH. Historical baseline/test records retain their original runtime identities.
 
 ## Current Architecture Phase
 
@@ -27,7 +30,7 @@ Architecture boundaries remain:
 - `src/components/sections/*` owns section-level compositions and app-side gallery/demo surfaces.
 - `src/data/*` owns typed static fixtures and gallery metadata.
 - `.storybook/*` owns Storybook configuration.
-- `src/content/*` remains future content boundary only.
+- `src/content/portfolio/contracts/*` holds the separately governed offline contracts; other content integration remains future work.
 - Storybook remains the primary design-system workspace.
 
 Gallery index, category browsing, GallerySurfaceLayout, DemoPageShell, and SectionComparison compose existing system pieces and static gallery metadata as app-side gallery/demo surfaces.
@@ -92,7 +95,7 @@ src/components/patterns  -> layout/pattern abstractions
 src/components/components -> reusable component-library components
 src/components/sections  -> section-level compositions
 src/components/layout    -> shell/chrome/layout ownership
-src/content              -> future content boundary, no CMS yet
+src/content              -> offline portfolio contracts; live CMS deferred
 src/data                 -> typed static fixtures and static gallery metadata
 src/styles               -> tokens, base styles, global rhythm
 src/stories              -> foundation and cross-cutting Storybook docs
@@ -108,7 +111,7 @@ docs                     -> roadmap, phase records, taxonomy, architecture notes
 | `src/components/components` | reusable component-library components | section composition |
 | `src/components/sections` | section composition | raw CMS data |
 | `src/components/layout` | shell/chrome/page frame | individual component variants |
-| `src/content` | future content boundary | current CMS integration |
+| `src/content` | offline portfolio contracts; future integration boundary | current live CMS integration |
 | `src/data` | typed static fixtures and static gallery metadata | live CMS fetching |
 | `src/styles` | tokens/base/global rhythm | component-specific visuals |
 | `src/stories` | Storybook foundations and cross-cutting docs | app routes |
@@ -120,7 +123,7 @@ docs                     -> roadmap, phase records, taxonomy, architecture notes
 - `src/stories/foundations/*` owns cross-cutting Storybook foundation docs.
 - `src/components/ui/*` owns primitive components.
 - Primitive-specific stories are colocated with their primitives.
-- `src/content/*` remains a future content boundary only.
+- `src/content/portfolio/contracts/*` holds offline contracts; live content integration remains future work.
 
 ## Naming Rules
 
@@ -158,6 +161,6 @@ It should validate:
 
 ## Content Boundary
 
-`src/content/*` is reserved for future Contentful integration.
+`src/content/portfolio/contracts/*` now owns offline portfolio types. Runtime Contentful integration remains future work.
 
 No raw CMS assumptions should enter components during the UI-first phases.
