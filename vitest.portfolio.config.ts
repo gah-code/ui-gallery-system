@@ -8,7 +8,7 @@ export default defineConfig({
   test: {
     name: 'portfolio-fixtures',
     environment: 'node',
-    include: ['src/data/portfolio/fixtures.test.ts'],
+    include: ['src/data/portfolio/fixtures.test.ts', 'src/content/portfolio/adapters.test.ts', 'src/content/portfolio/assembly.test.ts'],
     watch: false,
     pool: 'forks',
     maxWorkers: 1,

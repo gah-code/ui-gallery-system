@@ -25,6 +25,7 @@
   "include": [
     "src/content/portfolio/contracts/**/*.ts",
     "src/data/portfolio/**/*.ts",
-    "vitest.portfolio.config.ts"
+    "vitest.portfolio.config.ts",
+    "src/content/portfolio/*.ts"
   ]
 }
