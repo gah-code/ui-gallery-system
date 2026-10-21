@@ -27,3 +27,5 @@ dist-ssr
 storybook-static
 
 /.validation/portfolio/
+/dist-portfolio/
+/dist-portfolio-build/

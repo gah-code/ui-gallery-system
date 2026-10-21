@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "mode": "offline-demo",
+  "documentStrategy": "R1-full-path-hex",
+  "maximumRules": 2000,
+  "maximumRuleCharacters": 1000,
+  "providerVerification": "DEFERRED-Q7"
+}

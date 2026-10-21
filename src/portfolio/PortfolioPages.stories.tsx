@@ -1,0 +1,30 @@
+import { useState } from 'react';
+import type { Meta, StoryObj } from '@storybook/react-vite';
+import { PageView, PortfolioErrorBoundary } from './PageView';
+import { RichText } from './RichText';
+import { readyResults, emptyResults, projectMissing, homeError, previewProject, previewArticle, normalizedMarkExamples, normalizedStructureExamples } from '../data/portfolio/normalized-fixtures';
+const meta={title:'Portfolio/Pages',component:PageView,parameters:{layout:'fullscreen'},args:{page:readyResults.home}} satisfies Meta<typeof PageView>;
+export default meta;
+type Story=StoryObj<typeof meta>;
+export const Home:Story={};
+export const About:Story={args:{page:readyResults.about}};
+export const Work:Story={args:{page:readyResults.work}};
+export const Projects:Story={args:{page:readyResults.projects}};
+export const Project:Story={args:{page:readyResults.project}};
+export const Writing:Story={args:{page:readyResults.writing}};
+export const Article:Story={args:{page:readyResults.article}};
+export const Tools:Story={args:{page:readyResults.tools}};
+export const Contact:Story={args:{page:readyResults.contact}};
+export const EmptyWork:Story={args:{page:emptyResults.work}};
+export const EmptyProjects:Story={args:{page:emptyResults.projects}};
+export const EmptyWriting:Story={args:{page:emptyResults.writing}};
+export const EmptyTools:Story={args:{page:emptyResults.tools}};
+export const Missing:Story={args:{page:projectMissing}};
+export const Error:Story={args:{page:homeError}};
+export const PrivateProjectPreview:Story={args:{page:previewProject}};
+export const PrivateArticlePreview:Story={args:{page:previewArticle}};
+export const RichTextVocabulary:Story={render:() => <><RichText document={{policy:'profile-long',blocks:[{kind:'paragraph',children:normalizedMarkExamples}]}}/><RichText document={normalizedStructureExamples}/></>};
+
+function FaultChild() {const [fail,setFail]=useState(false);if(fail) throw new globalThis.Error('Controlled portfolio render regression');return <button onClick={()=>setFail(true)}>Trigger render failure</button>;}
+export const RenderFailure:Story={render:()=> <PortfolioErrorBoundary><FaultChild/></PortfolioErrorBoundary>};
+export const RenderBoundaryControl:Story={render:()=> <PortfolioErrorBoundary><PageView page={readyResults.home}/></PortfolioErrorBoundary>};

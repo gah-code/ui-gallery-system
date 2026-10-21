@@ -20,12 +20,17 @@
     "composite": false,
     "skipLibCheck": true,
     "noUnusedLocals": true,
-    "noUnusedParameters": true
+    "noUnusedParameters": true,
+    "jsx": "react-jsx"
   },
   "include": [
     "src/content/portfolio/contracts/**/*.ts",
     "src/data/portfolio/**/*.ts",
     "vitest.portfolio.config.ts",
-    "src/content/portfolio/*.ts"
+    "src/content/portfolio/*.ts",
+    "src/portfolio/**/*.ts",
+    "src/portfolio/**/*.tsx",
+    "src/components/layout/PortfolioLayout.tsx",
+    "vite.portfolio.config.ts"
   ]
 }

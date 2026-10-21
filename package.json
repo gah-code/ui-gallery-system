@@ -11,7 +11,11 @@
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "typecheck:portfolio": "tsc -p tsconfig.portfolio.json",
-    "test:portfolio": "vitest run --config vitest.portfolio.config.ts"
+    "test:portfolio": "vitest run --config vitest.portfolio.config.ts",
+    "build:portfolio": "npm run typecheck:portfolio && node scripts/build-portfolio.mjs",
+    "serve:portfolio": "node scripts/serve-portfolio.mjs",
+    "verify:portfolio-artifacts": "node scripts/verify-portfolio-artifacts.mjs",
+    "verify:portfolio-browser": "node scripts/verify-portfolio-browser.mjs"
   },
   "dependencies": {
     "@vanilla-extract/css": "^1.20.1",

@@ -3,7 +3,15 @@ import type { InternalDiagnostic, RevisionEligibility } from './contracts/bounda
 import { email, externalUrl, hasControl, slug } from './urls';
 
 export class SourceFault extends Error {
-  constructor(readonly code: DiagnosticCode, readonly entityId?: Id, readonly fieldPath?: string) { super(code); }
+  readonly code: DiagnosticCode;
+  readonly entityId?: Id | undefined;
+  readonly fieldPath?: string | undefined;
+  constructor(code: DiagnosticCode, entityId?: Id, fieldPath?: string) {
+    super(code);
+    this.code = code;
+    this.entityId = entityId;
+    this.fieldPath = fieldPath;
+  }
 }
 export function fail(code: DiagnosticCode, entityId?: Id, fieldPath?: string): never { throw new SourceFault(code, entityId, fieldPath); }
 export function record(value: unknown, code: DiagnosticCode = 'SOURCE_TYPE'): Record<string, unknown> {
