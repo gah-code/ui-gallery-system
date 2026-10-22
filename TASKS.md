@@ -1,5 +1,16 @@
 # TASKS
 
+## Current mock integration supplement — 2026-10-22
+
+The separately governed mock-only source admission is PASS WITH NOTES; I-MOCK-01 CLOSED. The accepted conditional 06.4 pair is frontend `a4af0f9b80cde77ce5a692f76d77e29e30d84238` / CMS `88d72538406e99e94b9c6ff79fb2cb4a5bf02590`. Independent frontend Phase 9 planning and UI/accessibility debt remain unchanged.
+
+- [x] Preserve the accepted five new mock source files and existing test-config amendment byte-for-byte.
+- [x] Record inherited canonical strict/erasable/root-app/352-test/lint evidence and isolated-only SSR limitation.
+- [ ] External Final Validation of the combined source/documentation candidate and proposed paired rule.
+- [ ] Separate owner Git authorization and actual paired checkpoint validation.
+
+Candidate documentation supplement `mock-delivery-integration-reconciliation-1` and its explicitly PROPOSED paired-checkpoint rule await External Final Validation. The mock integration checkpoint is NOT AUTHORIZED / NOT ESTABLISHED; no future SHA or tree is assigned. See the [mock integration report](../contentful-greenfield-starter/content-model/reports/MOCK-DELIVERY-CANONICAL-INTEGRATION-AND-CHECKPOINT-SCOPE.md) for exact scope and required future QA rebinding. 06.5 remains PARTIAL / BROWSER VERIFICATION PAUSED at owner request: MB-001–MB-246 are NOT RUN; six historical visual surfaces remain separately PARTIAL; I-064-03 browser closure is OPEN. D-064-01 is unchanged, due during 06.5 before final acceptance with no extension or waiver. No new test, browser result, live transport, hosting or release authority follows. Earlier 06.4 PENDING/PROPOSED/NOT STARTED wording below and in linked historical reconciliation records is an event-time snapshot. The accepted 06.4 checkpoint review and this current supplement resolve it without rewriting the preserved rules or claiming a new phase approval.
+
 ## Separately governed Greenfield 06.4 conditional candidate
 
 06.1, 06.2 and 06.3 are APPROVED / CHECKPOINTED. The incoming 06.3 pair is established under its accepted containing-commit rule; older PENDING/PROPOSED wording is a historical reconciliation snapshot. The eighteen-file 06.4 runtime is implemented offline and accepted at source/non-browser scope. This documentation-only conditional non-release reconciliation prepares candidate ledger `06.4-reconciliation-1`; External Final Validation is PENDING and 06.4 is NOT CHECKPOINTED. `portfolio-contract-v1.0.0` remains EFFECTIVE / FROZEN / UNCHANGED.
