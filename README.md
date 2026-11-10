@@ -1,5 +1,13 @@
 # UI Gallery System
 
+## Current hosting incident reconciliation — 2026-11-10 America/Los_Angeles
+
+Canonical hosting remains prospective; Netlify is not an approved canonical host. A temporary presentation-only Netlify review deployment did occur and exposed the exact accepted portfolio to unauthenticated visitors. Attempt 4 reached DEPLOYMENT READY / PRIVACY VERIFICATION FAIL / PUBLIC PORTFOLIO EXPOSURE CONFIRMED and remains PRIVACY FAIL / RELEASE BLOCKED. Later containment is PROJECT DISABLED / MAIN PAYLOAD WITHHELD / ATOMIC PERMALINK NON-ADDRESSABLE / CONTAINMENT ACCEPTED WITH NOTES. NETLIFY PROJECT REMAINS DISABLED; PRIVATE HOSTED PREVIEW NOT ESTABLISHED.
+
+The [CMS incident report](../contentful-greenfield-starter/content-model/reports/PHASE-06-HOSTING-INCIDENT-AND-CONTAINMENT.md) owns exact project/deploy identities, chronology and sealed evidence. Existing Option B and separately governed Cloudflare intent remain unchanged; no future hosting strategy is approved. Phase 06 remains ACTIVE / NOT COMPLETE. 06.5 remains PARTIAL / BROWSER VERIFICATION PAUSED at owner request: MB-001–MB-246 remain 246 NOT RUN; the six historical visual surfaces remain separately PARTIAL. I-064-03 browser closure remains OPEN. D-064-01 is UNCHANGED / NO WAIVER / NO EXTENSION, due during 06.5 before its final acceptance. I-MOCK-01 remains CLOSED at accepted scope; portfolio-contract-v1.0.0 remains EFFECTIVE / FROZEN / UNCHANGED. Frontend Phase 9 remains a separate planning lifecycle with no advancement from this reconciliation.
+
+Provider execution is closed for this incident; no provider action, browser-QA resumption or release is authorized by this reconciliation. Earlier dated supplements and conditional PENDING/PROPOSED checkpoint statements remain event-time records, interpreted through the accepted checkpoint records and containing-commit rules. They do not supersede this current hosting disposition.
+
 ## Current mock integration supplement — 2026-10-22
 
 The six-file injected-mock canonical admission is externally accepted PASS WITH NOTES; I-MOCK-01 CLOSED. It does not wire live content into the public routes, gallery or Storybook. The [mock integration report](../contentful-greenfield-starter/content-model/reports/MOCK-DELIVERY-CANONICAL-INTEGRATION-AND-CHECKPOINT-SCOPE.md) and sole CMS mapping owner record the exact provenance and proposed checkpoint scope. Candidate documentation supplement `mock-delivery-integration-reconciliation-1` and its explicitly PROPOSED paired-checkpoint rule await External Final Validation. The mock integration checkpoint is NOT AUTHORIZED / NOT ESTABLISHED; no future SHA or tree is assigned.

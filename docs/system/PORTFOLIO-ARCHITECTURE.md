@@ -1,5 +1,17 @@
 # Portfolio architecture decision and implementation boundary
 
+## Current hosting incident reconciliation — 2026-11-10 America/Los_Angeles
+
+The temporary Netlify deployment was an external presentation experiment. Its ready state and exact unauthenticated portfolio exposure remain historical PRIVACY FAIL / RELEASE BLOCKED, not private-review success. Later owner-reported disable, independently corroborated provider disabled=true, inherited main-URL HTTP 404 withholding and local 66-octet atomic-hostname analysis established CONTAINMENT ACCEPTED WITH NOTES. The failed atomic HTTP probe remains incomplete. NETLIFY PROJECT REMAINS DISABLED; PRIVATE HOSTED PREVIEW NOT ESTABLISHED. The [CMS incident report](../../../contentful-greenfield-starter/content-model/reports/PHASE-06-HOSTING-INCIDENT-AND-CONTAINMENT.md) owns the detailed distinctions and evidence.
+
+Option B, canonical route design, frozen contracts and separately governed Cloudflare intent remain unchanged. Containment does not establish an accepted canonical hosting provider, validate canonical _redirects or satisfy Q5/Q7. No routing, provider, DNS, custom-domain or release decision is made here; no future hosting strategy is approved.
+
+Phase 06 remains ACTIVE / NOT COMPLETE. 06.5 remains PARTIAL / BROWSER VERIFICATION PAUSED at owner request: MB-001–MB-246 remain 246 NOT RUN; the six historical visual surfaces remain separately PARTIAL. I-064-03 browser closure remains OPEN. D-064-01 is UNCHANGED / NO WAIVER / NO EXTENSION, due during 06.5 before its final acceptance. I-MOCK-01 remains CLOSED at accepted scope; portfolio-contract-v1.0.0 remains EFFECTIVE / FROZEN / UNCHANGED. Frontend Phase 9 remains a separate planning lifecycle with no advancement from this reconciliation.
+
+This exact ten-path documentation-only reconciliation grants no staging, commit, push, provider query, hosted probe, DNS change, re-enable, redeploy, deletion or browser-QA authority. External Final Validation is a required pre-commit gate for the exact documentation state. Neither reconciliation nor External Final Validation alone establishes a checkpoint. The hosting-incident documentation checkpoint may be established only by a later containing commit after exact-byte External Final Validation passes and separate owner Git authorization is granted. Until that containing commit exists, the checkpoint remains NOT ESTABLISHED. This reconciliation authorizes no staging, commit or push. No release approval or future hosting strategy is established.
+
+Earlier dated supplements and conditional PENDING/PROPOSED checkpoint statements remain event-time records, interpreted through the accepted checkpoint records and containing-commit rules. They do not supersede this current hosting disposition.
+
 ## Current mock integration supplement — 2026-10-22
 
 The exact six-file canonical mock-only admission is externally accepted PASS WITH NOTES; I-MOCK-01 CLOSED. See the [mock integration report](../../../contentful-greenfield-starter/content-model/reports/MOCK-DELIVERY-CANONICAL-INTEGRATION-AND-CHECKPOINT-SCOPE.md) and the sole CMS [mapping/version ledger](../../../contentful-greenfield-starter/docs/system/FRONTEND-CONTRACT-MAPPING.md) for its source manifest and `mock-delivery-integration-reconciliation-1`. Candidate documentation supplement `mock-delivery-integration-reconciliation-1` and its explicitly PROPOSED paired-checkpoint rule await External Final Validation. The mock integration checkpoint is NOT AUTHORIZED / NOT ESTABLISHED; no future SHA or tree is assigned.
